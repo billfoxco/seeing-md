@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.2.3 — 2026-09-16
+
+### Clarified
+
+- Named the pressure behind silent gap-filling: the urge to close a gap is strongest when not knowing feels uncomfortable, and speed of completion is not evidence of understanding.
+- Added to "See again" an invitation to notice any urge to fill the space of not knowing quickly.
+- Explained on the homepage why the pause is needed: the space between what happened and what it means closes fast because leaving it open is uncomfortable.
+- Reframed the homepage "Ask" behavior as holding a consequential gap open long enough to ask one clear question, rather than filling it.
+- Trimmed the homepage Begin section so the movement, its status as an orientation, and human responsibility stand without repeating the instructions above them.
+- Carried the gap-filling clarification into the README's movement and expected-behavior sections.
+- Consolidated the README's duplicate license sections into one.
+
+The purpose and intended operating behavior remain unchanged from 0.2.2.
+
 ## 0.2.1 — 2026-09-16
 
 ### Clarified
