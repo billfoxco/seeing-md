@@ -1,4 +1,61 @@
 ---
+/**
+ * -----------------------------------------------------------------------------
+ * SEEING.MD HOME PAGE
+ * Route: /
+ * Type: Page
+ * -----------------------------------------------------------------------------
+ *
+ * PURPOSE
+ * Introduces SEEING.md as a portable perception specification for people and
+ * AI. Shows how unseen human assumptions can become decisions, systems, and
+ * actions at scale, then gives visitors a direct way to use and help refine it.
+ *
+ * AUDIENCE AND PRIMARY ACTION
+ * - Audience: Leaders, teams, AI practitioners, designers, developers,
+ *   consultants, coaches, and individual practitioners
+ * - Primary action: Download SEEING.md
+ * - Supporting action: View and contribute to the public GitHub repository
+ * - Leader action: Request a private 30-minute Seeing First session, alone or
+ *   with a team
+ *
+ * EXPERIENCE / STRUCTURE
+ * 1. Establish that AI scales what people see and what they do not see.
+ * 2. Identify perception as the missing layer beneath human intent.
+ * 3. Explain the three operating behaviors: separate, surface, and ask.
+ * 4. Present Seeing First as a private experience for leaders and teams.
+ * 5. Place SEEING.md accurately within the larger field of AI safety.
+ * 6. Provide the project instruction and direct download.
+ * 7. Close with the work's origin in The Perception Miracle and its influence
+ *    from Brian Gardner's exploration of DESIGN.md.
+ *
+ * KEY RESPONSIBILITIES
+ * - Serve the canonical specification from /SEEING.md.
+ * - Link to the public GitHub repository for history and contribution.
+ * - Connect leaders to the Seeing First session through Cal.com.
+ * - Connect the file to the deeper work at SEE DIFFERENT without obscuring the
+ *   primary download action.
+ *
+ * DEPENDENCIES
+ * - Layout: Standalone Astro page; no shared layout dependency
+ * - Assets: /favicon.svg and the generated public copy of /SEEING.md
+ * - Services: Google Fonts, GitHub, Cal.com, and SEE DIFFERENT
+ * - Hosting: Cloudflare Workers with Static Assets
+ *
+ * EDITING GUARDRAILS
+ * - Preserve the Suede-inspired typography, spacing, black-and-white palette,
+ *   and restrained use of #aa6600.
+ * - Keep the downloadable specification synchronized with the canonical
+ *   SEEING.md file at the repository root.
+ * - Keep the Seeing First pathway distinct from downloading or contributing
+ *   to SEEING.md.
+ * - Do not imply that SEEING.md resolves every category of AI safety risk.
+ * - Keep the book as the primary source and the DESIGN.md influence in the
+ *   closing origin section rather than the opening argument.
+ * - Keep external links secure with rel="noopener".
+ * -----------------------------------------------------------------------------
+ */
+
 const title = 'SEEING.md — The Perception Layer for AI';
 const description =
   'An open perception specification that helps people and AI surface consequential assumptions before they become decisions at scale.';
@@ -32,7 +89,7 @@ const description =
       <a class="wordmark" href="/" aria-label="SEEING.md home">SEEING<span>.md</span></a>
       <nav aria-label="Primary navigation">
         <a href="#why">Why</a>
-        <a href="#narrative">Narrative</a>
+        <a href="#seeing-first">Seeing First</a>
         <a href="#use">Use it</a>
       </nav>
     </header>
@@ -48,7 +105,7 @@ const description =
           </p>
           <div class="actions">
             <a class="button button-primary" href="/SEEING.md" download>Download SEEING.md</a>
-            <a class="button button-secondary" href="https://github.com/billfoxco/seeing-md">View on GitHub</a>
+            <a class="button button-secondary" href="https://github.com/billfoxco/seeing-md" rel="noopener">View on GitHub</a>
           </div>
         </div>
 
@@ -104,17 +161,21 @@ const description =
         </div>
       </section>
 
-      <section class="narrative" id="narrative" aria-labelledby="narrative-title">
+      <section class="narrative" id="seeing-first" aria-labelledby="seeing-first-title">
         <div class="narrative-copy">
-          <p class="section-number">02 / Why it matters</p>
-          <h2 id="narrative-title">One human assumption can now shape thousands of decisions.</h2>
+          <p class="section-number">02 / For leaders · Seeing First</p>
+          <h2 id="seeing-first-title">See what shapes thousands of decisions before they are made.</h2>
           <p>
-            The better AI becomes at carrying out human intent, the more
-            consequential the perception behind that intent becomes. What begins
-            as one unnoticed interpretation can become a prompt, a policy, a
-            system, and actions at scale.
+            One human assumption can now shape thousands of decisions. The
+            question is no longer only whether a decision is sound, but what
+            perception is making it seem necessary. Seeing First helps leaders
+            notice what is shaping the decision, loosen what already appears
+            certain, and make room to see what the present actually requires.
           </p>
-          <a class="text-link" href="https://seedifferent.xyz/seeing-first">Explore the strategic narrative <span aria-hidden="true">→</span></a>
+          <div class="offer-actions">
+            <a class="button button-primary" href="https://cal.com/billfox/seeing-first" rel="noopener">Experience Seeing First <span aria-hidden="true">→</span></a>
+            <span class="offer-meta">30 minutes · Leader or team</span>
+          </div>
         </div>
 
         <div class="signal-map" aria-hidden="true">
@@ -179,7 +240,7 @@ const description =
 
         <div class="actions">
           <a class="button button-primary" href="/SEEING.md" download>Download version 0.1.0</a>
-          <a class="text-link" href="https://github.com/billfoxco/seeing-md">Test it. Question it. Help refine it. <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="https://github.com/billfoxco/seeing-md" rel="noopener">Test it. Question it. Help refine it. <span aria-hidden="true">→</span></a>
         </div>
 
         <aside class="origin" aria-labelledby="origin-title">
@@ -198,7 +259,7 @@ const description =
               as a way to make the intent behind a design system legible to AI.
               SEEING.md carries the inquiry one level further upstream.
             </p>
-            <a class="text-link dark-link" href="https://seedifferent.xyz">Explore SEE DIFFERENT <span aria-hidden="true">→</span></a>
+            <a class="text-link dark-link" href="https://seedifferent.xyz" rel="noopener">Explore SEE DIFFERENT <span aria-hidden="true">→</span></a>
           </div>
         </aside>
       </section>
@@ -360,7 +421,7 @@ const description =
     justify-content: center;
     padding: 13px 22px;
     border: 1px solid var(--amber);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -512,8 +573,20 @@ const description =
     color: rgba(0, 0, 0, 0.6);
   }
 
-  .narrative-copy .text-link {
-    margin-top: 30px;
+  .offer-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .offer-meta {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
 
   .signal-map {
