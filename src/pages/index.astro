@@ -362,7 +362,11 @@ const description =
         <span class="wordmark-text">SEEING<span class="wordmark-dot">.</span>md</span>
       </a>
       <p>Seeing is the first decision.</p>
-      <a href="mailto:hello@seeing.md">hello@seeing.md</a>
+      <a class="footer-contact" href="mailto:hello@seeing.md">hello@seeing.md</a>
+      <p class="footer-license">
+        © 2026 Bill Fox. The SEEING.md specification is licensed under
+        <a href="https://creativecommons.org/licenses/by/4.0/" rel="license" aria-label="Creative Commons Attribution 4.0 International license">CC BY 4.0</a>.
+      </p>
     </footer>
   </body>
 </html>
@@ -990,9 +994,18 @@ const description =
     font-size: 0.76rem;
   }
 
-  footer > a:last-child {
+  footer .footer-contact {
     justify-self: end;
     color: rgba(255, 255, 255, 0.6);
+  }
+
+  .footer-license {
+    grid-column: 1 / -1;
+  }
+
+  .footer-license a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 
   :focus-visible {
@@ -1078,7 +1091,7 @@ const description =
       grid-template-columns: 1fr;
     }
 
-    footer > a:last-child {
+    footer .footer-contact {
       justify-self: start;
     }
   }
