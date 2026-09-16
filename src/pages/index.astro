@@ -84,6 +84,9 @@ const description =
       rel="stylesheet"
     />
     <title>{title}</title>
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script is:inline src="https://cdn.usefathom.com/script.js" data-site="MWASYWBA" defer></script>
+    <!-- / Fathom -->
   </head>
 
   <body>
@@ -259,7 +262,7 @@ const description =
         </p>
 
         <div class="actions">
-          <a class="button button-primary" href="/SEEING.md" download>Download version 0.2.2</a>
+          <a class="button button-primary" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download version 0.2.2</a>
           <button class="text-link start-trigger" type="button">Not sure where to begin? <span aria-hidden="true">→</span></button>
         </div>
 
@@ -291,7 +294,7 @@ const description =
         <p class="section-number">Start here</p>
         <h2 id="start-title">What would be most useful now?</h2>
         <div class="start-options">
-          <a href="/SEEING.md" download>
+          <a href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">
             <span class="option-number">01</span>
             <span>
               <strong>Use SEEING.md</strong>
