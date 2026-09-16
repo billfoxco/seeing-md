@@ -1,5 +1,7 @@
 # SEEING.md
 
+**The perception behind intent · Version 0.2.1**
+
 `SEEING.md` is a portable perception specification for people and AI. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
 Its central question is simple:
@@ -10,28 +12,41 @@ The substance of the file comes largely from Bill Fox's book, *The Perception Mi
 
 ## Use it
 
-1. Download `SEEING.md` and attach it to an AI conversation, include it with a working brief, or add it to a project's files.
-2. Tell the AI to read it before responding to consequential work.
-3. For repeated project use, add an activation instruction to the file your AI system reads automatically, such as `AGENTS.md`, `CLAUDE.md`, or the project's working instructions.
-4. Apply it proportionally. Routine technical work should not be slowed unnecessarily.
+No technical experience is needed.
 
-Suggested activation instruction:
+1. Download [SEEING.md](https://seeing.md/SEEING.md).
+2. Attach it to an AI conversation, include it with a working brief, or add it to a project's files.
+3. Tell the AI:
+
+> Read `SEEING.md` before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision.
+
+The file will not necessarily be read automatically. Name it explicitly when beginning important work.
+
+For repeated project use, add this to the project's working instructions:
 
 > Before work involving judgment, people, strategy, interpretation, or consequential decisions, read `SEEING.md`. Use it to examine the framing and surface relevant assumptions before acting. Apply it proportionally; do not slow straightforward technical work unnecessarily.
+
+## The movement
+
+**NOTICE → QUESTION → SEE AGAIN → ACT**
+
+Notice the first meaning that appeared. Question what may be shaping it. Remain open long enough to see again. Act from what becomes clearer. This is an orientation, not a formula.
 
 ## What to expect
 
 The file will not improve every output, and it does not make AI perceptive or self-aware. When the framing matters, it should help the system distinguish facts from interpretations, surface consequential assumptions, and ask one clear question when missing information or meaning could materially change the result.
 
-The human remains responsible for supplying context, responding to questions, deciding what matters, and judging what should be acted upon.
+When a gap is minor, the AI should state its assumption briefly and continue. Routine work should remain routine.
+
+The human remains responsible for supplying context, responding to questions, deciding what matters, and judging what should be acted upon. The file cannot guarantee clear seeing, eliminate bias, determine truth, or resolve every category of AI risk.
 
 ## Current status
 
-Version `0.2.0` is experimental. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository.
+Version `0.2.1` is experimental. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository.
 
 `SEEING.md` at the repository root is the canonical file. The site build copies it into the public download path automatically, so the specification is maintained in only one place.
 
-## Website
+## Website maintenance
 
 The landing page is a static Astro site designed for Cloudflare Workers with Static Assets.
 
@@ -58,7 +73,9 @@ The most useful contributions describe what happened in practice:
 - Where did the file add unnecessary friction?
 - What behavior should be preserved or changed?
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution process and [examples](examples) for initial cases and activation patterns.
+Share a case by emailing [hello@seeing.md](mailto:hello@seeing.md). No repository account is needed.
+
+For source contributors, see [CONTRIBUTING.md](CONTRIBUTING.md) and [examples](examples) for the contribution process, initial cases, and activation patterns.
 
 ## Foundation and practice
 
