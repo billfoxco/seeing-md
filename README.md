@@ -81,6 +81,11 @@ For source contributors, see [CONTRIBUTING.md](CONTRIBUTING.md) and [examples](e
 
 The ideas behind `SEEING.md` are explored more fully in *The Perception Miracle*. The Perception Space provides an ongoing practice through images, stillness, inquiry, and conversation.
 
+## License
+© 2026 Bill Fox.
+The SEEING.md specification is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+When sharing or adapting it, credit Bill Fox, link to seeing.md and the license, and indicate any changes.
+
 The file is open. The practice is relational.
 
 ## License
