@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 0.2.1**
+**The perception behind intent · Version 0.2.3**
 
 `SEEING.md` is a portable perception specification for people and AI. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -30,11 +30,11 @@ For repeated project use, add this to the project's working instructions:
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
-Notice the first meaning that appeared. Question what may be shaping it. Remain open long enough to see again. Act from what becomes clearer. This is an orientation, not a formula.
+Notice the first meaning that appeared. Question what may be shaping it. Remain open long enough to see again, noticing any urge to fill the gap quickly. Act from what becomes clearer. This is an orientation, not a formula.
 
 ## What to expect
 
-The file will not improve every output, and it does not make AI perceptive or self-aware. When the framing matters, it should help the system distinguish facts from interpretations, surface consequential assumptions, and ask one clear question when missing information or meaning could materially change the result.
+The file will not improve every output, and it does not make AI perceptive or self-aware. When the framing matters, it should help the system distinguish facts from interpretations, surface consequential assumptions, and ask one clear question when missing information or meaning could materially change the result, rather than silently filling the gap. The urge to close a gap is strongest when not knowing feels uncomfortable; speed of completion is not evidence of understanding.
 
 When a gap is minor, the AI should state its assumption briefly and continue. Routine work should remain routine.
 
@@ -42,7 +42,7 @@ The human remains responsible for supplying context, responding to questions, de
 
 ## Current status
 
-Version `0.2.1` is experimental. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository.
+Version `0.2.3` is experimental. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository.
 
 `SEEING.md` at the repository root is the canonical file. The site build copies it into the public download path automatically, so the specification is maintained in only one place.
 
@@ -81,13 +81,12 @@ For source contributors, see [CONTRIBUTING.md](CONTRIBUTING.md) and [examples](e
 
 The ideas behind `SEEING.md` are explored more fully in *The Perception Miracle*. The Perception Space provides an ongoing practice through images, stillness, inquiry, and conversation.
 
-## License
-© 2026 Bill Fox.
-The SEEING.md specification is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
-When sharing or adapting it, credit Bill Fox, link to seeing.md and the license, and indicate any changes.
-
 The file is open. The practice is relational.
 
 ## License
 
-The text and documentation are licensed under [Creative Commons Attribution 4.0 International](LICENSE.md).
+© 2026 Bill Fox.
+
+The `SEEING.md` specification, text, and documentation are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md).
+
+When sharing or adapting it, credit Bill Fox, link to [seeing.md](https://seeing.md) and the license, and indicate any changes.
