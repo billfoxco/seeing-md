@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.2.0 · 16 September 2026**
+**Version 0.2.1 · 16 September 2026**
 
 ## The perception behind intent
 
@@ -20,9 +20,9 @@ Most of those decisions do not feel like decisions. They feel like reality.
 
 ## Start here
 
-You do not need GitHub or technical experience to use this file.
+You do not need technical experience to use this file.
 
-Download `SEEING.md` and attach it to an AI conversation, include it with a working brief, or add it to a project's files or instructions. Then tell the AI:
+Download `SEEING.md` and attach it to an AI conversation, include it with a working brief, or add it to a project's files. Then tell the AI:
 
 > Read `SEEING.md` before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision.
 
@@ -53,6 +53,8 @@ The purpose is not to manufacture a better interpretation. It is to make the fir
 ## The human's role
 
 `SEEING.md` does not remove the need for human judgment.
+
+AI can help identify assumptions in a request or response. This does not make it perceptive or self-aware.
 
 The human provides context, answers consequential questions, examines surfaced assumptions, and decides what should be acted upon.
 
@@ -85,7 +87,7 @@ Do not answer too quickly. The questions are meant to interrupt certainty, not p
 
 ## The movement
 
-Use this movement when framing or evaluating a problem, idea, artifact, interaction, or decision.
+Use this movement when framing or evaluating a problem, idea, artifact, interaction, or decision. For people, it is an invitation to examine their own seeing. For AI, it guides the examination of framing, evidence, and assumptions in the work.
 
 ### 1. Notice
 
