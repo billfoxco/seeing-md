@@ -10,9 +10,9 @@ The substance of the file comes largely from Bill Fox's book, *The Perception Mi
 
 ## Use it
 
-1. Place `SEEING.md` in the root of your project or include it with the working brief.
-2. Add an activation instruction to the file your AI system reads automatically, such as `AGENTS.md`, `CLAUDE.md`, or the project's working instructions.
-3. Use it before work involving judgment, people, strategy, interpretation, or consequential decisions.
+1. Download `SEEING.md` and attach it to an AI conversation, include it with a working brief, or add it to a project's files.
+2. Tell the AI to read it before responding to consequential work.
+3. For repeated project use, add an activation instruction to the file your AI system reads automatically, such as `AGENTS.md`, `CLAUDE.md`, or the project's working instructions.
 4. Apply it proportionally. Routine technical work should not be slowed unnecessarily.
 
 Suggested activation instruction:
@@ -27,20 +27,25 @@ The human remains responsible for supplying context, responding to questions, de
 
 ## Current status
 
-Version `0.1.0` is experimental. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository.
+Version `0.2.0` is experimental. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository.
 
 `SEEING.md` at the repository root is the canonical file. The site build copies it into the public download path automatically, so the specification is maintained in only one place.
 
 ## Website
 
-The landing page is a static Astro site designed for Cloudflare Pages.
+The landing page is a static Astro site designed for Cloudflare Workers with Static Assets.
 
 ```text
 npm install
 npm run dev
 ```
 
-For Cloudflare Pages, use `npm run build` as the build command and `dist` as the output directory.
+For a Git-connected Cloudflare Workers deployment, use:
+
+- Build command: `npm run build`
+- Deploy command: `npm run deploy`
+
+`wrangler.jsonc` tells Cloudflare to publish the generated `dist` directory as static assets. No Worker code is required.
 
 ## Learn from a case
 
