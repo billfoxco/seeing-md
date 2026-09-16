@@ -40,7 +40,7 @@
  *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
- * - Assets: /favicon.svg and the generated public copy of /SEEING.md
+ * - Assets: Embedded open-frame SVG logo/favicon and the public copy of /SEEING.md
  * - Services: Google Fonts, Cal.com, and SEE DIFFERENT
  * - Hosting: Cloudflare Workers with Static Assets
  *
@@ -76,7 +76,7 @@ const description =
     <meta property="og:url" content="https://seeing.md/" />
     <meta name="twitter:card" content="summary" />
     <link rel="canonical" href="https://seeing.md/" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cstyle%3Epath%7Bstroke%3A%2311110f%7D%40media%28prefers-color-scheme%3Adark%29%7Bpath%7Bstroke%3A%23fff%7D%7D%3C%2Fstyle%3E%3Cpath%20d%3D%22M20%204H4V28H28V10%22%20fill%3D%22none%22%20stroke-width%3D%223.2%22%2F%3E%3C%2Fsvg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -91,7 +91,12 @@ const description =
 
   <body>
     <header class="site-header">
-      <a class="wordmark" href="/" aria-label="SEEING.md home">SEEING<span>.md</span></a>
+      <a class="wordmark" href="/" aria-label="SEEING.md home">
+        <svg class="wordmark-symbol" viewBox="0 0 32 32" width="32" height="32" fill="none" aria-hidden="true" focusable="false">
+          <path d="M20 4H4V28H28V10" stroke="currentColor" stroke-width="3.2" />
+        </svg>
+        <span class="wordmark-text">SEEING<span class="wordmark-dot">.</span>md</span>
+      </a>
       <nav aria-label="Primary navigation">
         <a href="#why">Why</a>
         <a href="#seeing-first">Seeing First</a>
@@ -323,7 +328,12 @@ const description =
     </dialog>
 
     <footer>
-      <a class="wordmark" href="/">SEEING<span>.md</span></a>
+      <a class="wordmark" href="/" aria-label="SEEING.md home">
+        <svg class="wordmark-symbol" viewBox="0 0 32 32" width="32" height="32" fill="none" aria-hidden="true" focusable="false">
+          <path d="M20 4H4V28H28V10" stroke="currentColor" stroke-width="3.2" />
+        </svg>
+        <span class="wordmark-text">SEEING<span class="wordmark-dot">.</span>md</span>
+      </a>
       <p>Seeing is the first decision.</p>
       <a href="mailto:hello@seeing.md">hello@seeing.md</a>
     </footer>
@@ -388,13 +398,30 @@ const description =
   }
 
   .wordmark {
-    font-size: 0.82rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    gap: 0.55em;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    white-space: nowrap;
   }
 
-  .wordmark span {
+  .wordmark-symbol {
+    display: block;
+    width: 1.3em;
+    height: 1.3em;
+    flex-shrink: 0;
+  }
+
+  .wordmark-dot {
     color: var(--amber);
+  }
+
+  footer .wordmark {
+    font-size: 1.125rem;
   }
 
   nav {
