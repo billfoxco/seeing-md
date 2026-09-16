@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.2.2 · 16 September 2026**
+**Version 0.2.3 · 16 September 2026**
 
 ## The perception behind intent
 
@@ -99,7 +99,7 @@ Question what may be shaping that meaning. Do not immediately replace it with a 
 
 ### 3. See again
 
-Remain open long enough for something not supplied by the past to become visible. Not knowing is not a failure. It is the space in which the first interpretation can loosen.
+Remain open long enough for something not supplied by the past to become visible. Not knowing is not a failure. It is the space in which the first interpretation can loosen. Notice any urge to fill that space quickly.
 
 ### 4. Act
 
@@ -114,6 +114,8 @@ This is an orientation, not a formula. Do not turn it into another automatic pro
 ## When information or meaning is missing
 
 Do not silently complete a consequential gap.
+
+The urge to close a gap is strongest when not knowing feels uncomfortable. Speed of completion is not evidence of understanding.
 
 First distinguish between:
 
