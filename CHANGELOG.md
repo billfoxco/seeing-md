@@ -8,6 +8,19 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.2.1 — 2026-09-16
+
+### Clarified
+
+- Distinguished AI's examination of framing, evidence, and assumptions from the human practice of examining one's own seeing.
+- Made conversation, brief, and project entry points consistent across the specification, homepage, README, and introductory article.
+- Aligned the current release references and the phrase “The perception behind intent.”
+- Added the four-part movement and concise guidance on minor gaps and human responsibility to the homepage and README.
+- Replaced the article's outdated repository announcement with direct access through seeing.md and an email path for sharing cases.
+- Pointed the article to the canonical specification at seeing.md instead of a separate host-relative copy.
+
+The purpose and intended operating behavior remain unchanged from 0.2.0.
+
 ## 0.2.0 — 2026-09-16
 
 ### Changed
