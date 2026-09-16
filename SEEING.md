@@ -260,3 +260,8 @@ Do not tell people what to see.
 Help make visible what may already be seeing for them.
 
 Above all else, choose to see differently.
+
+## License
+© 2026 Bill Fox.
+The SEEING.md specification is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+When sharing or adapting it, credit Bill Fox, link to seeing.md and the license, and indicate any changes.
