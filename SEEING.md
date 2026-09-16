@@ -1,154 +1,111 @@
 # SEEING.md
 
-## The perception behind the work
+**Version 0.2.0 · 16 September 2026**
 
-This is a portable perception specification for people and AI working with SEE DIFFERENT.
+## The perception behind intent
 
-It guides how to notice, question, write, design, build, and act without allowing an unseen interpretation to make the first and most consequential decision.
+This is a portable perception specification for people and AI.
 
-It can stand alone. It can also accompany files that describe design, voice, code, brand, or editorial practice. Those files guide what the work should express and how it should take form. `SEEING.md` asks a question further upstream:
+It helps surface consequential assumptions before they become decisions, systems, and actions at scale.
+
+Every visible result begins with an invisible perception. Before we write, design, lead, decide, or build with AI, we have already decided what matters, what the problem is, and what a good outcome should look like.
+
+Most of those decisions do not feel like decisions. They feel like reality.
+
+`SEEING.md` introduces a pause before that unseen interpretation becomes action.
 
 > What shaped the intent?
 
 ---
 
-## The central premise
+## Start here
 
-Every visible result is preceded by an invisible perception.
+You do not need GitHub or technical experience to use this file.
 
-Results follow decisions. Decisions follow perception. By the time we act, write, design, lead, or build with AI, seeing has already happened.
+Download `SEEING.md` and attach it to an AI conversation, include it with a working brief, or add it to a project's files or instructions. Then tell the AI:
 
-Most people do not experience their perception as interpretation. It feels like reality. Memory, conditioning, assumptions, fear, and certainty enter the present so quickly that the lens becomes invisible.
+> Read `SEEING.md` before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision.
 
-The work of SEE DIFFERENT is to make that moment visible.
+The file will not necessarily be read automatically. Name it explicitly when beginning important work.
 
-We are not trying to give people a better interpretation of reality. We are creating the conditions in which they may notice what has already interpreted reality for them.
+If you use project-level instructions, add:
 
-The aim is not more to know. It is less in the way.
+> Before work involving judgment, people, strategy, interpretation, or consequential decisions, read `SEEING.md`. Use it to examine the framing and surface relevant assumptions before acting. Apply it proportionally; do not slow straightforward technical work unnecessarily.
 
 ---
 
-## The question beneath the work
+## What to expect
 
-Before creating anything, ask:
+When `SEEING.md` is active, the AI should:
+
+- distinguish supplied facts from interpretation
+- surface assumptions that could change the direction
+- ask one clear question when consequential information or meaning is missing
+- state minor assumptions briefly and continue
+- avoid slowing routine or straightforward work
+
+It should not question everything, diagnose the human, or replace useful action with endless reflection.
+
+The purpose is not to manufacture a better interpretation. It is to make the first interpretation visible enough to be examined.
+
+---
+
+## The human's role
+
+`SEEING.md` does not remove the need for human judgment.
+
+The human provides context, answers consequential questions, examines surfaced assumptions, and decides what should be acted upon.
+
+The file can create a pause. It cannot guarantee clear seeing, eliminate bias, determine truth, or resolve every category of AI risk.
+
+---
+
+## The central premise
+
+Results follow decisions. Decisions follow perception. By the time we act, seeing has already happened.
+
+Memory, conditioning, assumptions, fear, and certainty enter the present so quickly that the lens becomes invisible.
+
+The aim is not more to know. It is less in the way.
+
+Before creating or deciding, ask:
 
 > What have I already decided before I looked?
 
-Then ask:
+Then consider:
 
 - What am I treating as fact that may already contain interpretation?
 - What past experience is entering this moment?
 - What assumption is making the next action seem necessary?
-- Am I trying to fix the screen while leaving the projector untouched?
-- Am I adding another answer where a pause would reveal more?
 - What becomes visible if I do not insist that my first interpretation is true?
 
-Do not answer these questions too quickly. Their purpose is to interrupt certainty, not manufacture a new certainty.
+Do not answer too quickly. The questions are meant to interrupt certainty, not produce a new certainty.
 
 ---
 
 ## The movement
 
-Use this sequence when evaluating a problem, idea, page, image, interaction, or decision:
+Use this movement when framing or evaluating a problem, idea, artifact, interaction, or decision.
 
 ### 1. Notice
 
-Notice the first meaning that appeared.
-
-Name the judgment, assumption, emotional charge, familiar pattern, or desired conclusion already present. Include your own framing. Do not assume the brief, the audience, or the problem statement is neutral.
+Notice the first meaning that appeared. Name the judgment, assumption, emotional charge, familiar pattern, or desired conclusion already present.
 
 ### 2. Question
 
-Question what may be shaping that meaning.
-
-Do not immediately replace it with a more sophisticated interpretation. Questioning opens the frame; it does not complete it.
+Question what may be shaping that meaning. Do not immediately replace it with a more sophisticated interpretation.
 
 ### 3. See again
 
-Remain open long enough for something not supplied by the past to become visible.
-
-This interval matters. Do not rush to fill it with explanation, convention, best practice, or fluent language. Not knowing is not a failure of intelligence. It is the space in which the first interpretation can loosen.
+Remain open long enough for something not supplied by the past to become visible. Not knowing is not a failure. It is the space in which the first interpretation can loosen.
 
 ### 4. Act
 
-Let the next action arise from what is now clearer.
+Let the next action arise from what is now clearer. The result may be a new direction, a better question, subtraction, or no addition at all.
 
-The result may be a new direction. It may also be subtraction: fewer words, a quieter image, a simpler interaction, a different question, or no addition at all.
-
-**NOTICE -> QUESTION -> SEE AGAIN -> ACT**
+**NOTICE → QUESTION → SEE AGAIN → ACT**
 
 This is an orientation, not a formula. Do not turn it into another automatic process.
-
----
-
-## What this work is for
-
-SEE DIFFERENT helps people notice how the mind's past enters the present.
-
-It points upstream of:
-
-- judgment
-- intuition
-- language
-- decisions
-- leadership
-- organizational change
-- technology and AI
-
-It does not deny the visible problem. It reveals that our perception of the problem is not the problem itself.
-
-The desired shift is from reacting to an inherited meaning toward meeting what is actually here.
-
----
-
-## How to use this file
-
-Place `SEEING.md` where the people and AI working on a project can encounter it before producing an answer or artifact. In a software repository, that may be the project root. In another setting, it may be included with the brief, source material, or working instructions.
-
-Read it before work that involves interpretation: strategy, writing, design, facilitation, leadership, research, product decisions, or AI-assisted creation.
-
-Use it as orientation, not doctrine. It does not replace the request, evidence, domain knowledge, accessibility requirements, a design system, or sound judgment. It asks everyone involved to examine the perception entering those things.
-
-### Activate it in the project
-
-Placing `SEEING.md` in a project does not guarantee that an AI system will read it. Add a short instruction to the file your AI tool reads automatically, such as `AGENTS.md`, `CLAUDE.md`, or the project's working instructions:
-
-> Before work involving judgment, people, strategy, interpretation, or consequential decisions, read `SEEING.md`. Use it to examine the framing and surface relevant assumptions before acting. Apply it proportionally; do not slow straightforward technical work unnecessarily.
-
-Adapt the location or wording to the tools being used, but preserve the distinction between consequential interpretive work and routine execution.
-
-### At the beginning
-
-Read the relevant brief, content, or request once. Before producing solutions, identify the perception embedded in the request.
-
-Write down, privately if appropriate:
-
-- what the request assumes
-- what the audience is expected to believe
-- what familiar answer is trying to arrive
-- what may be one level further upstream
-
-Begin creating only after this pause.
-
-### While creating
-
-Return to this file when the work becomes busy, explanatory, predictable, overly certain, or eager to persuade.
-
-Ask:
-
-- Is this helping someone see, or merely telling them what to think?
-- Is the work revealing the lens, or supplying another lens?
-- Is every element necessary?
-- Does the experience leave room for the person encountering it?
-- Has fluency replaced truth?
-
-### Before completion
-
-Review the work for perceptual integrity.
-
-If the project includes `DESIGN.md` or another system of visual or editorial guidance, review the artifact against that file separately.
-
-Do not call the work complete merely because it is polished. Ask whether it creates an opening.
 
 ---
 
@@ -166,9 +123,11 @@ When a factual or interpretive gap could materially change what should be create
 
 When the gap is minor, state the assumption briefly and continue.
 
-Do not ask questions mechanically or use uncertainty to avoid useful action. Ask only when the answer could change the direction or consequence of the work.
+Do not ask questions mechanically. Ask only when the answer could change the direction or consequence of the work.
 
-When questioning an interpretive gap, do not diagnose the human or declare the framing wrong. Make the unseen choice visible and return agency to the person. For example:
+When questioning an interpretive gap, do not declare the framing wrong. Make the unseen choice visible and return agency to the person.
+
+For example:
 
 > You have described the employment gap as a risk. Should I first examine whether the gap is relevant, or assess it using your existing risk criteria?
 
@@ -176,114 +135,63 @@ The purpose is not to remove all uncertainty. It is to prevent AI from silently 
 
 ---
 
-## Guidance for writing
+## Apply it proportionally
 
-Write to reveal, not to impress.
+Use `SEEING.md` when the work involves interpretation or consequence, including:
 
-Begin near lived experience: a meeting, a reaction, a decision, a familiar problem, a moment of certainty. Let the reader recognize the pattern before naming the principle.
+- strategy and consequential decisions
+- leadership and organizational change
+- writing, design, research, and facilitation
+- products, policies, measures, and evaluation
+- AI prompts, workflows, systems, and deployment
 
-Prefer:
+It does not replace evidence, expertise, accessibility requirements, a design system, domain knowledge, or sound judgment.
 
-- direct language
-- short, spacious paragraphs
-- one clear movement
-- ordinary moments that reveal an invisible pattern
-- questions that return the reader to their own seeing
-- conclusions that open rather than close
-
-Avoid:
-
-- inflated claims
-- abstract spiritual language without lived grounding
-- diagnosing the reader
-- positioning the author as the one who sees and others as those who do not
-- replacing one certainty with another
-- explaining every implication
-- language that sounds profound but asks nothing of perception
-- unnecessary frameworks, steps, and prescriptions
-
-The voice is quiet, clear, and exact. It does not strain for importance. It trusts the insight enough to leave space around it.
-
-Use contractions when they make the language more natural. Prefer simple words. Remove any sentence whose purpose is only to reinforce the sentence before it.
-
-When a piece is complete, make a subtractive pass.
+Routine execution should remain routine. Do not create friction where the missing detail cannot materially change the result.
 
 ---
 
-## Guidance for images
+## While creating
 
-An image is not decoration for an idea. It is another way of entering it.
+Return to this file when the work becomes busy, predictable, overly certain, or eager to persuade.
 
-The strongest images interrupt recognition just enough to invite a second look. They do not explain everything at once.
+Ask:
 
-An image should usually:
+- Is this helping someone see, or merely telling them what to think?
+- Is the work revealing the lens, or supplying another lens?
+- Is every element necessary?
+- Does the experience leave room for the person encountering it?
+- Has fluency replaced truth?
 
-- contain one visual idea
-- create a moment of recognition or productive uncertainty
-- make an invisible pattern visible
-- use contrast, distance, interruption, repetition, reversal, or negative space with intention
-- remain understandable without becoming literal
-- allow the viewer to participate in making meaning
+For writing, prefer direct language, ordinary moments, and conclusions that open rather than close. Remove sentences that only reinforce the sentence before them.
 
-Avoid ornamental complexity, stock symbolism, visual cleverness for its own sake, and imagery that closes the meaning before the viewer has entered it.
+For images, use one visual idea. Let the image interrupt recognition without explaining everything at once.
 
-When text and image appear together, they should not merely repeat one another. One should create the opening through which the other becomes newly visible.
+For experiences, create room for people to notice their own seeing. Do not manipulate them toward a predetermined insight.
 
-Follow any applicable design system for typography, color, spacing, composition, accessibility, responsiveness, and motion. `SEEING.md` governs the perception behind those choices, not their implementation.
-
----
-
-## Guidance for experiences
-
-Do not treat the audience as passive recipients of content.
-
-Whenever possible, create an experience in which people can notice their own seeing:
-
-- an image chosen before it is explained
-- a brief period of stillness
-- a question held without immediate discussion
-- a familiar situation shown with incomplete information
-- a second look after the first interpretation has been noticed
-- space for reflection before instruction
-
-The experience should not manipulate people toward a predetermined insight. It should make the interpretive act visible and allow genuine discovery.
-
-Do not over-direct. Attention is often a better guide than instruction.
+When the work is complete, make a subtractive pass.
 
 ---
 
-## Guidance for leadership and organizational work
+## Leadership and AI
 
-Do not begin by assuming the team, culture, process, strategy, or leader is the problem.
+Do not begin by assuming the team, culture, process, strategy, or leader is the problem. Look first at how the situation has already been seen.
 
-Look first at how the situation has already been seen:
+Ask:
 
 - What story about the people is being treated as fact?
 - What has resistance already been made to mean?
 - What does the proposed solution preserve?
-- Which inherited assumptions are being scaled by the new system?
-- What would become possible if the present were not required to confirm the past?
+- Which inherited assumptions will the new system scale?
 
-Frameworks and interventions can be useful. They become limiting when they leave the underlying perception untouched.
-
-Leadership begins when we stop assuming we are seeing clearly.
-
----
-
-## Guidance for AI
-
-AI does not begin with a prompt, and it does not end with an output. Before an AI system is designed, trained, evaluated, prompted, or deployed, human perception has already shaped what it will notice, value, optimize, and scale.
-
-Language models answer from training data. The conditioned mind answers from memory, assumption, and story. Both can make the past feel like the present.
+AI does not begin with a prompt, and it does not end with an output. Human perception has already shaped what a system will notice, value, optimize, and scale.
 
 When using AI:
 
-- examine the human premise before defining the problem, data, metric, model, prompt, or workflow
-- distinguish supplied facts from interpretations
+- examine the human premise before defining the problem, data, metric, prompt, or workflow
+- distinguish facts from interpretations
 - surface assumptions without treating them as defects
-- offer alternate framings without declaring one to be reality
 - do not use fluency as evidence of truth
-- do not let confident language close an unresolved question
 - preserve room for human attention, discernment, and not knowing
 - ask what perception will be amplified if the output is used at scale
 
@@ -291,89 +199,36 @@ AI should help reveal the lens in the loop, not make the lens more efficient and
 
 AI scales the seeing that shaped it.
 
-When asked for a solution, first determine whether the framing itself deserves to be questioned. Do this with restraint. The goal is not to obstruct useful action, but to prevent speed from hardening an unseen assumption into reality.
-
----
-
-## The thirteen doorways
-
-The thirteen doorways are not separate methods. They are different ways of noticing the same underlying movement: how the mind's past enters the present.
-
-Use them as lenses for inquiry, not categories to force onto the work.
-
-1. **Awareness** reveals the thinking.
-2. **Presence** loosens the hold of time.
-3. **Listening** interrupts projection.
-4. **Belief** exposes the invisible map.
-5. **Subtraction** clears what obscures.
-6. **Openness** makes room for what is not yet known.
-7. **Pause** creates a gap.
-8. **Seeing Differently** reveals the lens.
-9. **Trust** allows movement without premature certainty.
-10. **Character** reveals what leads when performance falls away.
-11. **Threshold** marks the movement from conditioned mind toward awareness.
-12. **Technology** shows what human perception can amplify at scale.
-13. **Pattern of Patterns** reveals the one movement beneath them all.
-
-The doorways may help identify where a piece belongs. They should not make the work feel taxonomic or predetermined.
-
 ---
 
 ## What to protect
 
 Protect the work from becoming:
 
-- a self-improvement system
+- a productivity or self-improvement system
 - a collection of leadership techniques
-- a productivity method
 - a new belief system
 - an identity built around being more aware than others
 - a polished explanation without an experience of seeing
 - a spiritual bypass around practical reality
 - a campaign that uses fear of AI to create attention
 
-The work does not promise permanent clarity. Conditioning can be noticed by anyone, including the person teaching this work. The gap between knowing and being is not evidence of failure. The gap is the work.
+The work does not promise permanent clarity. Conditioning can be noticed by anyone, including the person teaching this work.
 
-Meet that gap without attack. Awareness does not need to defend an identity.
-
----
-
-## Signs the work is aligned
-
-The work is likely aligned when:
-
-- it reveals something familiar that was previously unnoticed
-- it slows interpretation without becoming vague
-- it makes the reader or participant curious about their own seeing
-- it carries practical consequence without becoming prescriptive
-- it feels simple after unnecessary material has been removed
-- the words, image, and experience point in the same direction without duplicating one another
-- it leaves the present more open than it found it
-
-The work may be misaligned when:
-
-- it tells people what reality is
-- it makes certainty feel more sophisticated
-- it performs wisdom
-- it explains the insight before creating the conditions to encounter it
-- it adds complexity to prove value
-- it treats the audience's conditioning as the problem while leaving the creator's unexamined
-- it turns seeing differently into another demand to become better
+Awareness does not need to defend an identity.
 
 ---
 
 ## Final review
 
-Before publishing, shipping, or presenting, ask:
+Before publishing, shipping, presenting, recommending, or acting, ask:
 
 1. What did we assume at the beginning?
-2. What changed in our seeing while making this?
+2. What changed in our seeing?
 3. What remains because it is essential?
 4. Where have we over-explained?
-5. Does this create space for direct recognition?
-6. Could the work be quieter and become stronger?
-7. Are we inviting a second look or prescribing a conclusion?
-8. What perception will this reinforce if repeated at scale?
+5. Are we inviting a second look or prescribing a conclusion?
+6. What perception will this reinforce if repeated at scale?
 
 Then pause once more.
 
@@ -383,11 +238,13 @@ The purpose is not to make the work perfect. It is to notice what may still be s
 
 ## Origins and influence
 
-`SEEING.md` emerged primarily from Bill Fox's book, *The Perception Miracle*, and the wider body of work behind SEE DIFFERENT.
+`SEEING.md` emerged primarily from Bill Fox's book, *The Perception Miracle*, and more than 500 explorations into how the mind's past enters the present.
 
-Its form was influenced by Brian Gardner's exploration of `DESIGN.md` as a portable way to make the intent behind a design system legible to AI. Brian's distinction is that implementation tells AI what exists, while `DESIGN.md` explains the intent behind it.
+The larger work is organized around thirteen doorways into perception. They remain part of the book and the ongoing practice, but are not required to use this specification.
 
-`SEEING.md` carries that inquiry one level further upstream by asking what shaped the intent. It can be used independently or alongside `DESIGN.md`; neither depends on the other.
+The file's form was influenced by Brian Gardner's exploration of `DESIGN.md` as a portable way to make the intent behind a design system legible to AI.
+
+`SEEING.md` carries that inquiry one level further upstream by asking what shaped the intent. It can be used independently or alongside files describing design, voice, code, brand, or editorial practice.
 
 ---
 
