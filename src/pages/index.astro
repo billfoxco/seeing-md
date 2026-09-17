@@ -158,6 +158,14 @@ const description =
         </figure>
       </section>
 
+      <section class="pause" aria-labelledby="pause-title">
+        <p class="section-number">Before you continue</p>
+        <div class="pause-body">
+          <h2 id="pause-title">Bring to mind something your team is building, measuring, or asking AI to do.</h2>
+          <p class="pause-question">What did everyone already agree the problem was?</p>
+        </div>
+      </section>
+
       <section class="statement" id="why" aria-labelledby="why-title">
         <div class="section-heading">
           <p class="section-number">01 / The missing layer</p>
@@ -198,42 +206,33 @@ const description =
             <p>Hold a consequential gap open long enough to ask one clear question, rather than filling it.</p>
           </article>
         </div>
+
+        <figure class="example" aria-labelledby="example-title">
+          <figcaption id="example-title" class="case-label">In practice</figcaption>
+          <div class="example-grid">
+            <div>
+              <p class="example-label">The brief, as written</p>
+              <p class="example-text">Build an AI assistant that reduces the time our support team spends on customer complaints.</p>
+            </div>
+            <div>
+              <p class="example-label">What SEEING.md surfaces</p>
+              <p class="example-text">This treats complaints as a cost to reduce. Some may be the earliest signal of what customers need.</p>
+              <p class="example-question">What would change if complaints were treated as information?</p>
+            </div>
+          </div>
+        </figure>
       </section>
 
-      <section class="narrative" id="seeing-first" aria-labelledby="seeing-first-title">
-        <div class="narrative-copy">
-          <p class="section-number">02 / For leaders · Seeing First</p>
-          <h2 id="seeing-first-title">See what shapes thousands of decisions before they are made.</h2>
-          <p>
-            One human assumption can now shape thousands of decisions. The
-            question is no longer only whether a decision is sound, but what
-            perception is making it seem necessary. Seeing First helps leaders
-            notice what is shaping the decision, loosen what already appears
-            certain, and make room to see what the present actually requires.
-          </p>
-          <div class="offer-actions">
-            <a class="button button-primary" href="https://cal.com/billfox/seeing-first" rel="noopener">Experience Seeing First <span aria-hidden="true">→</span></a>
-            <span class="offer-meta">30 minutes · Leader or team</span>
-          </div>
-        </div>
-
-        <div class="signal-map" aria-hidden="true">
-          <span class="source-node"></span>
-          <span class="signal-trunk"></span>
-          <span class="signal-spine"></span>
-          <div class="signal-branches">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-          </div>
-        </div>
+      <section class="bridge" id="seeing-first" aria-label="Seeing First">
+        <p>
+          The file surfaces assumptions. Seeing First is where leaders and teams learn to examine them.
+          <a class="text-link" href="https://seedifferent.xyz/#seeing-first" rel="noopener">Explore Seeing First <span aria-hidden="true">→</span></a>
+        </p>
       </section>
 
       <section class="scope" aria-labelledby="scope-title">
         <div class="section-heading">
-          <p class="section-number">03 / Its place in AI safety</p>
+          <p class="section-number">02 / Its place in AI safety</p>
           <h2 id="scope-title">Upstream, not all-encompassing.</h2>
         </div>
 
@@ -258,7 +257,7 @@ const description =
       </section>
 
       <section class="use" id="use" aria-labelledby="use-title">
-        <p class="section-number">04 / Begin</p>
+        <p class="section-number">03 / Begin</p>
         <h2 id="use-title">One file. One question further upstream.</h2>
         <p class="use-intro">
           What shaped the intent? Download SEEING.md and attach it to an AI
@@ -369,6 +368,11 @@ const description =
       </a>
       <p>Seeing is the first decision.</p>
       <a class="footer-contact" href="mailto:hello@seeing.md">hello@seeing.md</a>
+      <p class="footer-thread">
+        One question. <a href="https://billfox.co/">A person</a> ·
+        <a href="https://seedifferent.xyz">a practice</a> ·
+        <span aria-current="page">a system</span>.
+      </p>
       <p class="footer-license">
         © 2026 <a href="https://billfox.co/" rel="author">Bill Fox</a>. The SEEING.md specification is licensed under
         <a href="https://creativecommons.org/licenses/by/4.0/" rel="license" aria-label="Creative Commons Attribution 4.0 International license">CC BY 4.0</a>.
@@ -676,19 +680,14 @@ const description =
     color: rgba(0, 0, 0, 0.6);
   }
 
-  .narrative {
-    background: rgba(0, 0, 0, 0.04);
-  }
-
-  .narrative {
+  .pause {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 80px;
-    align-items: center;
+    grid-template-columns: minmax(170px, 0.35fr) 1.65fr;
+    gap: 60px;
   }
 
-  .narrative-copy h2 {
-    max-width: 640px;
+  .pause h2 {
+    max-width: 900px;
     margin: 0;
     font-size: clamp(36px, 4vw, 60px);
     font-weight: 500;
@@ -696,21 +695,38 @@ const description =
     line-height: 1.05;
   }
 
-  .narrative-copy > p:not(.section-number) {
-    max-width: 640px;
-    margin: 40px 0 0;
-    color: rgba(0, 0, 0, 0.6);
+  .pause-question {
+    max-width: 760px;
+    margin: 48px 0 0;
+    padding-top: 30px;
+    border-top: 1px solid var(--line-light);
+    color: var(--amber);
+    font-size: clamp(24px, 2.6vw, 36px);
+    font-weight: 500;
+    line-height: 1.2;
   }
 
-  .offer-actions {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-top: 40px;
-    flex-wrap: wrap;
+  .example {
+    margin: 80px 0 0;
   }
 
-  .offer-meta {
+  .example-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid var(--line-light);
+  }
+
+  .example-grid > div {
+    padding: 30px 40px 0 0;
+  }
+
+  .example-grid > div + div {
+    padding-left: 40px;
+    border-left: 2px solid var(--amber);
+  }
+
+  .example-label {
+    margin: 0 0 14px;
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
     font-weight: 500;
@@ -718,69 +734,30 @@ const description =
     text-transform: uppercase;
   }
 
-  .signal-map {
-    position: relative;
-    min-height: 360px;
+  .example-text {
+    margin: 0;
+    font-size: 1.18rem;
   }
 
-  .source-node {
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background: var(--amber);
-    transform: translate(-50%, -50%);
+  .example-question {
+    margin: 22px 0 0;
+    font-size: 1.18rem;
+    font-weight: 500;
   }
 
-  .signal-trunk {
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    width: 34%;
-    height: 1px;
-    background: var(--amber);
+  main > section.bridge {
+    padding-block: 48px;
+    background: rgba(0, 0, 0, 0.04);
   }
 
-  .signal-spine {
-    position: absolute;
-    top: 15%;
-    bottom: 15%;
-    left: 42%;
-    width: 1px;
-    background: rgba(0, 0, 0, 0.25);
+  .bridge p {
+    max-width: 900px;
+    margin: 0;
+    font-size: 1.18rem;
   }
 
-  .signal-branches {
-    position: absolute;
-    top: 15%;
-    right: 8%;
-    bottom: 15%;
-    left: 42%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .signal-branches i {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 1px;
-    background: rgba(0, 0, 0, 0.25);
-  }
-
-  .signal-branches i::after {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--ink);
-    content: "";
-    transform: translate(50%, -50%);
+  .bridge .text-link {
+    margin-left: 12px;
   }
 
   .scope-grid {
@@ -1005,8 +982,13 @@ const description =
     color: rgba(255, 255, 255, 0.6);
   }
 
+  .footer-thread,
   .footer-license {
     grid-column: 1 / -1;
+  }
+
+  .footer-thread [aria-current] {
+    color: var(--paper);
   }
 
   .footer-license a {
@@ -1043,6 +1025,7 @@ const description =
 
     .statement,
     .section-heading,
+    .pause,
     .origin {
       grid-template-columns: 1fr;
       gap: 14px;
@@ -1070,17 +1053,25 @@ const description =
       grid-column: 2;
     }
 
-    .narrative,
-    .scope-grid {
+    .scope-grid,
+    .example-grid {
       grid-template-columns: 1fr;
     }
 
-    .narrative {
-      gap: 60px;
+    .example-grid > div {
+      padding-right: 0;
     }
 
-    .signal-map {
-      min-height: 280px;
+    .example-grid > div + div {
+      margin-top: 30px;
+      padding: 24px 0 0;
+      border-top: 2px solid var(--amber);
+      border-left: 0;
+    }
+
+    .bridge .text-link {
+      display: block;
+      margin-left: 0;
     }
 
     .scope-grid > div,
