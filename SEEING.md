@@ -6,6 +6,12 @@
 
 This is a portable perception specification for people and AI.
 
+`SEEING.md` does not exist to give AI better values. It makes the perception behind its instructions more visible and examinable.
+
+Values, principles, and intent do not arise from nowhere. They emerge from how we perceive the situation in front of us. Much of that perception has already been shaped by prior experience, assumptions, and conditioning before an instruction is ever written.
+
+**PERCEPTION → MEANING → INTENT → INSTRUCTION → ACTION**
+
 It helps surface consequential assumptions before they become decisions, systems, and actions at scale.
 
 Every visible result begins with an invisible perception. Before we write, design, lead, decide, or build with AI, we have already decided what matters, what the problem is, and what a good outcome should look like.
