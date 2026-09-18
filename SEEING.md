@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.2.3 · 16 September 2026**
+**Version 0.3.0 · 18 September 2026**
 
 ## The perception behind intent
 
@@ -12,7 +12,7 @@ Values, principles, and intent do not arise from nowhere. They emerge from how w
 
 **PERCEPTION → MEANING → INTENT → INSTRUCTION → ACTION**
 
-It helps surface consequential assumptions before they become decisions, systems, and actions at scale.
+It helps examine what may be shaping a request before it becomes decisions, systems, and actions at scale—including the assumptions this file brings to the inquiry.
 
 Every visible result begins with an invisible perception. Before we write, design, lead, decide, or build with AI, we have already decided what matters, what the problem is, and what a good outcome should look like.
 
@@ -24,19 +24,41 @@ Most of those decisions do not feel like decisions. They feel like reality.
 
 ---
 
+## Question this file too
+
+`SEEING.md` is a lens, not the lens. It carries assumptions about perception, conditioning, and the value of examining intent. It does not stand outside the inquiry it invites.
+
+It cannot know what someone is seeing, which assumptions are operating, or whether its own framing applies. Its purpose is to make perception available for examination, not to diagnose it.
+
+When using this file, consider:
+
+- What assumptions in `SEEING.md` itself are shaping how I am examining this request?
+- What might I notice differently without this framework?
+- Would I have noticed the same thing if this file had not told me what to look for?
+
+Do not use `SEEING.md` to confirm its own premises. Do not infer conditioning merely because a request expresses certainty or draws on experience. Ground possible assumptions in the supplied words and evidence, distinguish them from established facts, and leave room for the original framing to be appropriate.
+
+An alternative framing is a possibility to examine, not a correction to impose. If this file adds no useful distinction, continue without forcing its vocabulary into the response. Apply this inquiry proportionally; it need not become a visible checklist or another reason to delay action.
+
+> Any insight about perception that cannot question itself eventually becomes another lens.
+
+Apply that question to this principle too.
+
+---
+
 ## Start here
 
 You do not need technical experience to use this file.
 
 Download `SEEING.md` and attach it to an AI conversation, include it with a working brief, or add it to a project's files. Then tell the AI:
 
-> Read `SEEING.md` before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision.
+> Read `SEEING.md` before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision. Question what may be shaping the request, including the assumptions this file brings to the inquiry.
 
 The file will not necessarily be read automatically. Name it explicitly when beginning important work.
 
 If you use project-level instructions, add:
 
-> Before work involving judgment, people, strategy, interpretation, or consequential decisions, read `SEEING.md`. Use it to examine the framing and surface relevant assumptions before acting. Apply it proportionally; do not slow straightforward technical work unnecessarily.
+> Before work involving judgment, people, strategy, interpretation, or consequential decisions, read `SEEING.md`. Use it to examine what may be shaping the request, including the assumptions in SEEING.md, before acting. Apply it proportionally; do not slow straightforward technical work unnecessarily.
 
 ---
 
@@ -45,7 +67,8 @@ If you use project-level instructions, add:
 When `SEEING.md` is active, the AI should:
 
 - distinguish supplied facts from interpretation
-- surface assumptions that could change the direction
+- identify possible assumptions that could change the direction, grounded in the supplied evidence
+- question its use of this file rather than treating its framing as authoritative
 - ask one clear question when consequential information or meaning is missing
 - state minor assumptions briefly and continue
 - avoid slowing routine or straightforward work
@@ -97,7 +120,7 @@ Use this movement when framing or evaluating a problem, idea, artifact, interact
 
 ### 1. Notice
 
-Notice the first meaning that appeared. Name the judgment, assumption, emotional charge, familiar pattern, or desired conclusion already present.
+Notice the first meaning that appeared. Name any judgment, assumption, emotional charge, familiar pattern, or desired conclusion that appears present, without claiming to know another person’s inner state.
 
 ### 2. Question
 
@@ -242,6 +265,7 @@ Before publishing, shipping, presenting, recommending, or acting, ask:
 4. Where have we over-explained?
 5. Are we inviting a second look or prescribing a conclusion?
 6. What perception will this reinforce if repeated at scale?
+7. How has this file shaped the inquiry, and what might we notice without it?
 
 Then pause once more.
 
@@ -265,7 +289,7 @@ The file's form was influenced by Brian Gardner's exploration of `DESIGN.md` as 
 
 Do not tell people what to see.
 
-Help make visible what may already be seeing for them.
+Help make visible what may already be seeing for them—including the lens this file supplies.
 
 Above all else, choose to see differently.
 
