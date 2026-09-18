@@ -8,6 +8,25 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.3.0 — 2026-09-18
+
+### Added
+
+- Made questioning SEEING.md itself part of the operating guidance: the file carries a lens and does not stand outside the inquiry it invites.
+- Added questions about the file’s assumptions, what might be noticed without it, and whether it is directing what the AI finds.
+- Added the governing principle: “Any insight about perception that cannot question itself eventually becomes another lens,” with an invitation to question that principle too.
+
+### Changed
+
+- Ground possible assumptions in supplied words and evidence; do not diagnose perception or infer conditioning simply from certainty or experience.
+- Treat alternative framings as possibilities to examine, leaving room for the original framing to be appropriate.
+- Apply self-questioning proportionally without a mandatory visible checklist or unnecessary delay.
+- Aligned activation instructions, expected behavior, and final review with the new guidance.
+- Added the self-questioning principle below the homepage example and revised that example to preserve uncertainty.
+- Updated the introductory article and its short Markdown draft, and aligned current release references to 0.3.0. The article’s original publication date is retained.
+
+This minor release changes how the specification is applied while preserving its purpose: making the perception behind intent available for examination.
+
 ## 0.2.3 — 2026-09-16
 
 ### Clarified
