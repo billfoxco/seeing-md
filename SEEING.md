@@ -108,6 +108,7 @@ Then consider:
 - What am I treating as fact that may already contain interpretation, favorable or unfavorable?
 - What past experience is entering this moment?
 - What assumption is making the next action seem necessary?
+- What are we trying to prevent, and what has that already decided?
 - What becomes visible if I do not insist that my first interpretation is true?
 
 Do not answer too quickly. The questions are meant to interrupt certainty, not produce a new certainty.
@@ -121,6 +122,8 @@ Use this movement when framing or evaluating a problem, idea, artifact, interact
 ### 1. Notice
 
 Notice the first meaning that appeared. Name any judgment, assumption, emotional charge, familiar pattern, or desired conclusion that appears present, without claiming to know another person’s inner state.
+
+Name it in the specific terms the work uses, not as a category. A general assumption cannot be examined.
 
 ### 2. Question
 
