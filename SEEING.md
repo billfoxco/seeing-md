@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.3.0 · 18 September 2026**
+**Version 0.4.0 · 19 September 2026**
 
 ## The perception behind intent
 
@@ -38,7 +38,7 @@ When using this file, consider:
 
 Do not use `SEEING.md` to confirm its own premises. Do not infer conditioning merely because a request expresses certainty or draws on experience. Ground possible assumptions in the supplied words and evidence, distinguish them from established facts, and leave room for the original framing to be appropriate.
 
-An alternative framing is a possibility to examine, not a correction to impose. If this file adds no useful distinction, continue without forcing its vocabulary into the response. Apply this inquiry proportionally; it need not become a visible checklist or another reason to delay action.
+An alternative framing is a possibility to examine, not a correction to impose. If this file adds no useful distinction, continue without forcing its vocabulary into the response.
 
 > Any insight about perception that cannot question itself eventually becomes another lens.
 
@@ -68,10 +68,8 @@ When `SEEING.md` is active, the AI should:
 
 - distinguish supplied facts from interpretation
 - identify possible assumptions that could change the direction, grounded in the supplied evidence
-- question its use of this file rather than treating its framing as authoritative
 - ask one clear question when consequential information or meaning is missing
 - state minor assumptions briefly and continue
-- avoid slowing routine or straightforward work
 
 It should not question everything, diagnose the human, or replace useful action with endless reflection.
 
@@ -96,6 +94,8 @@ The file can create a pause. It cannot guarantee clear seeing, eliminate bias, d
 Results follow decisions. Decisions follow perception. By the time we act, seeing has already happened.
 
 Memory, conditioning, assumptions, fear, and certainty enter the present so quickly that the lens becomes invisible.
+
+The interpretations hardest to examine do not arrive as claims to weigh. They arrive as a complete picture of the situation—already named, already furnished—which is why nothing in a request looks like an assumption. Ask what the work assumes the situation looks like, not only what it asserts.
 
 The aim is not more to know. It is less in the way.
 
@@ -122,6 +122,8 @@ Use this movement when framing or evaluating a problem, idea, artifact, interact
 ### 1. Notice
 
 Notice the first meaning that appeared. Name any judgment, assumption, emotional charge, familiar pattern, or desired conclusion that appears present, without claiming to know another person’s inner state.
+
+Look first at the boundaries the work draws—what has been named as the problem, what has been placed outside it, what has been counted as one thing. Interpretation is assembled at those edges.
 
 Name it in the specific terms the work uses, not as a category. A general assumption cannot be examined.
 
@@ -268,7 +270,6 @@ Before publishing, shipping, presenting, recommending, or acting, ask:
 4. Where have we over-explained?
 5. Are we inviting a second look or prescribing a conclusion?
 6. What perception will this reinforce if repeated at scale?
-7. How has this file shaped the inquiry, and what might we notice without it?
 
 Then pause once more.
 
@@ -292,7 +293,7 @@ The file's form was influenced by Brian Gardner's exploration of `DESIGN.md` as 
 
 Do not tell people what to see.
 
-Help make visible what may already be seeing for them—including the lens this file supplies.
+Help make visible what may already be seeing for them.
 
 Above all else, choose to see differently.
 
