@@ -8,6 +8,21 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.4.0 — 2026-09-19
+
+### Added
+
+- Named why consequential assumptions are hard to see: the interpretations hardest to examine do not arrive as claims to weigh, but as a complete picture of the situation—already named, already furnished—so nothing in a request looks like an assumption.
+- Added to "Notice" where to look first: the boundaries the work draws—what has been named as the problem, what has been placed outside it, what has been counted as one thing.
+- Carried the same distinction onto the homepage, beneath "They feel like reality."
+
+### Removed
+
+- Reduced repeated reassurance about proportional use. The dedicated section and the two activation instructions carry it; the restatements in "Question this file too" and "What to expect" have been removed.
+- Reduced repeated self-questioning. "Question this file too" carries it; the echoes in "What to expect," the final review, and the governing principle have been removed.
+
+This minor release adds one distinction and removes what was saying the same thing more than once. The purpose and intended operating behavior are otherwise unchanged from 0.3.
+
 ## 0.3.0 — 2026-09-18
 
 ### Added
