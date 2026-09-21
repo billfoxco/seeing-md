@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.4.1 · 21 September 2026**
+**Version 0.5.0 · 21 September 2026**
 
 ## The perception behind intent
 
@@ -133,6 +133,8 @@ Name it in the specific terms the work uses, not as a category. A general assump
 
 Question what may be shaping that meaning. Do not immediately replace it with a more sophisticated interpretation.
 
+Ask, too, who will live with the effects of this seeing.
+
 ### 3. See again
 
 Remain open long enough for something not supplied by the past to become visible. Not knowing is not a failure. It is the space in which the first interpretation can loosen. Notice any urge to fill that space quickly.
@@ -239,6 +241,8 @@ When using AI:
 - ask what perception will be amplified if the output is used at scale
 
 AI should help reveal the lens in the loop, not make the lens more efficient and invisible.
+
+Seeing is not private. Its effects reach everyone a decision touches, and AI extends that reach.
 
 AI scales the seeing that shaped it.
 
