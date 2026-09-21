@@ -8,6 +8,17 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.4.1 — 2026-09-21
+
+### Clarified
+
+- Extended the distinction between favorable and unfavorable framings to apparently neutral ones. "Objective," "just the data," and "a neutral summary" may be interpretive gaps too, and are harder to examine because they present themselves as having no lens.
+- Added a line beneath the opening sequence noting that its steps are not separate in time: meaning is often already present in the seeing.
+- Aligned "Notice" with that clarification: notice the meaning that was already there when you looked, rather than the first meaning that appeared.
+- Carried the neutral-framing distinction onto the homepage's "Separate" behavior and updated the download to 0.4.1.
+
+The purpose and intended operating behavior remain unchanged from 0.4.0.
+
 ## 0.4.0 — 2026-09-19
 
 ### Added
