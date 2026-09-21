@@ -8,6 +8,16 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.5.0 — 2026-09-21
+
+### Added
+
+- Added to "Question" a single further question: who will live with the effects of this seeing.
+- Added to "Leadership and AI" the principle that seeing is not private: its effects reach everyone a decision touches, and AI extends that reach.
+- Carried the principle onto the homepage under "Its place in AI safety" and updated the download to 0.5.0.
+
+This minor release widens the inquiry from what shaped the intent to who inherits it. The purpose is otherwise unchanged from 0.4.1.
+
 ## 0.4.1 — 2026-09-21
 
 ### Clarified
