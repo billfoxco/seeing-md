@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.4.0 · 19 September 2026**
+**Version 0.4.1 · 21 September 2026**
 
 ## The perception behind intent
 
@@ -11,6 +11,8 @@ This is a portable perception specification for people and AI.
 Values, principles, and intent do not arise from nowhere. They emerge from how we perceive the situation in front of us. Much of that perception has already been shaped by prior experience, assumptions, and conditioning before an instruction is ever written.
 
 **PERCEPTION → MEANING → INTENT → INSTRUCTION → ACTION**
+
+These are not separate steps in time. Meaning is often already present in the seeing.
 
 It helps examine what may be shaping a request before it becomes decisions, systems, and actions at scale—including the assumptions this file brings to the inquiry.
 
@@ -105,7 +107,7 @@ Before creating or deciding, ask:
 
 Then consider:
 
-- What am I treating as fact that may already contain interpretation, favorable or unfavorable?
+- What am I treating as fact that may already contain interpretation, favorable, unfavorable, or apparently neutral?
 - What past experience is entering this moment?
 - What assumption is making the next action seem necessary?
 - What are we trying to prevent, and what has that already decided?
@@ -121,7 +123,7 @@ Use this movement when framing or evaluating a problem, idea, artifact, interact
 
 ### 1. Notice
 
-Notice the first meaning that appeared. Name any judgment, assumption, emotional charge, familiar pattern, or desired conclusion that appears present, without claiming to know another person’s inner state.
+Notice the meaning that was already there when you looked. Name any judgment, assumption, emotional charge, familiar pattern, or desired conclusion that appears present, without claiming to know another person’s inner state.
 
 Look first at the boundaries the work draws—what has been named as the problem, what has been placed outside it, what has been counted as one thing. Interpretation is assembled at those edges.
 
@@ -157,7 +159,7 @@ First distinguish between:
 - **An interpretive gap:** meaning, intent, or causation that may have been assumed.
 - **A harmless gap:** a minor detail that does not materially affect the result.
 
-Favorable framings can carry assumptions as readily as unfavorable ones. "High potential," "strong fit," and "proven" may be interpretive gaps too.
+Favorable and neutral-sounding framings can carry assumptions as readily as unfavorable ones. "High potential," "strong fit," and "proven" may be interpretive gaps too. So may "objective," "just the data," and "a neutral summary," which are harder to examine because they present themselves as having no lens.
 
 When a factual or interpretive gap could materially change what should be created, decided, recommended, or acted upon, pause and ask the human one clear question.
 
