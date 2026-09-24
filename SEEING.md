@@ -121,6 +121,8 @@ Do not answer too quickly. The questions are meant to interrupt certainty, not p
 
 Use this movement when framing or evaluating a problem, idea, artifact, interaction, or decision. For people, it is an invitation to examine their own seeing. For AI, it guides the examination of framing, evidence, and assumptions in the work.
 
+It begins with a willingness to find that you may not be seeing clearly yet. That willingness is what makes a second look possible. For AI, it means holding the first reading of a request as provisional until it has been examined.
+
 ### 1. Notice
 
 Notice the meaning that was already there when you looked. Name any judgment, assumption, emotional charge, familiar pattern, or desired conclusion that appears present, without claiming to know another person’s inner state.
@@ -188,6 +190,8 @@ Use `SEEING.md` when the work involves interpretation or consequence, including:
 - writing, design, research, and facilitation
 - products, policies, measures, and evaluation
 - AI prompts, workflows, systems, and deployment
+
+Apply it with particular care when the work carries strong certainty, urgency, fear, or emotional charge. These do not show that a framing is wrong. They mark the moments when a first interpretation is hardest to see.
 
 It does not replace evidence, expertise, accessibility requirements, a design system, domain knowledge, or sound judgment.
 
