@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.6.0 — 2026-09-25
+
+### Added
+
+- Added to "Leadership and AI" the principle that removing AI from the process does not remove the lens.
+- Carried the distinction onto the homepage: AI is not the first system shaped by the past, and removing or adding AI does not remove the human lens that precedes it.
+
+### Changed
+
+- Refined the first AI-use instruction from examining the human premise to examining what shaped the human premise before defining the problem, data, metric, prompt, or workflow.
+- Clarified the homepage's missing layer by showing how prior experience can shape what people ask, notice, and consider a good outcome before AI acts.
+
+This minor release makes explicit a distinction already present in the specification: the inquiry begins upstream of AI, with what may have shaped the human premise. The purpose is otherwise unchanged from 0.5.0.
+
 ## 0.5.0 — 2026-09-21
 
 ### Added
