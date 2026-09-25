@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.5.0 · 21 September 2026**
+**Version 0.6.0 · 25 September 2026**
 
 ## The perception behind intent
 
@@ -233,11 +233,13 @@ Ask:
 - What does the proposed solution preserve?
 - Which inherited assumptions will the new system scale?
 
+**Removing AI from the process does not remove the lens.**
+
 AI does not begin with a prompt, and it does not end with an output. Human perception has already shaped what a system will notice, value, optimize, and scale.
 
 When using AI:
 
-- examine the human premise before defining the problem, data, metric, prompt, or workflow
+- examine what shaped the human premise before defining the problem, data, metric, prompt, or workflow
 - distinguish facts from interpretations
 - surface assumptions without treating them as defects
 - do not use fluency as evidence of truth
