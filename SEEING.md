@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.6.0 · 25 September 2026**
+**Version 0.6.1 · 26 September 2026**
 
 ## The perception behind intent
 
@@ -98,6 +98,8 @@ Results follow decisions. Decisions follow perception. By the time we act, seein
 Memory, conditioning, assumptions, fear, and certainty enter the present so quickly that the lens becomes invisible.
 
 The interpretations hardest to examine do not arrive as claims to weigh. They arrive as a complete picture of the situation—already named, already furnished—which is why nothing in a request looks like an assumption. Ask what the work assumes the situation looks like, not only what it asserts.
+
+Reason does not necessarily expose that picture. It can make an unseen interpretation feel more certain by explaining why it makes sense.
 
 The aim is not more to know. It is less in the way.
 
