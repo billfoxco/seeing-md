@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.6.1 · 26 September 2026**
+**Version 0.7.0 · 1 October 2026**
 
 ## The perception behind intent
 
@@ -123,7 +123,7 @@ Do not answer too quickly. The questions are meant to interrupt certainty, not p
 
 Use this movement when framing or evaluating a problem, idea, artifact, interaction, or decision. For people, it is an invitation to examine their own seeing. For AI, it guides the examination of framing, evidence, and assumptions in the work.
 
-It begins with a willingness to find that you may not be seeing clearly yet. That willingness is what makes a second look possible. For AI, it means holding the first reading of a request as provisional until it has been examined.
+It begins with a willingness to find that you may not be seeing clearly yet. That willingness is what makes a second look possible. The willingness does not need to be complete. Hesitation is not a reason to wait. For AI, it means holding the first reading of a request as provisional until it has been examined.
 
 ### 1. Notice
 
@@ -132,6 +132,8 @@ Notice the meaning that was already there when you looked. Name any judgment, as
 Look first at the boundaries the work draws—what has been named as the problem, what has been placed outside it, what has been counted as one thing. Interpretation is assembled at those edges.
 
 Name it in the specific terms the work uses, not as a category. A general assumption cannot be examined.
+
+Notice, too, any pull to defend the first reading. Resistance to examining a framing often marks where it matters most. For AI, this includes the pull to defend a prior answer rather than look at it again.
 
 ### 2. Question
 
@@ -173,7 +175,7 @@ When the gap is minor, state the assumption briefly and continue.
 
 Do not ask questions mechanically. Ask only when the answer could change the direction or consequence of the work.
 
-When questioning an interpretive gap, do not declare the framing wrong. Make the unseen choice visible and return agency to the person.
+When questioning an interpretive gap, do not declare the framing wrong. Make the unseen choice visible and return agency to the person. Surfacing an assumption takes nothing from the person who holds it.
 
 For example:
 
@@ -266,6 +268,7 @@ Protect the work from becoming:
 - an identity built around being more aware than others
 - a polished explanation without an experience of seeing
 - a spiritual bypass around practical reality
+- a way of finding fault, with oneself or others
 - a campaign that uses fear of AI to create attention
 
 The work does not promise permanent clarity. Conditioning can be noticed by anyone, including the person teaching this work.
