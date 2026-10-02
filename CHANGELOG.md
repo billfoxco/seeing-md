@@ -8,6 +8,14 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.8.0 — 2026-10-02
+
+### Added
+
+- Added to "Notice" a second place to look: what no one involved would think to question, the one thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask what it is, and what it is for.
+
+This minor release extends the inquiry from what is charged or contested to what is settled and agreed. The purpose is otherwise unchanged from 0.7.0.
+
 ## 0.7.0 — 2026-10-01
 
 ### Added
