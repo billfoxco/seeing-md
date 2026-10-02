@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.7.0 · 1 October 2026**
+**Version 0.8.0 · 2 October 2026**
 
 ## The perception behind intent
 
@@ -130,6 +130,8 @@ It begins with a willingness to find that you may not be seeing clearly yet. Tha
 Notice the meaning that was already there when you looked. Name any judgment, assumption, emotional charge, familiar pattern, or desired conclusion that appears present, without claiming to know another person’s inner state.
 
 Look first at the boundaries the work draws—what has been named as the problem, what has been placed outside it, what has been counted as one thing. Interpretation is assembled at those edges.
+
+Look at what no one involved would think to question. The one thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask what it is, and what it is for.
 
 Name it in the specific terms the work uses, not as a category. A general assumption cannot be examined.
 
