@@ -1,26 +1,18 @@
 # SEEING.md
 
-**Version 0.8.0 · 2 October 2026**
+**Version 0.9.0 · 3 October 2026**
 
 ## The perception behind intent
 
-This is a portable perception specification for people and AI.
+This is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system.
 
-`SEEING.md` does not exist to give AI better values. It makes the perception behind its instructions more visible and examinable.
-
-Values, principles, and intent do not arise from nowhere. They emerge from how we perceive the situation in front of us. Much of that perception has already been shaped by prior experience, assumptions, and conditioning before an instruction is ever written.
+Before we write, design, lead, decide, or build, we have often already decided what matters, what the problem is, and what a good outcome should look like. Those decisions can feel like reality.
 
 **PERCEPTION → MEANING → INTENT → INSTRUCTION → ACTION**
 
 These are not separate steps in time. Meaning is often already present in the seeing.
 
-It helps examine what may be shaping a request before it becomes decisions, systems, and actions at scale—including the assumptions this file brings to the inquiry.
-
-Every visible result begins with an invisible perception. Before we write, design, lead, decide, or build with AI, we have already decided what matters, what the problem is, and what a good outcome should look like.
-
-Most of those decisions do not feel like decisions. They feel like reality.
-
-`SEEING.md` introduces a pause before that unseen interpretation becomes action.
+`SEEING.md` introduces a pause before that interpretation becomes action. AI can amplify the definitions we hand it. This file helps make them available for examination, including the assumptions it brings to the inquiry.
 
 > What shaped the intent?
 
@@ -50,7 +42,7 @@ Apply that question to this principle too.
 
 ## Start here
 
-You do not need technical experience to use this file.
+You can begin without AI. Bring to mind something you feel sure you understand and ask: **What is this? What is it for?** Leave room for the first answer to be incomplete.
 
 Download `SEEING.md` and attach it to an AI conversation, include it with a working brief, or add it to a project's files. Then tell the AI:
 
@@ -91,13 +83,25 @@ The file can create a pause. It cannot guarantee clear seeing, eliminate bias, d
 
 ---
 
-## The central premise
+## Before the file
 
-Results follow decisions. Decisions follow perception. By the time we act, seeing has already happened.
+`SEEING.md` begins before AI is involved.
+
+Notice the first interpretation as it forms: the email you have already made disappointing, the person difficult, the opportunity important, the result necessary.
+
+Before asking what to do, ask:
+
+> What have I already decided this is?
+
+Do not rush to replace the answer. Leave the question open. The practice begins with willingness to discover that the first seeing may not be the only seeing.
+
+---
+
+## The central premise
 
 Memory, conditioning, assumptions, fear, and certainty enter the present so quickly that the lens becomes invisible.
 
-The interpretations hardest to examine do not arrive as claims to weigh. They arrive as a complete picture of the situation—already named, already furnished—which is why nothing in a request looks like an assumption. Ask what the work assumes the situation looks like, not only what it asserts.
+Some interpretations arrive as a complete picture of the situation—already named, already furnished. Ask what the work assumes the situation looks like, not only what it asserts.
 
 Reason does not necessarily expose that picture. It can make an unseen interpretation feel more certain by explaining why it makes sense.
 
@@ -123,7 +127,7 @@ Do not answer too quickly. The questions are meant to interrupt certainty, not p
 
 Use this movement when framing or evaluating a problem, idea, artifact, interaction, or decision. For people, it is an invitation to examine their own seeing. For AI, it guides the examination of framing, evidence, and assumptions in the work.
 
-It begins with a willingness to find that you may not be seeing clearly yet. That willingness is what makes a second look possible. The willingness does not need to be complete. Hesitation is not a reason to wait. For AI, it means holding the first reading of a request as provisional until it has been examined.
+Willingness need not be complete. Hesitation is not a reason to wait. For AI, hold the first reading of a request as provisional until it has been examined.
 
 ### 1. Notice
 
@@ -131,9 +135,15 @@ Notice the meaning that was already there when you looked. Name any judgment, as
 
 Look first at the boundaries the work draws—what has been named as the problem, what has been placed outside it, what has been counted as one thing. Interpretation is assembled at those edges.
 
-Look at what no one involved would think to question. The one thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask what it is, and what it is for.
+Naming is useful. It can also end inquiry. “Problem,” “customer,” “underperformer,” and “strategy” can begin to stand in for what they name.
 
-Name it in the specific terms the work uses, not as a category. A general assumption cannot be examined.
+Look at the specific thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask:
+
+> What is this?
+>
+> What is it for?
+
+Notice whether the answer repeats the definition. A new answer can become another fixed definition too.
 
 Notice, too, any pull to defend the first reading. Resistance to examining a framing often marks where it matters most. For AI, this includes the pull to defend a prior answer rather than look at it again.
 
@@ -145,11 +155,11 @@ Ask, too, who will live with the effects of this seeing.
 
 ### 3. See again
 
-Remain open long enough for something not supplied by the past to become visible. Not knowing is not a failure. It is the space in which the first interpretation can loosen. Notice any urge to fill that space quickly.
+Not knowing may involve more than missing information: a definition may have been mistaken for the thing itself. Do not rush to replace the first interpretation with a better one. Remain open to what it may have obscured.
 
 ### 4. Act
 
-Let the next action arise from what is now clearer. The result may be a new direction, a better question, subtraction, or no addition at all.
+Let the next action arise from what is now clearer. That may mean a new direction, a better question, or dropping the original action. Sometimes it means less explaining, publishing, correcting, or persuading. Sometimes no addition is needed.
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
@@ -213,7 +223,8 @@ Ask:
 
 - Is this helping someone see, or merely telling them what to think?
 - Is the work revealing the lens, or supplying another lens?
-- Is every element necessary?
+- Does this need to be expressed, or does it need to be lived first?
+- Has this changed the way I am seeing, or only the way I am describing seeing?
 - Does the experience leave room for the person encountering it?
 - Has fluency replaced truth?
 
@@ -223,7 +234,7 @@ For images, use one visual idea. Let the image interrupt recognition without exp
 
 For experiences, create room for people to notice their own seeing. Do not manipulate them toward a predetermined insight.
 
-When the work is complete, make a subtractive pass.
+Do not turn every seeing into something that needs to be said. When the work is complete, make a subtractive pass.
 
 ---
 
@@ -267,7 +278,7 @@ Protect the work from becoming:
 - a productivity or self-improvement system
 - a collection of leadership techniques
 - a new belief system
-- an identity built around being more aware than others
+- an identity built around being more aware than others, including a claim to embody the work
 - a polished explanation without an experience of seeing
 - a spiritual bypass around practical reality
 - a way of finding fault, with oneself or others
@@ -314,7 +325,7 @@ Do not tell people what to see.
 
 Help make visible what may already be seeing for them.
 
-Above all else, choose to see differently.
+Above all else, want to see differently.
 
 ## License
 © 2026 Bill Fox.
