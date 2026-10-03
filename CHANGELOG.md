@@ -8,6 +8,32 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.0 — 2026-10-03
+
+### Added
+
+- Added “Before the file”: the practice begins before AI, by noticing the first interpretation in everyday life and asking, “What have I already decided this is?”
+- Made “What is this? What is it for?” a primary practice, available without AI.
+- Added questions about living an insight before expressing it, and whether it has changed seeing or only the description of seeing.
+
+### Changed
+
+- Made naming distinct from seeing: a useful label can come to stand in for what it names.
+- Deepened “See again”: not knowing can loosen a fixed definition, without immediately substituting a better interpretation.
+- Made subtraction explicit in “Act” and “While creating,” including less publishing, correcting, or persuading and dropping the original action.
+- Extended the safeguard against identity to claims of embodying the work. Preserved questioning the file itself, evidence, human responsibility, and proportional use.
+- Changed the closing invitation to “Above all else, want to see differently.”
+- Reordered the homepage around familiar definitions and two spacious questions before introducing AI as an amplifier.
+- Replaced the support-efficiency example with an everyday performance label, distinguishing observed results from interpretation without dismissing the concern.
+- Reframed Begin around daily practice, retained download and AI-use instructions, and changed Origin to “The file is portable. The practice is lived.”
+- Aligned the homepage version, download note, metadata, and source documentation with 0.9.0.
+
+### Removed
+
+- Trimmed repeated explanation in the specification and homepage. Removed the large AI-focused hero graphic so the opening leads directly into the questions.
+
+This minor release makes the human practice preceding AI explicit while retaining the specification’s purpose: examining the perception behind intent.
+
 ## 0.8.0 — 2026-10-02
 
 ### Added
