@@ -4,9 +4,25 @@ All notable changes to `SEEING.md` will be recorded here.
 
 The project uses a light form of semantic versioning:
 
-- Patch versions refine language, clarity, or examples without changing the intended behavior.
+- Patch versions refine language, clarity, or examples, or make small additions within existing guidance.
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
+
+## 0.9.1 — 2026-10-04
+
+### Added
+
+- Added to "See again" attention to distance: a framing can set the viewer apart from what is being looked at. Ask whether the people described would recognize themselves in the description.
+- Added to "Leadership and AI" a question that turns the inquiry toward the one asking: what part have we played in what we are describing?
+- Added to "Before the file" that forgetting to ask is expected, and noticing it is the practice.
+- Carried the recognition question onto the homepage example.
+
+### Changed
+
+- Widened the definition of a patch version at the top of this changelog to include small additions within existing guidance.
+- Aligned the homepage version and download note with 0.9.1.
+
+This patch release extends the inquiry from what a framing conceals to what it separates. The purpose is unchanged from 0.9.0.
 
 ## 0.9.0 — 2026-10-03
 
