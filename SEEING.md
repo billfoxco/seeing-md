@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.0 · 3 October 2026**
+**Version 0.9.1 · 4 October 2026**
 
 ## The perception behind intent
 
@@ -95,6 +95,8 @@ Before asking what to do, ask:
 
 Do not rush to replace the answer. Leave the question open. The practice begins with willingness to discover that the first seeing may not be the only seeing.
 
+You will forget to ask. Noticing that you forgot is the practice, not a failure of it.
+
 ---
 
 ## The central premise
@@ -156,6 +158,8 @@ Ask, too, who will live with the effects of this seeing.
 ### 3. See again
 
 Not knowing may involve more than missing information: a definition may have been mistaken for the thing itself. Do not rush to replace the first interpretation with a better one. Remain open to what it may have obscured.
+
+Notice whether the framing sets you apart from what you are looking at. A label can create distance before it creates understanding. Ask whether the people described would recognize themselves in the description.
 
 ### 4. Act
 
@@ -246,6 +250,7 @@ Ask:
 
 - What story about the people is being treated as fact?
 - What has resistance already been made to mean?
+- What part have we played in what we are describing?
 - What strengths have been assumed rather than shown?
 - What does the proposed solution preserve?
 - Which inherited assumptions will the new system scale?
