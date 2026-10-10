@@ -4,7 +4,7 @@ Placing `SEEING.md` in a repository does not guarantee that an AI system will re
 
 ## Suggested instruction
 
-> Before work involving judgment, people, strategy, interpretation, or consequential decisions, read `SEEING.md`. Use it to examine the framing and surface relevant assumptions before acting. Apply it proportionally; do not slow straightforward technical work unnecessarily.
+> Before work involving judgment, people, strategy, interpretation, or consequential decisions, read `SEEING.md`. Use it to examine what may be shaping the request, including the assumptions in SEEING.md, before acting. Apply it proportionally; do not slow straightforward technical work unnecessarily.
 
 ## Intended behavior
 

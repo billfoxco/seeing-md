@@ -8,6 +8,25 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.2 — 2026-10-10
+
+### Clarified
+
+- Applied existing evidence and proportionality guidance to summaries and reviews: preserve the scope of supplied material, distinguish recorded information from inference, and avoid reading missing fields or a single snapshot as evidence of avoidance or change over time.
+- Made the possible feedback between interpretation, response, and recurring problems explicit, while retaining other explanations and avoiding blame.
+- Clarified that disagreement with an inquiry does not validate it. Examine the quality of the invitation before interpreting the response.
+- Extended the existing inquiry into human judgment and listening, including experience, intuition, confidence, and quick agreement.
+- Changed the final-review question to “What, if anything, changed in our seeing?”
+
+### Changed
+
+- Aligned the homepage and README with the release; made the homepage's “Ask” behavior conditional.
+- Updated contribution prompts to allow for no surfaced assumption and to invite reports of unsupported AI interpretations.
+- Added an explicitly illustrative workspace-review example and described Review Now as an application whose broader effectiveness remains to be evaluated.
+- Aligned the project activation example with the canonical instruction to question SEEING.md itself.
+
+This patch makes existing principles more precise in use. The purpose and operating principles remain unchanged.
+
 ## 0.9.1 — 2026-10-04
 
 ### Added

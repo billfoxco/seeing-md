@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.1 · 4 October 2026**
+**Version 0.9.2 · 10 October 2026**
 
 ## The perception behind intent
 
@@ -77,7 +77,7 @@ The purpose is not to manufacture a better interpretation. It is to make the fir
 
 AI can help identify assumptions in a request or response. This does not make it perceptive or self-aware.
 
-The human provides context, answers consequential questions, examines surfaced assumptions, and decides what should be acted upon.
+The human provides context, answers consequential questions, examines surfaced assumptions, and decides what should be acted upon. Human involvement does not establish that the framing has been examined. Experience, intuition, and confidence may reflect expertise or familiar conclusions; do not presume which is operating.
 
 The file can create a pause. It cannot guarantee clear seeing, eliminate bias, determine truth, or resolve every category of AI risk.
 
@@ -147,11 +147,13 @@ Look at the specific thing everyone is sure they already know. Shared certainty 
 
 Notice whether the answer repeats the definition. A new answer can become another fixed definition too.
 
-Notice, too, any pull to defend the first reading. Resistance to examining a framing often marks where it matters most. For AI, this includes the pull to defend a prior answer rather than look at it again.
+Notice, too, any pull to defend the first reading, including the AI's prior answer. Disagreement with an inquiry is not evidence that it has uncovered a hidden assumption. It may reflect relevant experience, fatigue, a reasonable boundary, or an inaccurate question. Examine the quality of the invitation before interpreting the response.
 
 ### 2. Question
 
 Question what may be shaping that meaning. Do not immediately replace it with a more sophisticated interpretation.
+
+When listening or reading, distinguish the person's words from the meaning you assign to them. Check an interpretation when it could materially change your response, including when agreement comes quickly. Careful attention alone does not establish understanding.
 
 Ask, too, who will live with the effects of this seeing.
 
@@ -238,6 +240,8 @@ For images, use one visual idea. Let the image interrupt recognition without exp
 
 For experiences, create room for people to notice their own seeing. Do not manipulate them toward a predetermined insight.
 
+For summaries and reviews, make clear what material was supplied and distinguish recorded information from inference. Selection, grouping, and emphasis can introduce meaning. An empty field or an omitted detail does not establish neglect, avoidance, or lack of progress. A single snapshot does not establish change over time. Offer connections only where the supplied material supports them, preserve uncertainty, and make their basis traceable. Do not manufacture a pattern to make the review feel insightful.
+
 Do not turn every seeing into something that needs to be said. When the work is complete, make a subtractive pass.
 
 ---
@@ -254,6 +258,8 @@ Ask:
 - What strengths have been assumed rather than shown?
 - What does the proposed solution preserve?
 - Which inherited assumptions will the new system scale?
+
+When a problem recurs, consider whether an interpretation shapes a response whose effects are then taken as confirmation of that interpretation. For example, treating disagreement as resistance may invite more control and further disagreement. Examine the reported sequence before proposing such a connection. Recurrence alone does not establish a perceptual cause or assign blame; resources, incentives, material conditions, and actual misconduct may matter.
 
 **Removing AI from the process does not remove the lens.**
 
@@ -300,7 +306,7 @@ Awareness does not need to defend an identity.
 Before publishing, shipping, presenting, recommending, or acting, ask:
 
 1. What did we assume at the beginning?
-2. What changed in our seeing?
+2. What, if anything, changed in our seeing?
 3. What remains because it is essential?
 4. Where have we over-explained?
 5. Are we inviting a second look or prescribing a conclusion?

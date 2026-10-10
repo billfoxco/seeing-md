@@ -8,11 +8,12 @@ When reporting an experience, include what you can of the following:
 
 1. What kind of work was being done?
 2. What instruction activated `SEEING.md`?
-3. What assumption, interpretation, or missing meaning did the system surface?
+3. What assumption, interpretation, or missing meaning, if any, did the system surface?
 4. What question did it ask, if any?
 5. Did the interruption materially change the result?
 6. Where did the file add unnecessary friction?
 7. What behavior should be preserved, removed, or changed?
+8. Did the system introduce an unsupported interpretation of its own?
 
 Remove confidential information and identifying details before sharing.
 

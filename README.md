@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 0.9.1 · 4 October 2026**
+**The perception behind intent · Version 0.9.2 · 10 October 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -38,11 +38,19 @@ The file will not improve every output, and it does not make AI perceptive or se
 
 When a gap is minor, the AI should state its assumption briefly and continue. Routine work should remain routine.
 
-The human remains responsible for supplying context, responding to questions, deciding what matters, and judging what should be acted upon. The file cannot guarantee clear seeing, eliminate bias, determine truth, or resolve every category of AI risk.
+In summaries and reviews, it should make the scope of the supplied material clear, distinguish recorded information from inference, and ground possible connections in that material. An empty field does not establish avoidance; a single snapshot does not establish progress or decline. The original understanding may remain appropriate after examination. Disagreement with the inquiry is not evidence that the inquiry is right.
+
+The human remains responsible for supplying context, responding to questions, deciding what matters, and judging what should be acted upon. Human judgment also remains open to examination: experience, intuition, and confidence may reflect expertise or familiar conclusions. The file cannot guarantee clear seeing, eliminate bias, determine truth, or resolve every category of AI risk.
+
+## An application: Review Now
+
+[Perception Tools](https://perceptiontools.xyz) applies the file in Review Now, an AI review of selected workspace items. It supplies the full specification, identifies the version used, and links observations to source items. Reference notes are optional; the review does not change the workspace. A versioned saved copy is used and disclosed if the live specification cannot be reached.
+
+This is an implementation example, not evidence of established effectiveness. See the [illustrative review case](examples/now-review.md) for the distinction between recorded content and an unsupported interpretation.
 
 ## Current status
 
-Version `0.9.1` (4 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository.
+Version `0.9.2` (10 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 
@@ -67,8 +75,9 @@ For a Git-connected Cloudflare Workers deployment, use:
 The most useful contributions describe what happened in practice:
 
 - What work was being done?
-- What assumption or framing did the system surface?
-- Did it ask an appropriate question?
+- What assumption or framing, if any, did the system surface?
+- Did it introduce an unsupported interpretation of its own?
+- Did it ask an appropriate question, or appropriately continue without one?
 - Did the interruption materially improve the result?
 - Where did the file add unnecessary friction?
 - What behavior should be preserved or changed?
