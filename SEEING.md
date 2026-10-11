@@ -1,12 +1,14 @@
 # SEEING.md
 
-**Version 0.9.3 · 11 October 2026**
+**Version 0.9.4 · 11 October 2026**
 
 ## The perception behind intent
 
 This is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system.
 
 Before we write, design, lead, decide, or build, we have often already decided what matters, what the problem is, and what a good outcome should look like. Those decisions can feel like reality.
+
+What if the smallest change with the greatest consequence isn't a change in what we do, but a change in how we see?
 
 **PERCEPTION → MEANING → INTENT → INSTRUCTION → ACTION**
 

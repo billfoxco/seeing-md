@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.4 — 2026-10-11
+
+### Added
+
+- Added a question near the opening of the specification, before the perception-to-action sequence: “What if the smallest change with the greatest consequence isn't a change in what we do, but a change in how we see?”
+
+### Changed
+
+- Carried the question into the homepage hero, where it replaces “Each can begin as an interpretation and become something we no longer question,” a line that restated the headline.
+- Carried the question into the README's opening.
+- Aligned the homepage version and download note with 0.9.4.
+
+This patch states the premise of the work at its opening. The purpose and operating principles remain unchanged.
+
 ## 0.9.3 — 2026-10-11
 
 ### Added

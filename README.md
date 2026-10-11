@@ -1,8 +1,10 @@
 # SEEING.md
 
-**The perception behind intent · Version 0.9.3 · 11 October 2026**
+**The perception behind intent · Version 0.9.4 · 11 October 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
+
+What if the smallest change with the greatest consequence isn't a change in what we do, but a change in how we see?
 
 Its central question is simple:
 
@@ -50,7 +52,7 @@ This is an implementation example, not evidence of established effectiveness. Se
 
 ## Current status
 
-Version `0.9.3` (11 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
+Version `0.9.4` (11 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 
