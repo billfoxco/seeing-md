@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.3 — 2026-10-11
+
+### Added
+
+- Added to “Notice” attention to need: notice what you need the situation to be. A definition can carry a demand: that someone change, agree, or prove the description right.
+- Extended the “Question” line about who will live with the effects of a seeing to ask what it asks of them.
+
+### Changed
+
+- Carried both additions into the README's movement summary.
+- Aligned the homepage version and download note with 0.9.3. The homepage copy is otherwise unchanged.
+
+This patch extends the inquiry from what a framing means to what it asks. The purpose and operating principles remain unchanged.
+
 ## 0.9.2 — 2026-10-10
 
 ### Clarified

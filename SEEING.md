@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.2 · 10 October 2026**
+**Version 0.9.3 · 11 October 2026**
 
 ## The perception behind intent
 
@@ -139,6 +139,8 @@ Look first at the boundaries the work draws—what has been named as the problem
 
 Naming is useful. It can also end inquiry. “Problem,” “customer,” “underperformer,” and “strategy” can begin to stand in for what they name.
 
+Notice what you need the situation to be. A definition can carry a demand: that someone change, agree, or prove the description right.
+
 Look at the specific thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask:
 
 > What is this?
@@ -155,7 +157,7 @@ Question what may be shaping that meaning. Do not immediately replace it with a 
 
 When listening or reading, distinguish the person's words from the meaning you assign to them. Check an interpretation when it could materially change your response, including when agreement comes quickly. Careful attention alone does not establish understanding.
 
-Ask, too, who will live with the effects of this seeing.
+Ask, too, who will live with the effects of this seeing, and what it asks of them.
 
 ### 3. See again
 
