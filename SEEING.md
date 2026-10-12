@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.4 · 11 October 2026**
+**Version 0.9.5 · 12 October 2026**
 
 ## The perception behind intent
 
@@ -143,6 +143,8 @@ Naming is useful. It can also end inquiry. “Problem,” “customer,” “und
 
 Notice what you need the situation to be. A definition can carry a demand: that someone change, agree, or prove the description right.
 
+Notice where you see yourself in the situation: the one who must fix it, the one being judged, the one with no say. Where someone stands in a situation can shape it before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
+
 Look at the specific thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask:
 
 > What is this?
@@ -160,6 +162,8 @@ Question what may be shaping that meaning. Do not immediately replace it with a 
 When listening or reading, distinguish the person's words from the meaning you assign to them. Check an interpretation when it could materially change your response, including when agreement comes quickly. Careful attention alone does not establish understanding.
 
 Ask, too, who will live with the effects of this seeing, and what it asks of them.
+
+Ask the same questions whether the difficulty is described as yours or someone else’s. The line between “my problem” and “theirs” can itself be an assumption. For AI, examine how a request describes the person making it as carefully as how it describes others.
 
 ### 3. See again
 

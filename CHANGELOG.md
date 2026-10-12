@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.5 — 2026-10-12
+
+### Added
+
+- Added to “Notice” attention to self-placement: notice where you see yourself in the situation (the one who must fix it, the one being judged, the one with no say), since where someone stands can shape a situation before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
+- Added to “Question” that the same questions apply whether a difficulty is described as yours or someone else's; the line between “my problem” and “theirs” can itself be an assumption. For AI, examine how a request describes the person making it as carefully as how it describes others.
+
+### Changed
+
+- Carried both additions into the README's movement summary.
+- Aligned the homepage version and download note with 0.9.5. The homepage copy is otherwise unchanged.
+
+This patch extends the inquiry from how a situation is seen to where the one seeing stands in it. The purpose and operating principles remain unchanged.
+
 ## 0.9.4 — 2026-10-11
 
 ### Added
