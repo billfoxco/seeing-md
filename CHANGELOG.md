@@ -19,6 +19,7 @@ The project uses a light form of semantic versioning:
 - Carried the addition into the README's expected-behavior section.
 - Added to the homepage's “What AI amplifies” section a short typographic pairing: “Who got this wrong?” as a quiet line, then “What were we all assuming?”, with one sentence on why a shared picture has no single author.
 - Aligned the homepage version and download note with 0.9.6.
+- Made a subtract pass on the homepage on the Suede design system: one method (Notice → Question → See again → Act) replaces the Separate / Surface / Ask list; removed the nav links, the Start Here dialog, the performance-label example, the duplicate Begin headline, and the second black band; merged the lens and scope notes into one pair; folded Origin into the footer; moved primary buttons to the accent color; and pointed Seeing First to its section on seedifferent.xyz. The specification text is unchanged by this.
 
 This patch extends the inquiry from before a decision to after its result. The purpose and operating principles remain unchanged.
 
