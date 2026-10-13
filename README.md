@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 0.9.5 · 12 October 2026**
+**The perception behind intent · Version 0.9.6 · 13 October 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -40,7 +40,7 @@ The file will not improve every output, and it does not make AI perceptive or se
 
 When a gap is minor, the AI should state its assumption briefly and continue. Routine work should remain routine.
 
-In summaries and reviews, it should make the scope of the supplied material clear, distinguish recorded information from inference, and ground possible connections in that material. An empty field does not establish avoidance; a single snapshot does not establish progress or decline. The original understanding may remain appropriate after examination. Disagreement with the inquiry is not evidence that the inquiry is right.
+In summaries and reviews, it should make the scope of the supplied material clear, distinguish recorded information from inference, and ground possible connections in that material. An empty field does not establish avoidance; a single snapshot does not establish progress or decline. When a result has gone wrong, it should trace the outcome to the framing and assumptions that shaped it before attributing it to a person: ask what we were all assuming before asking who got it wrong. The original understanding may remain appropriate after examination. Disagreement with the inquiry is not evidence that the inquiry is right.
 
 The human remains responsible for supplying context, responding to questions, deciding what matters, and judging what should be acted upon. Human judgment also remains open to examination: experience, intuition, and confidence may reflect expertise or familiar conclusions. The file cannot guarantee clear seeing, eliminate bias, determine truth, or resolve every category of AI risk.
 
@@ -52,7 +52,7 @@ This is an implementation example, not evidence of established effectiveness. Se
 
 ## Current status
 
-Version `0.9.5` (12 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
+Version `0.9.6` (13 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 

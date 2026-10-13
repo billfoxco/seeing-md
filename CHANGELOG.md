@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.6 — 2026-10-13
+
+### Added
+
+- Added to “Leadership and AI” guidance for when a result goes wrong: ask “What were we all assuming?” before asking who got it wrong. A picture everyone accepted has no single author, and looking for fault can end the looking. When AI acts on that picture, the same assumption can produce the same result in many places at once. For AI reviewing an outcome, trace it to the framing and assumptions that shaped it before attributing it to a person. Accountability for decisions, conduct, and their effects is not set aside.
+
+### Changed
+
+- Carried the addition into the README's expected-behavior section.
+- Added to the homepage's “What AI amplifies” section a short typographic pairing: “Who got this wrong?” as a quiet line, then “What were we all assuming?”, with one sentence on why a shared picture has no single author.
+- Aligned the homepage version and download note with 0.9.6.
+
+This patch extends the inquiry from before a decision to after its result. The purpose and operating principles remain unchanged.
+
 ## 0.9.5 — 2026-10-12
 
 ### Added

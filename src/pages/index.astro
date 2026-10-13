@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 0.9.5 (open inquiry; SEEING.md 0.9.5)
+ * Page version: 0.9.6 (open inquiry; SEEING.md 0.9.6)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -153,6 +153,11 @@ const description =
           <article><span>02</span><h3>Surface</h3><p>What has already been assumed.</p></article>
           <article><span>03</span><h3>Ask</h3><p>When a question could change the direction.</p></article>
         </div>
+        <div class="after">
+          <p class="after-whisper">Who got this wrong?</p>
+          <h3 class="after-question">What were we all <span>assuming?</span></h3>
+          <p class="after-note">A picture everyone accepted has no single author. When AI acts on it, the same assumption can show up in many places at once, and looking for fault ends the looking.</p>
+        </div>
       </section>
 
       <section class="example-section" aria-labelledby="example-title">
@@ -196,7 +201,7 @@ const description =
         <div class="actions">
           <a class="button button-primary" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md <span aria-hidden="true">→</span></a>
         </div>
-        <p class="use-note">Version 0.9.5 · 12 October 2026. For work with AI, attach the file to a conversation, brief, or project and ask it to read it before responding.</p>
+        <p class="use-note">Version 0.9.6 · 13 October 2026. For work with AI, attach the file to a conversation, brief, or project and ask it to read it before responding.</p>
         <details class="usage-details">
           <summary>How to use it</summary>
           <div class="instruction">
@@ -370,6 +375,11 @@ const description =
   .outcome-list span { color: var(--black-50); font-size: 12px; font-variation-settings: var(--wdth-expanded); }
   .outcome-list h3 { margin: 0; font-size: 20px; }
   .outcome-list p { grid-column: 2; margin: 20px 0 0; color: var(--black-60); font-size: 16px; }
+  .after { margin-top: 100px; padding-top: 60px; border-top: 1px solid var(--line-light); }
+  .after-whisper { margin: 0; color: var(--black-50); font-size: 24px; line-height: 1.3; }
+  .after-question { margin: 20px 0 0; font-size: 48px; line-height: 1.1; }
+  .after-question span { color: var(--amber); }
+  .after-note { max-width: var(--measure); margin: 40px 0 0; color: var(--black-60); font-size: 16px; }
   main > .example-section { padding-top: 60px; }
   .example-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 80px; padding-top: 60px; border-top: 1px solid var(--line-light); }
   .example-label { margin: 0 0 30px; color: var(--black-60); font-size: 14px; }
@@ -444,6 +454,9 @@ const description =
     .outcome-list { grid-template-columns: 1fr; gap: 30px; margin-top: 60px; }
     .outcome-list article { grid-template-columns: 40px 1fr; }
     .outcome-list p { margin-top: 0; }
+    .after { margin-top: 60px; padding-top: 40px; }
+    .after-whisper { font-size: 20px; }
+    .after-question { font-size: 30px; }
     .example-grid, .scope-grid { grid-template-columns: 1fr; gap: 40px; }
     .example-grid { padding-top: 40px; }
     .example-text { font-size: 24px; }

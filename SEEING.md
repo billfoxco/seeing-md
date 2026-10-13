@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.5 · 12 October 2026**
+**Version 0.9.6 · 13 October 2026**
 
 ## The perception behind intent
 
@@ -268,6 +268,12 @@ Ask:
 - Which inherited assumptions will the new system scale?
 
 When a problem recurs, consider whether an interpretation shapes a response whose effects are then taken as confirmation of that interpretation. For example, treating disagreement as resistance may invite more control and further disagreement. Examine the reported sequence before proposing such a connection. Recurrence alone does not establish a perceptual cause or assign blame; resources, incentives, material conditions, and actual misconduct may matter.
+
+When a result goes wrong, the first question is often who got it wrong. Ask first:
+
+> What were we all assuming?
+
+A picture everyone accepted has no single author, and looking for fault can end the looking. When AI acts on that picture, the same assumption can produce the same result in many places at once. For AI reviewing an outcome, trace it to the framing and assumptions that shaped it before attributing it to a person. This does not set aside accountability for decisions, conduct, or their effects.
 
 **Removing AI from the process does not remove the lens.**
 
