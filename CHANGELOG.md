@@ -8,6 +8,21 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.7 — 2026-10-15
+
+### Added
+
+- Added “Before going deeper” in “Leadership and AI”: rigorous expertise, original evidence, and independent verification improve execution but do not necessarily examine what defined the problem or the criteria for success.
+- Added an invented support-workflow example showing how a framing inquiry can complement expert analysis and independent checks. The example recognizes that Felix Rieseberg's approach already includes challenging assumptions and treats SEEING.md as complementary rather than a replacement.
+
+### Changed
+
+- Clarified this distinction in the README and linked the new example.
+- Added one sentence to the homepage's existing “What AI amplifies” paragraph, without introducing another method or section.
+- Aligned the homepage and download note with 0.9.7.
+
+This patch makes the examination of success criteria explicit while preserving the specification's emphasis on evidence, proportional inquiry, and useful action.
+
 ## 0.9.6 — 2026-10-13
 
 ### Added
