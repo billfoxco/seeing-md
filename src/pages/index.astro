@@ -18,21 +18,19 @@
  * - Leader action: Seeing First, linked to its section on seedifferent.xyz
  *
  * EXPERIENCE / STRUCTURE
- * Black opens and closes the page (the definition → the file); white holds the
- * practice between.
- * Hero → Practice (What is this? What is it for?) → What AI amplifies (with the
- * movement and "What were we all assuming?") → Limits → Use (dark) → Footer.
- * Three spoken questions, one method, one action.
+ * The black hero establishes the inherited definition; the white middle
+ * offers two ways of looking again; the black close gives one clear action.
+ * Hero (recognition) → Practice → What AI amplifies / assumptions →
+ * Download + instructions / limits → Footer + Seeing First.
+ * The composition shifts between broad and reading measures instead of
+ * repeating the same narrow left-aligned column.
  *
- * SUBTRACT PASS (13 October 2026)
- * Removed the nav links, Start Here dialog, the Separate / Surface / Ask list
- * (it competed with the movement), the "underperformer" example (named in the
- * hero), the duplicate Begin headline, and the second black band. Merged Lens
- * and Scope into one quiet pair; folded Origin into the footer.
- *
- * SMALL REVISION (15 October 2026)
- * Added one sentence about rigorous answers beginning with unexamined questions
- * in the existing What AI amplifies paragraph. No new section or method.
+ * COMPOSITIONAL PASS (15 October 2026)
+ * Retained the original copy and Suede tokens, but composed the middle
+ * with contrasting asymmetric relationships, changed the closing headline
+ * to "Seeing comes first," moved limits under the download instructions,
+ * and moved the secondary Seeing First invitation to the footer.
+ * No additional cards, images, sections, or design languages.
  *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
@@ -91,75 +89,115 @@ const description =
 
   <body>
     <header class="site-header">
-      <a class="wordmark" href="/" aria-label="SEEING.md home">
-        <svg viewBox="0 0 32 32" width="24" height="24" fill="none" aria-hidden="true" focusable="false">
-          <path d="M20 4H4V28H28V10" stroke="currentColor" stroke-width="3.2" />
-        </svg>
-        <span>SEEING.md</span>
-      </a>
-      <a class="link" href="#use">Get the file</a>
+      <div class="wrap header-inner">
+        <a class="wordmark" href="/" aria-label="SEEING.md home">
+          <svg viewBox="0 0 32 32" width="24" height="24" fill="none" aria-hidden="true" focusable="false">
+            <path d="M20 4H4V28H28V10" stroke="currentColor" stroke-width="3.2" />
+          </svg>
+          <span>SEEING.md</span>
+        </a>
+        <a class="header-link" href="#use">Get the file</a>
+      </div>
     </header>
 
     <main>
       <section class="hero dark" aria-labelledby="hero-title">
-        <h1 id="hero-title">We don’t question what we’ve already defined.</h1>
-        <p class="names">The problem. The customer. The underperformer. The strategy.</p>
-        <p class="premise">What if the smallest change with the greatest consequence isn’t a change in what we do, but a change in how we see?</p>
-        <a class="button" href="#use">Get SEEING.md <span aria-hidden="true">→</span></a>
+        <div class="wrap hero-inner">
+          <p class="eyebrow">The perception behind intent</p>
+          <h1 id="hero-title">We don’t question what we’ve already defined.</h1>
+          <p class="names">The problem. The customer. The underperformer. The strategy.</p>
+          <a class="button" href="#use">Get SEEING.md <span aria-hidden="true">→</span></a>
+        </div>
       </section>
 
       <section class="practice" id="pause" aria-labelledby="practice-title">
-        <p class="label">Begin without AI</p>
-        <h2 id="practice-title">What is this?<br />What is it for?</h2>
-        <p>Bring to mind the thing you feel surest of. The first answer may be the old definition repeating itself. Leave the question open a little longer.</p>
+        <div class="wrap practice-grid">
+          <div>
+            <p class="eyebrow">01 / Begin without AI</p>
+            <h2 id="practice-title">What is this?<span>What is it for?</span></h2>
+          </div>
+          <div class="practice-aside">
+            <p>Bring to mind the thing you feel surest of. The first answer may be the old definition repeating itself. Leave the question open a little longer.</p>
+            <p class="premise">What if the smallest change with the greatest consequence isn’t a change in what we do, but a change in how we see?</p>
+          </div>
+        </div>
       </section>
 
       <section class="ai" id="why" aria-labelledby="ai-title">
-        <p class="label">What AI amplifies</p>
-        <h2 id="ai-title">AI scales what we see.<br />And what we don’t.</h2>
-        <p class="body">Before we hand a task to AI, we have already given it a way of seeing the situation. SEEING.md is a portable file that helps both of you examine that seeing before it becomes action. A more rigorous answer can still begin with an unexamined question.</p>
-        <p class="movement" aria-label="The movement: Notice, Question, See again, Act"><b>Notice <span aria-hidden="true">→</span></b> <b>Question <span aria-hidden="true">→</span></b> <b>See again <span aria-hidden="true">→</span></b> <b>Act</b></p>
+        <div class="wrap">
+          <div class="ai-grid">
+            <div class="ai-context">
+              <p class="eyebrow">02 / What AI amplifies</p>
+              <p class="body">Before we hand a task to AI, we have already given it a way of seeing the situation. SEEING.md helps examine that seeing before it becomes action. A more rigorous answer can still begin with an unexamined question.</p>
+            </div>
+            <h2 id="ai-title">AI scales what we see.<span>And what we don’t.</span></h2>
+          </div>
 
-        <div class="after">
-          <p class="whisper">Who got this wrong?</p>
-          <h3>What were we all <em>assuming?</em></h3>
-          <p>A picture everyone accepted has no single author. When AI acts on it, the same assumption can show up in many places at once, and looking for fault ends the looking.</p>
-        </div>
-      </section>
+          <ol class="movement" aria-label="The movement">
+            <li>Notice</li>
+            <li>Question</li>
+            <li>See again</li>
+            <li>Act</li>
+          </ol>
 
-      <section class="limits" aria-label="Limits">
-        <div>
-          <h2>A lens. Not the lens.</h2>
-          <p>Any insight about perception that cannot question itself becomes another lens. Question this file too.</p>
-        </div>
-        <div>
-          <h2>Upstream, not all-encompassing.</h2>
-          <p>It addresses the human assumptions in purpose, data, measures, prompts, and use. It does not prevent malicious use, deception, or loss of control.</p>
+          <div class="assumptions-grid">
+            <p class="whisper">Who got this wrong?</p>
+            <div>
+              <h3>What were we all <em>assuming?</em></h3>
+              <p>A picture everyone accepted has no single author. When AI acts on it, the same assumption can show up in many places at once, and looking for fault ends the looking.</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="use dark" id="use" aria-labelledby="use-title">
-        <h2 id="use-title">Get SEEING.md</h2>
-        <p class="intro">Attach it to an AI conversation, a brief, or a project. Then ask the AI to read it first.</p>
-        <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md <span aria-hidden="true">↓</span></a>
-        <p class="note">Version 0.9.7 · 15 October 2026 · Free under CC BY 4.0</p>
-        <blockquote>Read SEEING.md before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision. Question what may be shaping the request, including the assumptions this file brings to the inquiry.</blockquote>
-        <div class="more" id="seeing-first">
-          <p>For leaders and teams: a private 30 minutes on what happens when decisions scale.</p>
-          <a class="link" href="https://seedifferent.xyz/#seeing-first" rel="noopener">Seeing First <span aria-hidden="true">→</span></a>
+        <div class="wrap">
+          <div class="use-grid">
+            <div class="use-primary">
+              <p class="eyebrow">03 / The invitation</p>
+              <h2 id="use-title">Seeing comes first.</h2>
+              <p class="intro">A portable file for examining what shapes intent before AI amplifies it.</p>
+              <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md <span aria-hidden="true">↓</span></a>
+              <p class="note">Version 0.9.7 · 15 October 2026 · Free under CC BY 4.0</p>
+            </div>
+            <div class="use-guide">
+              <h3>Use it in your work</h3>
+              <p>Attach it to an AI conversation, a brief, or a project. Then ask the AI to read it first.</p>
+              <blockquote>Read SEEING.md before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision. Question what may be shaping the request, including the assumptions this file brings to the inquiry.</blockquote>
+            </div>
+          </div>
+
+          <div class="limits" aria-label="Scope and limits">
+            <div>
+              <h3>A lens. Not the lens.</h3>
+              <p>Any insight about perception that cannot question itself becomes another lens. Question this file too.</p>
+            </div>
+            <div>
+              <h3>Upstream, not all-encompassing.</h3>
+              <p>It addresses the human assumptions in purpose, data, measures, prompts, and use. It does not prevent malicious use, deception, or loss of control.</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <p class="close">Seeing is the first decision.</p>
-      <a href="mailto:hello@seeing.md">hello@seeing.md</a>
-      <p class="origin">SEEING.md grew from <a href="https://seedifferent.xyz/perception-miracle/" rel="noopener"><em>The Perception Miracle</em></a> and more than 500 explorations. Its form was influenced by Brian Gardner’s DESIGN.md.</p>
-      <p class="meta">
-        <span>© 2026 <a href="https://billfox.co/" rel="author">Bill Fox</a>. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a>.</span>
-        <a href="https://seedifferent.xyz" rel="noopener">SEE DIFFERENT</a>
-        <a href="https://github.com/billfoxco/seeing-md" rel="noopener">Source and changelog</a>
-      </p>
+      <div class="wrap">
+        <div class="footer-top">
+          <p class="close">Seeing is the first decision.</p>
+          <div class="seeing-first" id="seeing-first">
+            <p>For leaders and teams: a private 30 minutes on what happens when decisions scale.</p>
+            <a href="https://seedifferent.xyz/#seeing-first" rel="noopener">Seeing First <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <p class="origin">SEEING.md grew from <a href="https://seedifferent.xyz/perception-miracle/" rel="noopener"><em>The Perception Miracle</em></a> and more than 500 explorations. Its form was influenced by Brian Gardner’s DESIGN.md.</p>
+        <div class="footer-meta">
+          <span>© 2026 <a href="https://billfox.co/" rel="author">Bill Fox</a>. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a>.</span>
+          <a href="mailto:hello@seeing.md">hello@seeing.md</a>
+          <a href="https://seedifferent.xyz" rel="noopener">SEE DIFFERENT</a>
+          <a href="https://github.com/billfoxco/seeing-md" rel="noopener">Source and changelog</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
@@ -171,7 +209,7 @@ const description =
     --b60: rgba(0,0,0,.6); --b50: rgba(0,0,0,.5); --b15: rgba(0,0,0,.15);
     --expanded: "wdth" 110;
     --content: 1280px; --measure: 640px;
-    --gutter: max(20px, calc((100% - var(--content)) / 2));
+    --gutter: clamp(20px, 4vw, 80px);
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -181,83 +219,140 @@ const description =
     font-size: 18px; line-height: 1.75;
     -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   }
-  h1, h2, h3, p { margin: 0; text-wrap: pretty; }
+  h1, h2, h3, p, blockquote { margin: 0; }
   h1, h2, h3 { font-weight: 500; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
   a { color: inherit; }
+  .wrap { width: 100%; max-width: var(--content); margin-inline: auto; }
   .site-header, main > section, footer { padding-inline: var(--gutter); }
-
-  .label { font-size: 14px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--b60); }
+  .eyebrow { font-size: 14px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--b60); }
+  .dark { background: var(--ink); color: var(--paper); }
+  .dark .eyebrow { color: var(--w60); }
 
   .button {
-    display: inline-flex; align-items: center; gap: 20px; padding: 20px 30px;
-    background: var(--amber); color: var(--paper); border: 1px solid var(--amber);
-    font-size: 12px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; text-decoration: none;
+    display: inline-flex; align-items: center; justify-content: space-between; gap: 20px;
+    padding: 20px 30px; background: var(--amber); color: var(--paper);
+    border: 1px solid var(--amber); font-size: 14px; line-height: 1.25;
+    font-weight: 500; letter-spacing: .05em; text-transform: uppercase; text-decoration: none;
     transition: background 250ms ease-out, color 250ms ease-out, border-color 250ms ease-out;
   }
-  .button:hover { background: transparent; color: var(--paper); border-color: var(--paper); }
-  .link { font-size: 16px; font-weight: 500; text-underline-offset: 5px; text-decoration-color: var(--b50); transition: color 250ms ease-out; }
-  .link:hover { color: var(--amber); }
-  .dark .link, .site-header .link { text-decoration-color: var(--w60); }
+  .button:hover { background: transparent; color: var(--amber); }
   :focus-visible { outline: 2px solid var(--amber); outline-offset: 4px; }
+  .dark :focus-visible { outline-color: var(--paper); }
 
-  .site-header { position: absolute; inset: 0 0 auto; z-index: 1; display: flex; justify-content: space-between; align-items: center; padding-block: 30px; color: var(--paper); }
-  .wordmark { display: inline-flex; align-items: center; gap: 12px; font-size: 20px; letter-spacing: -.02em; text-decoration: none; }
-  .wordmark svg { display: block; }
-  .site-header .link { font-size: 14px; color: var(--w80); }
+  .site-header { position: absolute; inset: 0 0 auto; z-index: 1; padding-block: 30px; color: var(--paper); }
+  .header-inner { display: flex; justify-content: space-between; align-items: center; gap: 30px; }
+  .wordmark { display: inline-flex; align-items: center; gap: 12px; font-size: 20px; line-height: 1.4; letter-spacing: -.02em; text-decoration: none; }
+  .wordmark svg { display: block; flex: 0 0 24px; }
+  .header-link { color: var(--w80); font-size: 14px; font-weight: 500; text-underline-offset: 5px; }
+  .header-link:hover { color: var(--paper); }
 
-  .dark { background: var(--ink); color: var(--paper); }
-  .hero { min-height: 100svh; display: grid; align-content: center; padding-block: 140px 100px; }
-  .hero h1 { max-width: 1000px; font-size: clamp(36px, 6vw, 72px); font-variation-settings: var(--expanded); line-height: 1.05; }
-  .hero .names { margin-top: 40px; font-size: 20px; color: var(--w60); }
-  .hero .premise { max-width: var(--measure); margin-top: 20px; font-size: 20px; line-height: 1.6; color: var(--w80); }
-  .hero .button { margin-top: 60px; justify-self: start; }
+  .hero { display: flex; align-items: center; min-height: min(92svh, 900px); padding-block: 160px 100px; }
+  .hero-inner { display: flex; flex-direction: column; align-items: flex-start; }
+  .hero h1 { max-width: 1080px; margin-top: 40px; font-size: clamp(48px, 6vw, 80px); line-height: 1.03; font-variation-settings: var(--expanded); letter-spacing: -.02em; }
+  .hero .names { max-width: 820px; margin-top: 40px; font-size: 20px; line-height: 1.6; color: var(--w60); }
+  .hero .button { margin-top: 60px; }
 
   .practice { padding-block: 100px; }
-  .practice h2 { margin-top: 30px; font-size: clamp(36px, 5vw, 60px); line-height: 1.1; }
-  .practice p:last-child { max-width: var(--measure); margin-top: 40px; color: var(--b60); }
+  .practice-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr); align-items: end; gap: 80px; }
+  .practice h2 { margin-top: 40px; font-size: clamp(36px, 4.8vw, 60px); line-height: 1.08; }
+  .practice h2 span { display: block; }
+  .practice-aside { padding-bottom: 4px; }
+  .practice-aside > p:first-child { max-width: 430px; color: var(--b60); }
+  .practice .premise { max-width: 430px; margin-top: 40px; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 20px; font-weight: 500; line-height: 1.5; }
 
   .ai { padding-block: 100px; border-top: 1px solid var(--b15); }
-  .ai h2 { margin-top: 30px; font-size: clamp(30px, 4vw, 48px); line-height: 1.1; }
-  .ai .body { max-width: var(--measure); margin-top: 40px; color: var(--b60); }
-  .movement { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 60px; font-size: 14px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; }
-  .movement b { font-weight: inherit; white-space: nowrap; }
-  .movement span { margin-left: 20px; color: var(--b50); }
-  .after { margin-top: 100px; }
-  .after .whisper { font-size: 24px; color: var(--b50); }
-  .after h3 { margin-top: 20px; font-size: clamp(30px, 4vw, 48px); line-height: 1.1; }
-  .after h3 em { font-style: normal; color: var(--amber); }
-  .after p:last-child { max-width: var(--measure); margin-top: 30px; color: var(--b60); }
+  .ai-grid { display: grid; grid-template-columns: minmax(250px, .75fr) minmax(0, 1.45fr); align-items: start; gap: 100px; }
+  .ai-context .body { max-width: 380px; margin-top: 40px; color: var(--b60); }
+  .ai h2 { font-size: clamp(36px, 4.8vw, 60px); line-height: 1.08; }
+  .ai h2 span { display: block; }
+  .movement {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px;
+    margin: 80px 0 0; padding: 30px 0;
+    border-top: 1px solid var(--b15); border-bottom: 1px solid var(--b15);
+    list-style: none; font-size: 14px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase;
+  }
+  .movement li { display: inline-flex; align-items: center; gap: 20px; white-space: nowrap; }
+  .movement li:not(:last-child)::after { content: "→"; color: var(--b50); }
+  .assumptions-grid { display: grid; grid-template-columns: minmax(250px, .75fr) minmax(0, 1.45fr); gap: 100px; padding-top: 100px; }
+  .whisper { font-size: 24px; color: var(--b50); }
+  .assumptions-grid h3 { font-size: clamp(30px, 3.8vw, 48px); line-height: 1.1; }
+  .assumptions-grid h3 em { font-style: normal; color: var(--amber); }
+  .assumptions-grid p:last-child { max-width: var(--measure); margin-top: 30px; color: var(--b60); }
 
-  .limits { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; padding-block: 60px 100px; }
-  .limits h2 { font-size: 20px; }
-  .limits p { max-width: 520px; margin-top: 20px; font-size: 16px; color: var(--b60); }
-
-  .use { padding-block: 100px; }
-  .use h2 { font-size: clamp(36px, 5vw, 60px); font-variation-settings: var(--expanded); line-height: 1.05; }
-  .use .intro { max-width: var(--measure); margin-top: 30px; color: var(--w80); }
+  .use { padding-block: 100px 80px; }
+  .use-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: 100px; align-items: start; }
+  .use h2 { max-width: 650px; margin-top: 40px; font-size: clamp(36px, 4.8vw, 60px); line-height: 1.05; font-variation-settings: var(--expanded); }
+  .use .intro { max-width: 490px; margin-top: 30px; color: var(--w80); }
   .use .button { margin-top: 40px; }
   .use .note { margin-top: 20px; font-size: 14px; color: var(--w60); }
-  .use blockquote { max-width: var(--measure); margin: 60px 0 0; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 16px; color: var(--w80); }
-  .use .more { display: flex; flex-wrap: wrap; align-items: baseline; gap: 20px 40px; margin-top: 60px; padding-top: 30px; border-top: 1px solid var(--w15); }
-  .use .more p { font-size: 16px; color: var(--w60); }
+  .use-guide h3 { font-size: 24px; line-height: 1.25; }
+  .use-guide > p { margin-top: 30px; font-size: 16px; color: var(--w80); }
+  .use blockquote { max-width: var(--measure); margin-top: 40px; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 16px; line-height: 1.65; color: var(--w80); }
+  .limits { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; margin-top: 100px; padding-top: 40px; border-top: 1px solid var(--w15); }
+  .limits h3 { font-size: 20px; line-height: 1.35; }
+  .limits p { max-width: 530px; margin-top: 20px; font-size: 16px; color: var(--w60); }
 
-  footer { display: grid; grid-template-columns: 1fr auto; gap: 30px 60px; padding-block: 60px; font-size: 14px; color: var(--b60); }
-  footer .close { font-size: 20px; color: var(--ink); }
-  footer .origin { max-width: var(--measure); grid-column: 1; }
-  footer .meta { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 10px 30px; padding-top: 30px; border-top: 1px solid var(--b15); }
-  footer a { text-underline-offset: 3px; }
+  footer { padding-block: 80px 60px; font-size: 14px; color: var(--b60); }
+  .footer-top { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: 100px; align-items: start; }
+  .close { font-size: 30px; font-weight: 500; line-height: 1.2; color: var(--ink); }
+  .seeing-first { max-width: 470px; }
+  .seeing-first p { font-size: 16px; }
+  .seeing-first a { display: inline-block; margin-top: 20px; color: var(--ink); font-size: 16px; font-weight: 500; }
+  .seeing-first a:hover { color: var(--amber); }
+  footer .origin { max-width: var(--measure); margin-top: 80px; }
+  .footer-meta { display: flex; flex-wrap: wrap; gap: 10px 30px; margin-top: 40px; padding-top: 30px; border-top: 1px solid var(--b15); }
+  footer a { text-underline-offset: 4px; }
+  footer a:hover { color: var(--amber); }
+
+  @media (max-width: 1000px) {
+    .practice-grid, .ai-grid, .assumptions-grid, .use-grid, .footer-top { grid-template-columns: 1fr; gap: 40px; }
+    .practice-aside { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 40px; }
+    .practice .premise { margin-top: 0; }
+    .ai h2 { max-width: 740px; }
+    .ai-context .body { max-width: var(--measure); margin-top: 20px; }
+    .movement { margin-top: 60px; }
+    .assumptions-grid { padding-top: 60px; }
+    .use-grid { gap: 80px; }
+    .limits { margin-top: 80px; }
+    .footer-top { gap: 40px; }
+  }
 
   @media (max-width: 760px) {
     body { font-size: 16px; }
-    .hero { min-height: auto; padding-block: 120px 80px; }
-    .hero .names, .hero .premise { font-size: 18px; }
+    .site-header { padding-block: 20px; }
+    .wordmark { font-size: 18px; }
+    .hero { min-height: auto; padding-block: 150px 80px; }
+    .hero h1 { font-size: clamp(40px, 9vw, 60px); }
+    .hero .names { margin-top: 30px; font-size: 18px; }
     .hero .button { margin-top: 40px; }
-    .practice, .ai, .use { padding-block: 60px; }
-    .after { margin-top: 60px; }
-    .after .whisper { font-size: 20px; }
-    .limits { grid-template-columns: 1fr; gap: 40px; padding-block: 40px 60px; }
-    footer { grid-template-columns: 1fr; }
+    .practice, .ai { padding-block: 80px; }
+    .practice h2 { margin-top: 30px; }
+    .practice-aside { display: block; }
+    .practice .premise { margin-top: 40px; font-size: 18px; }
+    .ai-grid, .assumptions-grid { gap: 30px; }
+    .movement { margin-top: 60px; padding-block: 20px; }
+    .assumptions-grid { padding-top: 60px; }
+    .whisper { font-size: 20px; }
+    .use { padding-block: 80px 60px; }
+    .use h2 { margin-top: 30px; }
+    .use-grid { gap: 60px; }
+    .limits { grid-template-columns: 1fr; gap: 40px; margin-top: 60px; }
+    footer { padding-block: 60px 40px; }
+    .close { font-size: 24px; }
+    footer .origin { margin-top: 60px; }
   }
+
+  @media (max-width: 380px) {
+    .header-inner { gap: 12px; }
+    .header-link { font-size: 12px; }
+    .hero h1 { font-size: 38px; }
+    .button { padding: 20px; }
+    .movement { gap: 10px 15px; }
+    .movement li { gap: 15px; }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     * { transition-duration: .01ms !important; }
