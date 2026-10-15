@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 0.9.6 · 13 October 2026**
+**The perception behind intent · Version 0.9.7 · 15 October 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -42,6 +42,8 @@ When a gap is minor, the AI should state its assumption briefly and continue. Ro
 
 In summaries and reviews, it should make the scope of the supplied material clear, distinguish recorded information from inference, and ground possible connections in that material. An empty field does not establish avoidance; a single snapshot does not establish progress or decline. When a result has gone wrong, it should trace the outcome to the framing and assumptions that shaped it before attributing it to a person: ask what we were all assuming before asking who got it wrong. The original understanding may remain appropriate after examination. Disagreement with the inquiry is not evidence that the inquiry is right.
 
+Expertise, original evidence, rigorous methods, and independent verification can strengthen a result. They do not necessarily establish that the original question or criteria for success were well framed. `SEEING.md` makes those choices available for examination without replacing technical rigor.
+
 The human remains responsible for supplying context, responding to questions, deciding what matters, and judging what should be acted upon. Human judgment also remains open to examination: experience, intuition, and confidence may reflect expertise or familiar conclusions. The file cannot guarantee clear seeing, eliminate bias, determine truth, or resolve every category of AI risk.
 
 ## An application: Review Now
@@ -50,9 +52,11 @@ The human remains responsible for supplying context, responding to questions, de
 
 This is an implementation example, not evidence of established effectiveness. See the [illustrative review case](examples/now-review.md) for the distinction between recorded content and an unsupported interpretation.
 
+The [before-going-deeper example](examples/before-going-deeper.md) shows how scrutiny of a problem's definition and success criteria can complement expertise, original data, and external checks.
+
 ## Current status
 
-Version `0.9.6` (13 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
+Version `0.9.7` (15 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 
