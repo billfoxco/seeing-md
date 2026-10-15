@@ -19,6 +19,7 @@ The project uses a light form of semantic versioning:
 
 - Clarified this distinction in the README and linked the new example.
 - Added one sentence to the homepage's existing “What AI amplifies” paragraph, without introducing another method or section.
+- Applied a Suede compositional pass to the homepage: a more focused hero, asymmetric editorial relationships for practice and AI, a single closing download invitation, scope notes placed below the instructions, and Seeing First in the footer. Preserved existing copy, palette, typography, and responsive/accessibility treatments.
 - Aligned the homepage and download note with 0.9.7.
 
 This patch makes the examination of success criteria explicit while preserving the specification's emphasis on evidence, proportional inquiry, and useful action.
