@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.6 · 13 October 2026**
+**Version 0.9.7 · 15 October 2026**
 
 ## The perception behind intent
 
@@ -278,6 +278,14 @@ A picture everyone accepted has no single author, and looking for fault can end 
 **Removing AI from the process does not remove the lens.**
 
 AI does not begin with a prompt, and it does not end with an output. Human perception has already shaped what a system will notice, value, optimize, and scale.
+
+### Before going deeper
+
+Expertise can deepen an answer without examining the question that produced it. Original evidence, rigorous methods, and independent verification can improve the work without necessarily revealing what shaped its purpose.
+
+Before asking how an expert would solve the problem, consider what we have already decided the problem is. Before relying on raw data, consider what was collected, excluded, grouped, or named. Before deciding whether a result is right, ask what we have already accepted as evidence of success.
+
+This inquiry does not replace expertise or verification. Sometimes examination confirms the original premise. The purpose is to make the question and its criteria visible while continuing to do the work well.
 
 When using AI:
 
