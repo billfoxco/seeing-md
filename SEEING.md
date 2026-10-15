@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.7 · 15 October 2026**
+**Version 0.9.8 · 15 October 2026**
 
 ## The perception behind intent
 
@@ -153,6 +153,8 @@ Look at the specific thing everyone is sure they already know. Shared certainty 
 
 Notice whether the answer repeats the definition. A new answer can become another fixed definition too.
 
+Notice what has already been set aside as noise: the result that did not fit, the remark that seemed beside the point. What was explained away may be the only new thing in front of you.
+
 Notice, too, any pull to defend the first reading, including the AI's prior answer. Disagreement with an inquiry is not evidence that it has uncovered a hidden assumption. It may reflect relevant experience, fatigue, a reasonable boundary, or an inaccurate question. Examine the quality of the invitation before interpreting the response.
 
 ### 2. Question
@@ -168,6 +170,8 @@ Ask the same questions whether the difficulty is described as yours or someone e
 ### 3. See again
 
 Not knowing may involve more than missing information: a definition may have been mistaken for the thing itself. Do not rush to replace the first interpretation with a better one. Remain open to what it may have obscured.
+
+Sometimes what is needed is already present in the work and has not yet been accepted. The gap is not in the reasoning. It is in the seeing.
 
 Notice whether the framing sets you apart from what you are looking at. A label can create distance before it creates understanding. Ask whether the people described would recognize themselves in the description.
 
