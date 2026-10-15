@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.8 — 2026-10-15
+
+### Added
+
+- Added to “Notice” attention to what has already been set aside as noise: the result that did not fit, the remark that seemed beside the point. What was explained away may be the only new thing in front of you. The prompt is Dirac's unwanted minus sign of 1928, which everyone before him had discarded as a mathematical artifact and which turned out to be antimatter.
+- Added to “See again” that sometimes what is needed is already present in the work and has not yet been accepted; the gap is not in the reasoning but in the seeing. The prompt is Einstein, whose own equations described black holes before he could believe they were physical.
+
+### Changed
+
+- Carried both additions into the README's movement summary.
+- Aligned the homepage version and download note with 0.9.8. The homepage copy is otherwise unchanged.
+
+This patch extends “Notice” from what is assumed to what has already been dismissed, and “See again” to evidence that is present but not yet accepted. The purpose and operating principles remain unchanged.
+
 ## 0.9.7 — 2026-10-15
 
 ### Added

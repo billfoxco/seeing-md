@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 0.9.7 · 15 October 2026**
+**The perception behind intent · Version 0.9.8 · 15 October 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -32,7 +32,7 @@ For repeated project use, add this to the project's working instructions:
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
-Notice the meaning that was already there when you looked, including what you need the situation to be and where you see yourself in it. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's. Remain open long enough to see again, noticing any urge to fill the gap quickly. Act from what becomes clearer. This is an orientation, not a formula.
+Notice the meaning that was already there when you looked, including what you need the situation to be, where you see yourself in it, and what has already been set aside as noise. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's. Remain open long enough to see again, noticing any urge to fill the gap quickly; what is needed may already be present and not yet accepted. Act from what becomes clearer. This is an orientation, not a formula.
 
 ## What to expect
 
@@ -56,7 +56,7 @@ The [before-going-deeper example](examples/before-going-deeper.md) shows how scr
 
 ## Current status
 
-Version `0.9.7` (15 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
+Version `0.9.8` (15 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 
