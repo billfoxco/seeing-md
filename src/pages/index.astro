@@ -37,6 +37,11 @@
  * hierarchy, easing display tracking, and tightening connected spacing.
  * Gives the AI explanation a more comfortable reading column.
  *
+ * HEADLINE SCALE PASS (17 October 2026)
+ * A 60px hero and one shared 48px section-heading scale preserve a clear
+ * hierarchy; the supporting assumptions heading uses a quieter 36px scale.
+ * Responsive hero sizing remains continuous across the mobile breakpoint.
+ *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
  * - Assets: Embedded open-frame SVG logo/favicon and public /SEEING.md
@@ -213,6 +218,8 @@ const description =
     --w80: rgba(255,255,255,.8); --w60: rgba(255,255,255,.6); --w15: rgba(255,255,255,.15);
     --b60: rgba(0,0,0,.6); --b50: rgba(0,0,0,.5); --b15: rgba(0,0,0,.15);
     --expanded: "wdth" 110;
+    --section-heading: clamp(36px, 3.8vw, 48px);
+    --support-heading: clamp(30px, 3vw, 36px);
     --content: 1280px; --measure: 640px;
     --gutter: clamp(20px, 4vw, 80px);
   }
@@ -255,13 +262,13 @@ const description =
 
   .hero { display: flex; align-items: center; min-height: min(92svh, 900px); padding-block: 160px 100px; }
   .hero-inner { display: flex; flex-direction: column; align-items: flex-start; }
-  .hero h1 { max-width: 1080px; margin-top: 30px; font-size: clamp(48px, 6vw, 80px); line-height: 1.04; font-variation-settings: var(--expanded); }
+  .hero h1 { max-width: 960px; margin-top: 30px; font-size: clamp(48px, 5vw, 60px); line-height: 1.06; font-variation-settings: var(--expanded); }
   .hero .names { max-width: 820px; margin-top: 30px; font-size: 20px; line-height: 1.6; color: var(--w60); }
   .hero .button { margin-top: 40px; }
 
   .practice { padding-block: 100px; }
   .practice-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr); align-items: center; gap: 80px; }
-  .practice h2 { margin-top: 20px; font-size: clamp(36px, 4.2vw, 48px); line-height: 1.08; }
+  .practice h2 { margin-top: 20px; font-size: var(--section-heading); line-height: 1.08; }
   .practice h2 span { display: block; }
   .practice-aside { padding-bottom: 4px; }
   .practice-aside > p:first-child { max-width: 430px; color: var(--b60); }
@@ -270,7 +277,7 @@ const description =
   .ai { padding-block: 100px 120px; border-top: 1px solid var(--b15); }
   .ai-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); align-items: start; gap: 80px; }
   .ai-context .body { max-width: 440px; margin-top: 20px; color: var(--b60); }
-  .ai h2 { font-size: clamp(36px, 4.8vw, 60px); line-height: 1.05; }
+  .ai h2 { font-size: var(--section-heading); line-height: 1.08; }
   .ai h2 span { display: block; }
   .movement {
     display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px;
@@ -282,13 +289,13 @@ const description =
   .movement li:not(:last-child)::after { content: "→"; color: var(--b50); }
   .assumptions-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); gap: 80px; padding-top: 80px; }
   .whisper { font-size: 24px; color: var(--b50); }
-  .assumptions-grid h3 { font-size: clamp(30px, 3.8vw, 48px); line-height: 1.1; }
+  .assumptions-grid h3 { font-size: var(--support-heading); line-height: 1.1; }
   .assumptions-grid h3 em { font-style: normal; color: var(--amber); }
   .assumptions-grid p:last-child { max-width: var(--measure); margin-top: 30px; color: var(--b60); }
 
   .use { padding-block: 100px 80px; }
   .use-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: 100px; align-items: start; }
-  .use h2 { max-width: 650px; margin-top: 20px; font-size: clamp(36px, 4.2vw, 48px); line-height: 1.06; font-variation-settings: var(--expanded); }
+  .use h2 { max-width: 650px; margin-top: 20px; font-size: var(--section-heading); line-height: 1.08; font-variation-settings: var(--expanded); }
   .use .intro { max-width: 490px; margin-top: 20px; color: var(--w80); }
   .use .button { margin-top: 40px; }
   .use .note { margin-top: 20px; font-size: 14px; color: var(--w60); }
@@ -329,7 +336,7 @@ const description =
     .site-header { padding-block: 20px; }
     .wordmark { font-size: 18px; }
     .hero { min-height: auto; padding-block: 150px 80px; }
-    .hero h1 { font-size: clamp(40px, 9vw, 60px); }
+    .hero h1 { font-size: clamp(40px, 6.5vw, 48px); }
     .hero .names { margin-top: 30px; font-size: 18px; }
     .hero .button { margin-top: 40px; }
     .practice, .ai { padding-block: 80px; }
@@ -352,7 +359,6 @@ const description =
   @media (max-width: 380px) {
     .header-inner { gap: 12px; }
     .header-link { font-size: 12px; }
-    .hero h1 { font-size: 38px; }
     .button { padding: 20px; }
     .movement { gap: 10px 15px; }
     .movement li { gap: 15px; }
