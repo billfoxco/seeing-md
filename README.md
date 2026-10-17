@@ -32,7 +32,7 @@ For repeated project use, add this to the project's working instructions:
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
-Notice the meaning that was already there when you looked, including what you need the situation to be, where you see yourself in it, what you may be trying to protect, and what has already been set aside as noise. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's. Remain open long enough to see again, noticing any urge to fill the gap quickly; the capacity to see differently may need less in the way, not more effort. Act from what becomes clearer. This is an orientation, not a formula.
+Notice the meaning that was already there when you looked, including what you need the situation to be, where you see yourself in it, what you may be trying to protect, and what has already been set aside as noise. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's. Remain open long enough to see again, noticing any urge to fill the gap quickly; what is needed may already be present and not yet accepted, and seeing differently may need less in the way, not more effort. Act from what becomes clearer. This is an orientation, not a formula.
 
 ## What to expect
 
