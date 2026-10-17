@@ -32,6 +32,11 @@
  * and moved the secondary Seeing First invitation to the footer.
  * No additional cards, images, sections, or design languages.
  *
+ * TYPOGRAPHY / RHYTHM PASS (17 October 2026)
+ * Preserves the editorial composition and copy while clarifying heading
+ * hierarchy, easing display tracking, and tightening connected spacing.
+ * Gives the AI explanation a more comfortable reading column.
+ *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
  * - Assets: Embedded open-frame SVG logo/favicon and public /SEEING.md
@@ -250,22 +255,22 @@ const description =
 
   .hero { display: flex; align-items: center; min-height: min(92svh, 900px); padding-block: 160px 100px; }
   .hero-inner { display: flex; flex-direction: column; align-items: flex-start; }
-  .hero h1 { max-width: 1080px; margin-top: 40px; font-size: clamp(48px, 6vw, 80px); line-height: 1.03; font-variation-settings: var(--expanded); letter-spacing: -.02em; }
-  .hero .names { max-width: 820px; margin-top: 40px; font-size: 20px; line-height: 1.6; color: var(--w60); }
-  .hero .button { margin-top: 60px; }
+  .hero h1 { max-width: 1080px; margin-top: 30px; font-size: clamp(48px, 6vw, 80px); line-height: 1.04; font-variation-settings: var(--expanded); }
+  .hero .names { max-width: 820px; margin-top: 30px; font-size: 20px; line-height: 1.6; color: var(--w60); }
+  .hero .button { margin-top: 40px; }
 
   .practice { padding-block: 100px; }
-  .practice-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr); align-items: end; gap: 80px; }
-  .practice h2 { margin-top: 40px; font-size: clamp(36px, 4.8vw, 60px); line-height: 1.08; }
+  .practice-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr); align-items: center; gap: 80px; }
+  .practice h2 { margin-top: 20px; font-size: clamp(36px, 4.2vw, 48px); line-height: 1.08; }
   .practice h2 span { display: block; }
   .practice-aside { padding-bottom: 4px; }
   .practice-aside > p:first-child { max-width: 430px; color: var(--b60); }
-  .practice .premise { max-width: 430px; margin-top: 40px; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 20px; font-weight: 500; line-height: 1.5; }
+  .practice .premise { max-width: 430px; margin-top: 30px; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 20px; font-weight: 500; line-height: 1.5; }
 
-  .ai { padding-block: 100px; border-top: 1px solid var(--b15); }
-  .ai-grid { display: grid; grid-template-columns: minmax(250px, .75fr) minmax(0, 1.45fr); align-items: start; gap: 100px; }
-  .ai-context .body { max-width: 380px; margin-top: 40px; color: var(--b60); }
-  .ai h2 { font-size: clamp(36px, 4.8vw, 60px); line-height: 1.08; }
+  .ai { padding-block: 100px 120px; border-top: 1px solid var(--b15); }
+  .ai-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); align-items: start; gap: 80px; }
+  .ai-context .body { max-width: 440px; margin-top: 20px; color: var(--b60); }
+  .ai h2 { font-size: clamp(36px, 4.8vw, 60px); line-height: 1.05; }
   .ai h2 span { display: block; }
   .movement {
     display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px;
@@ -275,7 +280,7 @@ const description =
   }
   .movement li { display: inline-flex; align-items: center; gap: 20px; white-space: nowrap; }
   .movement li:not(:last-child)::after { content: "→"; color: var(--b50); }
-  .assumptions-grid { display: grid; grid-template-columns: minmax(250px, .75fr) minmax(0, 1.45fr); gap: 100px; padding-top: 100px; }
+  .assumptions-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); gap: 80px; padding-top: 80px; }
   .whisper { font-size: 24px; color: var(--b50); }
   .assumptions-grid h3 { font-size: clamp(30px, 3.8vw, 48px); line-height: 1.1; }
   .assumptions-grid h3 em { font-style: normal; color: var(--amber); }
@@ -283,14 +288,14 @@ const description =
 
   .use { padding-block: 100px 80px; }
   .use-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: 100px; align-items: start; }
-  .use h2 { max-width: 650px; margin-top: 40px; font-size: clamp(36px, 4.8vw, 60px); line-height: 1.05; font-variation-settings: var(--expanded); }
-  .use .intro { max-width: 490px; margin-top: 30px; color: var(--w80); }
+  .use h2 { max-width: 650px; margin-top: 20px; font-size: clamp(36px, 4.2vw, 48px); line-height: 1.06; font-variation-settings: var(--expanded); }
+  .use .intro { max-width: 490px; margin-top: 20px; color: var(--w80); }
   .use .button { margin-top: 40px; }
   .use .note { margin-top: 20px; font-size: 14px; color: var(--w60); }
   .use-guide h3 { font-size: 24px; line-height: 1.25; }
-  .use-guide > p { margin-top: 30px; font-size: 16px; color: var(--w80); }
-  .use blockquote { max-width: var(--measure); margin-top: 40px; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 16px; line-height: 1.65; color: var(--w80); }
-  .limits { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; margin-top: 100px; padding-top: 40px; border-top: 1px solid var(--w15); }
+  .use-guide > p { margin-top: 20px; font-size: 16px; color: var(--w80); }
+  .use blockquote { max-width: var(--measure); margin-top: 30px; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 16px; line-height: 1.65; color: var(--w80); }
+  .limits { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; margin-top: 80px; padding-top: 40px; border-top: 1px solid var(--w15); }
   .limits h3 { font-size: 20px; line-height: 1.35; }
   .limits p { max-width: 530px; margin-top: 20px; font-size: 16px; color: var(--w60); }
 
@@ -328,15 +333,15 @@ const description =
     .hero .names { margin-top: 30px; font-size: 18px; }
     .hero .button { margin-top: 40px; }
     .practice, .ai { padding-block: 80px; }
-    .practice h2 { margin-top: 30px; }
+    .practice h2 { margin-top: 20px; }
     .practice-aside { display: block; }
-    .practice .premise { margin-top: 40px; font-size: 18px; }
+    .practice .premise { margin-top: 30px; font-size: 18px; }
     .ai-grid, .assumptions-grid { gap: 30px; }
     .movement { margin-top: 60px; padding-block: 20px; }
     .assumptions-grid { padding-top: 60px; }
     .whisper { font-size: 20px; }
     .use { padding-block: 80px 60px; }
-    .use h2 { margin-top: 30px; }
+    .use h2 { margin-top: 20px; }
     .use-grid { gap: 60px; }
     .limits { grid-template-columns: 1fr; gap: 40px; margin-top: 60px; }
     footer { padding-block: 60px 40px; }
