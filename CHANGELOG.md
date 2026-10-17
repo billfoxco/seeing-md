@@ -8,6 +8,21 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 0.9.9 — 2026-10-17
+
+### Added
+
+- Added to “Notice” attention to what may feel at stake in one's own interpretation—a position, plan, reputation, or prior answer—and whether protecting it is shaping what can be seen. The guidance does not infer fear or defensiveness in others without evidence.
+- Added to “See again” an invitation to consider whether seeing differently requires less obstruction rather than more effort: “What if you are not building the capacity to see, but removing what blocks a capacity already given?”
+- Extended “Leadership and AI” to examine whether a request is seeking a more persuasive defense of a conclusion, role, or reputation rather than an examination of its premise. Such a possibility must be grounded in the supplied words and must not become a diagnosis of motive.
+
+### Changed
+
+- Carried the self-protection and subtraction distinctions into the README's movement summary and expected behavior.
+- Aligned the homepage version and download note with 0.9.9. The homepage copy is otherwise unchanged to avoid duplicating the existing invitation.
+
+This patch translates a reflection on ACIM Lesson 42 into a nonsectarian, evidence-sensitive inquiry. It does not assert a spiritual premise, replace legitimate protection or accountability, or change the specification's operating principles.
+
 ## 0.9.8 — 2026-10-15
 
 ### Added
