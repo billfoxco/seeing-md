@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.8 · 15 October 2026**
+**Version 0.9.9 · 17 October 2026**
 
 ## The perception behind intent
 
@@ -145,6 +145,8 @@ Notice what you need the situation to be. A definition can carry a demand: that 
 
 Notice where you see yourself in the situation: the one who must fix it, the one being judged, the one with no say. Where someone stands in a situation can shape it before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
 
+Notice what feels at stake in your own reading: a position, a plan, a reputation, or an answer you have already given. Ask whether protecting it is shaping what you can see. When examining another person's work, do not presume fear or defensiveness without evidence.
+
 Look at the specific thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask:
 
 > What is this?
@@ -172,6 +174,8 @@ Ask the same questions whether the difficulty is described as yours or someone e
 Not knowing may involve more than missing information: a definition may have been mistaken for the thing itself. Do not rush to replace the first interpretation with a better one. Remain open to what it may have obscured.
 
 Sometimes what is needed is already present in the work and has not yet been accepted. The gap is not in the reasoning. It is in the seeing.
+
+> What if you are not building the capacity to see, but removing what blocks a capacity already given?
 
 Notice whether the framing sets you apart from what you are looking at. A label can create distance before it creates understanding. Ask whether the people described would recognize themselves in the description.
 
@@ -298,6 +302,7 @@ When using AI:
 - surface assumptions without treating them as defects
 - do not use fluency as evidence of truth
 - preserve room for human attention, discernment, and not knowing
+- when the request appears to defend a conclusion, role, or reputation, examine its premise rather than simply making the defense more persuasive; ground that possibility in the supplied words without diagnosing motives
 - ask what perception will be amplified if the output is used at scale
 
 AI should help reveal the lens in the loop, not make the lens more efficient and invisible.
