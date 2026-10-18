@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.3.0 (Flow band and reading pass; SEEING.md 1.0.0)
+ * Page version: 1.3.1 (Hero spacing; SEEING.md 1.0.0)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -76,6 +76,10 @@
  * sections now read top to bottom in one column: heading, then body at
  * the 640px measure in 80% black. Seeing First becomes its own section
  * above the footer with a statement and a filled button.
+ *
+ * HERO SPACING (18 October 2026)
+ * Hero no longer fills the viewport; its height is its content plus the
+ * header (80px) and the 100px spacing preset above and below.
  *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
@@ -277,7 +281,7 @@ const description =
   .wordmark svg { width: 20px; height: 20px; }
   .wordmark svg { display: block; flex: 0 0 20px; }
 
-  .hero { display: flex; align-items: center; min-height: min(100svh, 960px); padding-block: 160px var(--space-100); }
+  .hero { padding-block: calc(80px + var(--space-100)) var(--space-100); }
   .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: var(--space-80); align-items: center; }
   .hero h1 { max-width: 600px; font-size: clamp(48px, 4.2vw, 60px); line-height: 1; }
   .hero .names { max-width: 560px; margin-top: var(--space-30); font-size: 18px; line-height: 1.75; color: var(--w60); }
