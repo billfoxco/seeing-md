@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.0.0 — 2026-10-18
+
+### Added
+
+- Added to “Notice” that a label can be accurate and still be the lens: true about what it names, and silent about everything else in view. Accuracy can end the examination of a framing as readily as error.
+- Added to “See again” that a wider or higher view is still a view. Zooming out, adding perspectives, or gathering more viewpoints can help, but none of them reveals the one already being stood in. For AI, generating several perspectives is not the same as examining the first.
+
+### Changed
+
+- Carried both additions into the README's movement summary, and noted under expected behavior that offering several perspectives on a request is not the same as examining the one it already stands in.
+- Aligned the homepage version and download note with 1.0.0. The homepage copy is otherwise unchanged.
+
+The content of this release is patch-sized: the purpose and operating principles are unchanged. It is numbered 1.0.0 to mark the specification's first stable release and to avoid a 0.9.10 that would read as earlier than 0.9.9. The prompts are ACIM Lesson 44 (“God is the light in which I see”) and a flight over a volcano on the island of Hawaii, where the lava that had destroyed was also what had created the island: the label “destruction” was accurate, and it was the lens.
+
 ## 0.9.9 — 2026-10-17
 
 ### Added

@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 0.9.9 · 17 October 2026**
+**The perception behind intent · Version 1.0.0 · 18 October 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -32,7 +32,7 @@ For repeated project use, add this to the project's working instructions:
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
-Notice the meaning that was already there when you looked, including what you need the situation to be, where you see yourself in it, what you may be trying to protect, and what has already been set aside as noise. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's. Remain open long enough to see again, noticing any urge to fill the gap quickly; what is needed may already be present and not yet accepted, and seeing differently may need less in the way, not more effort. Act from what becomes clearer. This is an orientation, not a formula.
+Notice the meaning that was already there when you looked, including what you need the situation to be, where you see yourself in it, what you may be trying to protect, what has already been set aside as noise, and where an accurate label may still be serving as the lens. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's. Remain open long enough to see again, noticing any urge to fill the gap quickly; what is needed may already be present and not yet accepted; seeing differently may need less in the way, not more effort; and a wider or higher view is still a view. Act from what becomes clearer. This is an orientation, not a formula.
 
 ## What to expect
 
@@ -44,7 +44,7 @@ In summaries and reviews, it should make the scope of the supplied material clea
 
 When a request asks AI to make a conclusion more persuasive, the file may help examine what the person feels a need to defend, if the words support that possibility. It should not infer fear or motive from disagreement, urgency, or confidence alone.
 
-Expertise, original evidence, rigorous methods, and independent verification can strengthen a result. They do not necessarily establish that the original question or criteria for success were well framed. `SEEING.md` makes those choices available for examination without replacing technical rigor.
+Expertise, original evidence, rigorous methods, and independent verification can strengthen a result. They do not necessarily establish that the original question or criteria for success were well framed. `SEEING.md` makes those choices available for examination without replacing technical rigor. Likewise, offering several perspectives on a request is not the same as examining the one it already stands in.
 
 The human remains responsible for supplying context, responding to questions, deciding what matters, and judging what should be acted upon. Human judgment also remains open to examination: experience, intuition, and confidence may reflect expertise or familiar conclusions. The file cannot guarantee clear seeing, eliminate bias, determine truth, or resolve every category of AI risk.
 
@@ -58,7 +58,7 @@ The [before-going-deeper example](examples/before-going-deeper.md) shows how scr
 
 ## Current status
 
-Version `0.9.9` (17 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
+Version `1.0.0` (18 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 
