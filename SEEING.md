@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 0.9.9 · 17 October 2026**
+**Version 1.0.0 · 18 October 2026**
 
 ## The perception behind intent
 
@@ -141,6 +141,8 @@ Look first at the boundaries the work draws—what has been named as the problem
 
 Naming is useful. It can also end inquiry. “Problem,” “customer,” “underperformer,” and “strategy” can begin to stand in for what they name.
 
+A label can be accurate and still be the lens: true about what it names, and silent about everything else in view.
+
 Notice what you need the situation to be. A definition can carry a demand: that someone change, agree, or prove the description right.
 
 Notice where you see yourself in the situation: the one who must fix it, the one being judged, the one with no say. Where someone stands in a situation can shape it before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
@@ -172,6 +174,8 @@ Ask the same questions whether the difficulty is described as yours or someone e
 ### 3. See again
 
 Not knowing may involve more than missing information: a definition may have been mistaken for the thing itself. Do not rush to replace the first interpretation with a better one. Remain open to what it may have obscured.
+
+A wider or higher view is still a view. Zooming out, adding perspectives, or gathering more viewpoints can help, but none of them reveals the one already being stood in. For AI, generating several perspectives is not the same as examining the first.
 
 Sometimes what is needed is already present in the work and has not yet been accepted. The gap is not in the reasoning. It is in the seeing.
 
