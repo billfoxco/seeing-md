@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.1.0 (Suede hero pass; SEEING.md 1.0.0)
+ * Page version: 1.1.1 (Suede type-scale pass; SEEING.md 1.0.0)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -48,6 +48,12 @@
  * quiet supporting line, and paired buttons (filled download, outlined
  * "How to use it"). The right column is intentionally empty for now.
  * Header link becomes an outlined uppercase label, as in Suede's nav.
+ *
+ * SUEDE TYPE-SCALE PASS (18 October 2026)
+ * Matched Suede's theme.json: font loaded without the optical-size axis
+ * (Suede's file has wdth/wght/slnt only), hero headline 48-60px at line
+ * height 1.0, supporting line 18px, buttons and header link 12px, site
+ * name 16px (kept mixed case so .md stays lowercase), body tracking 0.01em.
  *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
@@ -94,7 +100,7 @@ const description =
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wdth,wght@6..144,75..125,100..1000&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wdth,wght@75..125,100..1000&display=swap"
       rel="stylesheet"
     />
     <title>{title}</title>
@@ -240,11 +246,11 @@ const description =
   body {
     margin: 0; background: var(--paper); color: var(--ink);
     font-family: "Google Sans Flex", ui-sans-serif, system-ui, sans-serif;
-    font-size: 18px; line-height: 1.75;
+    font-size: 18px; line-height: 1.75; letter-spacing: .01em;
     -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   }
   h1, h2, h3, p, blockquote { margin: 0; }
-  h1, h2, h3 { font-weight: 500; }
+  h1, h2, h3 { font-weight: 500; letter-spacing: 0; }
   h1, h2, h3 { text-wrap: balance; }
   p { text-wrap: pretty; }
   a { color: inherit; }
@@ -257,7 +263,7 @@ const description =
   .button {
     display: inline-flex; align-items: center; justify-content: space-between; gap: 20px;
     padding: 20px 30px; background: var(--amber); color: var(--paper);
-    border: 1px solid var(--amber); font-size: 14px; line-height: 1.25;
+    border: 1px solid var(--amber); font-size: 12px; line-height: 1;
     font-weight: 500; letter-spacing: .05em; text-transform: uppercase; text-decoration: none;
     transition: background 250ms ease-out, color 250ms ease-out, border-color 250ms ease-out;
   }
@@ -269,20 +275,21 @@ const description =
 
   .site-header { position: absolute; inset: 0 0 auto; z-index: 1; padding-block: 30px; color: var(--paper); }
   .header-inner { display: flex; justify-content: space-between; align-items: center; gap: 30px; }
-  .wordmark { display: inline-flex; align-items: center; gap: 12px; font-size: 20px; line-height: 1.4; letter-spacing: -.02em; text-decoration: none; }
-  .wordmark svg { display: block; flex: 0 0 24px; }
+  .wordmark { display: inline-flex; align-items: center; gap: 12px; font-size: 16px; font-weight: 500; line-height: 1; letter-spacing: .01em; text-decoration: none; }
+  .wordmark svg { width: 20px; height: 20px; }
+  .wordmark svg { display: block; flex: 0 0 20px; }
   .header-link {
     padding: 12px 24px; border: 1px solid var(--amber); color: var(--paper);
-    font-size: 14px; font-weight: 500; line-height: 1.25; letter-spacing: .05em; text-transform: uppercase;
+    font-size: 12px; font-weight: 500; line-height: 1; letter-spacing: .05em; text-transform: uppercase;
     text-decoration: none; transition: background 250ms ease-out;
   }
   .header-link:hover { background: var(--amber); }
 
   .hero { display: flex; align-items: center; min-height: min(100svh, 960px); padding-block: 160px 100px; }
   .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 80px; align-items: center; }
-  .hero h1 { max-width: 680px; font-size: clamp(48px, 5.6vw, 80px); line-height: 1.04; letter-spacing: -.01em; }
-  .hero .names { max-width: 600px; margin-top: 30px; font-size: 20px; line-height: 1.6; color: var(--w60); }
-  .hero-actions { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 60px; }
+  .hero h1 { max-width: 600px; font-size: clamp(48px, 4.2vw, 60px); line-height: 1; }
+  .hero .names { max-width: 560px; margin-top: 30px; font-size: 18px; line-height: 1.75; color: var(--w60); }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px; }
 
   .practice { padding-block: 100px; }
   .practice-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr); align-items: center; gap: 80px; }
@@ -354,10 +361,10 @@ const description =
   @media (max-width: 760px) {
     body { font-size: 16px; }
     .site-header { padding-block: 20px; }
-    .wordmark { font-size: 18px; }
+    .wordmark { font-size: 14px; }
     .hero { min-height: auto; padding-block: 150px 80px; }
-    .hero h1 { font-size: clamp(40px, 10vw, 56px); }
-    .hero .names { margin-top: 20px; font-size: 18px; }
+    .hero h1 { font-size: clamp(36px, 10vw, 48px); }
+    .hero .names { margin-top: 20px; font-size: 16px; }
     .hero-actions { flex-direction: column; align-items: stretch; margin-top: 40px; }
     .hero-actions .button { justify-content: center; }
     .header-link { padding: 10px 16px; }
