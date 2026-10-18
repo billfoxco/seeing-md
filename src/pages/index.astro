@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.1.1 (Suede type-scale pass; SEEING.md 1.0.0)
+ * Page version: 1.2.0 (Subtraction pass; SEEING.md 1.0.0)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -20,8 +20,8 @@
  * EXPERIENCE / STRUCTURE
  * The black hero establishes the inherited definition; the white middle
  * offers two ways of looking again; the black close gives one clear action.
- * Hero (recognition) → Practice → What AI amplifies / assumptions →
- * Download + instructions / limits → Footer + Seeing First.
+ * Hero (recognition) → The question → What AI amplifies → Get the file →
+ * Footer + Seeing First.
  * The composition shifts between broad and reading measures instead of
  * repeating the same narrow left-aligned column.
  *
@@ -54,6 +54,21 @@
  * (Suede's file has wdth/wght/slnt only), hero headline 48-60px at line
  * height 1.0, supporting line 18px, buttons and header link 12px, site
  * name 16px (kept mixed case so .md stays lowercase), body tracking 0.01em.
+ *
+ * SUEDE ALIGNMENT PASS (18 October 2026)
+ * Headings at line height 1.0; other line heights on Suede's ladder
+ * (1, 1.25, 1.5, 1.75). Body stays 18px on phones. Buttons carry no
+ * arrows and centre their label. Link underlines 1px at 2px offset.
+ * Section spacing uses Suede's fluid spacing presets; no 120px.
+ *
+ * SUBTRACTION PASS (18 October 2026)
+ * Asked of each section what it repeats. Removed: numbered eyebrows,
+ * the "Who got this wrong?" block (it lives in the file), the two limits
+ * blocks (now one line under the download), the closing "Seeing is the
+ * first decision." line, the header download link (now Seeing First),
+ * and the rule between the two white sections. Revised: the premise
+ * question is now the second section's heading; the download section's
+ * heading is "Get the file."
  *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
@@ -119,7 +134,7 @@ const description =
           </svg>
           <span>SEEING.md</span>
         </a>
-        <a class="header-link" href="#use">Get the file</a>
+        <a class="header-link" href="https://seedifferent.xyz/#seeing-first" rel="noopener">Seeing First</a>
       </div>
     </header>
 
@@ -140,14 +155,8 @@ const description =
 
       <section class="practice" id="pause" aria-labelledby="practice-title">
         <div class="wrap practice-grid">
-          <div>
-            <p class="eyebrow">01 / Begin without AI</p>
-            <h2 id="practice-title">What is this?<span>What is it for?</span></h2>
-          </div>
-          <div class="practice-aside">
-            <p>Bring to mind the thing you feel surest of. The first answer may be the old definition repeating itself. You don't have to come up with a better one. Notice what may already be in the way.</p>
-            <p class="premise">What if the smallest change with the greatest consequence isn’t a change in what we do, but a change in how we see?</p>
-          </div>
+          <h2 id="practice-title">What if the smallest change with the greatest consequence isn’t a change in what we do, but a change in how we see?</h2>
+          <p class="practice-body">Bring to mind the thing you feel surest of. The first answer may be the old definition repeating itself. You don't have to come up with a better one. Notice what may already be in the way.</p>
         </div>
       </section>
 
@@ -155,7 +164,6 @@ const description =
         <div class="wrap">
           <div class="ai-grid">
             <div class="ai-context">
-              <p class="eyebrow">02 / What AI amplifies</p>
               <p class="body">Before we hand a task to AI, we have already given it a way of seeing the situation. SEEING.md helps examine that seeing before it becomes action. A more rigorous answer can still begin with an unexamined question.</p>
             </div>
             <h2 id="ai-title">AI scales what we see.<span>And what we don’t.</span></h2>
@@ -168,13 +176,6 @@ const description =
             <li>Act</li>
           </ol>
 
-          <div class="assumptions-grid">
-            <p class="whisper">Who got this wrong?</p>
-            <div>
-              <h3>What were we all <em>assuming?</em></h3>
-              <p>A picture everyone accepted has no single author. When AI acts on it, the same assumption can show up in many places at once, and looking for fault ends the looking.</p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -182,11 +183,11 @@ const description =
         <div class="wrap">
           <div class="use-grid">
             <div class="use-primary">
-              <p class="eyebrow">03 / The invitation</p>
-              <h2 id="use-title">Seeing comes first.</h2>
+              <h2 id="use-title">Get the file.</h2>
               <p class="intro">A portable file for examining what shapes intent before AI amplifies it.</p>
-              <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md <span aria-hidden="true">↓</span></a>
+              <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md</a>
               <p class="note">Version 1.0.0 · 18 October 2026 · Free under CC BY 4.0</p>
+              <p class="note">A lens, not the lens: question this file too. It addresses the human assumptions behind AI use; it does not prevent misuse, deception, or loss of control.</p>
             </div>
             <div class="use-guide">
               <h3>Use it in your work</h3>
@@ -195,28 +196,15 @@ const description =
             </div>
           </div>
 
-          <aside class="limits" aria-label="Scope and limits">
-            <div>
-              <h3>A lens. Not the lens.</h3>
-              <p>Any insight about perception that cannot question itself becomes another lens. Question this file too.</p>
-            </div>
-            <div>
-              <h3>Upstream, not all-encompassing.</h3>
-              <p>It addresses the human assumptions in purpose, data, measures, prompts, and use. It does not prevent malicious use, deception, or loss of control.</p>
-            </div>
-          </aside>
         </div>
       </section>
     </main>
 
     <footer>
       <div class="wrap">
-        <div class="footer-top">
-          <p class="close">Seeing is the first decision.</p>
-          <div class="seeing-first" id="seeing-first">
-            <p>For leaders and teams: a private 30 minutes on what happens when decisions scale.</p>
-            <a href="https://seedifferent.xyz/#seeing-first" rel="noopener">Seeing First <span aria-hidden="true">→</span></a>
-          </div>
+        <div class="seeing-first" id="seeing-first">
+          <p>For leaders and teams: a private 30 minutes on what happens when decisions scale.</p>
+          <a href="https://seedifferent.xyz/#seeing-first" rel="noopener">Seeing First <span aria-hidden="true">→</span></a>
         </div>
         <p class="origin">SEEING.md grew from <a href="https://seedifferent.xyz/perception-miracle/" rel="noopener"><em>The Perception Miracle</em></a> and more than 500 explorations. Its form was influenced by Brian Gardner’s DESIGN.md.</p>
         <div class="footer-meta">
@@ -240,6 +228,10 @@ const description =
     --support-heading: clamp(30px, 3vw, 36px);
     --content: 1280px; --measure: 640px;
     --gutter: clamp(20px, 4vw, 80px);
+    /* Suede spacing presets */
+    --space-30: clamp(20px, 3vw, 30px); --space-40: clamp(30px, 4vw, 40px);
+    --space-60: clamp(40px, 6vw, 60px); --space-80: clamp(60px, 8vw, 80px);
+    --space-100: clamp(70px, 10vw, 100px);
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -253,15 +245,13 @@ const description =
   h1, h2, h3 { font-weight: 500; letter-spacing: 0; }
   h1, h2, h3 { text-wrap: balance; }
   p { text-wrap: pretty; }
-  a { color: inherit; }
+  a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 2px; }
   .wrap { width: 100%; max-width: var(--content); margin-inline: auto; }
   .site-header, main > section, footer { padding-inline: var(--gutter); }
-  .eyebrow { font-size: 14px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--b60); }
   .dark { background: var(--ink); color: var(--paper); }
-  .dark .eyebrow { color: var(--w60); }
 
   .button {
-    display: inline-flex; align-items: center; justify-content: space-between; gap: 20px;
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
     padding: 20px 30px; background: var(--amber); color: var(--paper);
     border: 1px solid var(--amber); font-size: 12px; line-height: 1;
     font-weight: 500; letter-spacing: .05em; text-transform: uppercase; text-decoration: none;
@@ -273,8 +263,8 @@ const description =
   :focus-visible { outline: 2px solid var(--amber); outline-offset: 4px; }
   .dark :focus-visible { outline-color: var(--paper); }
 
-  .site-header { position: absolute; inset: 0 0 auto; z-index: 1; padding-block: 30px; color: var(--paper); }
-  .header-inner { display: flex; justify-content: space-between; align-items: center; gap: 30px; }
+  .site-header { position: absolute; inset: 0 0 auto; z-index: 1; padding-block: var(--space-30); color: var(--paper); }
+  .header-inner { display: flex; justify-content: space-between; align-items: center; gap: var(--space-30); }
   .wordmark { display: inline-flex; align-items: center; gap: 12px; font-size: 16px; font-weight: 500; line-height: 1; letter-spacing: .01em; text-decoration: none; }
   .wordmark svg { width: 20px; height: 20px; }
   .wordmark svg { display: block; flex: 0 0 20px; }
@@ -285,104 +275,78 @@ const description =
   }
   .header-link:hover { background: var(--amber); }
 
-  .hero { display: flex; align-items: center; min-height: min(100svh, 960px); padding-block: 160px 100px; }
-  .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 80px; align-items: center; }
+  .hero { display: flex; align-items: center; min-height: min(100svh, 960px); padding-block: 160px var(--space-100); }
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: var(--space-80); align-items: center; }
   .hero h1 { max-width: 600px; font-size: clamp(48px, 4.2vw, 60px); line-height: 1; }
-  .hero .names { max-width: 560px; margin-top: 30px; font-size: 18px; line-height: 1.75; color: var(--w60); }
-  .hero-actions { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px; }
+  .hero .names { max-width: 560px; margin-top: var(--space-30); font-size: 18px; line-height: 1.75; color: var(--w60); }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 20px; margin-top: var(--space-40); }
 
-  .practice { padding-block: 100px; }
-  .practice-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr); align-items: center; gap: 80px; }
-  .practice h2 { margin-top: 20px; font-size: var(--section-heading); line-height: 1.08; }
-  .practice h2 span { display: block; }
-  .practice-aside { padding-bottom: 4px; }
-  .practice-aside > p:first-child { max-width: 430px; color: var(--b60); }
-  .practice .premise { max-width: 430px; margin-top: 30px; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 20px; font-weight: 500; line-height: 1.5; }
+  .practice { padding-block: var(--space-100) var(--space-60); }
+  .practice-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr); align-items: end; gap: var(--space-80); }
+  .practice-body { max-width: 430px; color: var(--b60); }
+  .practice h2 { max-width: 760px; font-size: var(--support-heading); line-height: 1.25; }
 
-  .ai { padding-block: 100px 120px; border-top: 1px solid var(--b15); }
-  .ai-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); align-items: start; gap: 80px; }
-  .ai-context .body { max-width: 440px; margin-top: 20px; color: var(--b60); }
-  .ai h2 { font-size: var(--section-heading); line-height: 1.08; }
+  .ai { padding-block: var(--space-100); }
+  .ai-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); align-items: start; gap: var(--space-80); }
+  .ai-context .body { max-width: 440px; color: var(--b60); }
+  .ai h2 { font-size: var(--section-heading); line-height: 1; }
   .ai h2 span { display: block; }
   .movement {
     display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px;
-    margin: 80px 0 0; padding: 30px 0;
+    margin: var(--space-80) 0 0; padding: var(--space-30) 0;
     border-top: 1px solid var(--b15); border-bottom: 1px solid var(--b15);
     list-style: none; font-size: 14px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase;
   }
   .movement li { display: inline-flex; align-items: center; gap: 20px; white-space: nowrap; }
   .movement li:not(:last-child)::after { content: "→"; color: var(--b50); }
-  .assumptions-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.35fr); gap: 80px; padding-top: 80px; }
-  .whisper { font-size: 24px; color: var(--b50); }
-  .assumptions-grid h3 { font-size: var(--support-heading); line-height: 1.1; }
-  .assumptions-grid h3 em { font-style: normal; color: var(--amber); }
-  .assumptions-grid p:last-child { max-width: var(--measure); margin-top: 30px; color: var(--b60); }
 
-  .use { padding-block: 100px 80px; }
-  .use-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: 100px; align-items: start; }
-  .use h2 { max-width: 650px; margin-top: 20px; font-size: var(--section-heading); line-height: 1.08; font-variation-settings: var(--expanded); }
+  .use { padding-block: var(--space-100); }
+  .use-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: var(--space-100); align-items: start; }
+  .use h2 { max-width: 650px; font-size: var(--section-heading); line-height: 1; font-variation-settings: var(--expanded); }
   .use .intro { max-width: 490px; margin-top: 20px; color: var(--w80); }
-  .use .button { margin-top: 40px; }
-  .use .note { margin-top: 20px; font-size: 14px; color: var(--w60); }
+  .use .button { margin-top: var(--space-40); }
+  .use .note { max-width: 490px; margin-top: 20px; font-size: 14px; color: var(--w60); }
+  .use .note + .note { margin-top: 10px; }
   .use-guide h3 { font-size: 24px; line-height: 1.25; }
   .use-guide > p { margin-top: 20px; font-size: 16px; color: var(--w80); }
-  .use blockquote { max-width: var(--measure); margin-top: 30px; padding-left: 20px; border-left: 1px solid var(--amber); font-size: 16px; line-height: 1.65; color: var(--w80); }
-  .limits { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; margin-top: 80px; padding-top: 40px; border-top: 1px solid var(--w15); }
-  .limits h3 { font-size: 20px; line-height: 1.35; }
-  .limits p { max-width: 530px; margin-top: 20px; font-size: 16px; color: var(--w60); }
+  .use blockquote { max-width: var(--measure); margin-top: var(--space-30); padding-left: 20px; border-left: 1px solid var(--amber); font-size: 16px; line-height: 1.75; color: var(--w80); }
 
-  footer { padding-block: 80px 60px; font-size: 14px; color: var(--b60); }
-  .footer-top { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: 100px; align-items: start; }
-  .close { font-size: 30px; font-weight: 500; line-height: 1.2; color: var(--ink); }
+  footer { padding-block: var(--space-80) var(--space-60); font-size: 14px; color: var(--b60); }
   .seeing-first { max-width: 470px; }
+  footer .origin { max-width: var(--measure); margin-top: var(--space-60); }
   .seeing-first p { font-size: 16px; }
   .seeing-first a { display: inline-block; margin-top: 20px; color: var(--ink); font-size: 16px; font-weight: 500; }
   .seeing-first a:hover { color: var(--amber); }
-  footer .origin { max-width: var(--measure); margin-top: 80px; }
-  .footer-meta { display: flex; flex-wrap: wrap; gap: 10px 30px; margin-top: 40px; padding-top: 30px; border-top: 1px solid var(--b15); }
-  footer a { text-underline-offset: 4px; }
+  .footer-meta { display: flex; flex-wrap: wrap; gap: 10px var(--space-30); margin-top: var(--space-40); padding-top: var(--space-30); border-top: 1px solid var(--b15); }
   footer a:hover { color: var(--amber); }
 
   @media (max-width: 1000px) {
-    .practice-grid, .ai-grid, .assumptions-grid, .use-grid, .footer-top { grid-template-columns: 1fr; gap: 40px; }
-    .practice-aside { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 40px; }
-    .practice .premise { margin-top: 0; }
+    .practice-grid, .ai-grid, .use-grid { grid-template-columns: 1fr; gap: var(--space-40); }
     .ai h2 { max-width: 740px; }
-    .ai-context .body { max-width: var(--measure); margin-top: 20px; }
-    .movement { margin-top: 60px; }
-    .assumptions-grid { padding-top: 60px; }
-    .use-grid { gap: 80px; }
-    .limits { margin-top: 80px; }
-    .footer-top { gap: 40px; }
+    .ai-context .body { max-width: var(--measure); }
+    .movement { margin-top: var(--space-60); }
+    .use-grid { gap: var(--space-80); }
     .hero-grid { grid-template-columns: 1fr; }
     .hero-space { display: none; }
   }
 
   @media (max-width: 760px) {
-    body { font-size: 16px; }
     .site-header { padding-block: 20px; }
     .wordmark { font-size: 14px; }
-    .hero { min-height: auto; padding-block: 150px 80px; }
+    .hero { min-height: auto; padding-block: 130px var(--space-80); }
     .hero h1 { font-size: clamp(36px, 10vw, 48px); }
-    .hero .names { margin-top: 20px; font-size: 16px; }
-    .hero-actions { flex-direction: column; align-items: stretch; margin-top: 40px; }
+    .hero .names { margin-top: 20px; }
+    .hero-actions { flex-direction: column; align-items: stretch; margin-top: var(--space-40); }
     .hero-actions .button { justify-content: center; }
     .header-link { padding: 10px 16px; }
-    .practice, .ai { padding-block: 80px; }
-    .practice h2 { margin-top: 20px; }
-    .practice-aside { display: block; }
-    .practice .premise { margin-top: 30px; font-size: 18px; }
-    .ai-grid, .assumptions-grid { gap: 30px; }
-    .movement { margin-top: 60px; padding-block: 20px; }
-    .assumptions-grid { padding-top: 60px; }
-    .whisper { font-size: 20px; }
-    .use { padding-block: 80px 60px; }
-    .use h2 { margin-top: 20px; }
-    .use-grid { gap: 60px; }
-    .limits { grid-template-columns: 1fr; gap: 40px; margin-top: 60px; }
-    footer { padding-block: 60px 40px; }
-    .close { font-size: 24px; }
-    footer .origin { margin-top: 60px; }
+    .practice { padding-block: var(--space-80) var(--space-40); }
+    .ai { padding-block: var(--space-80); }
+    .ai-grid { gap: var(--space-30); }
+    .movement { margin-top: var(--space-60); padding-block: 20px; }
+    .use { padding-block: var(--space-80) var(--space-60); }
+    .use-grid { gap: var(--space-60); }
+    footer { padding-block: var(--space-60) var(--space-40); }
+    footer .origin { margin-top: var(--space-60); }
   }
 
   @media (max-width: 380px) {
