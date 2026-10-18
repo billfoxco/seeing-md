@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.3.1 (Hero spacing; SEEING.md 1.0.0)
+ * Page version: 1.3.2 (Short heading for the question section; SEEING.md 1.0.0)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -80,6 +80,10 @@
  * HERO SPACING (18 October 2026)
  * Hero no longer fills the viewport; its height is its content plus the
  * header (80px) and the 100px spacing preset above and below.
+ *
+ * QUESTION SECTION HEADING (18 October 2026)
+ * Heading shortened to "The smallest change."; the full premise question
+ * now opens the section's paragraph, keeping it near the top of the page.
  *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
@@ -165,8 +169,8 @@ const description =
 
       <section class="practice" id="pause" aria-labelledby="practice-title">
         <div class="wrap statement">
-          <h2 id="practice-title">What if the smallest change with the greatest consequence isn’t a change in what we do, but a change in how we see?</h2>
-          <p>Bring to mind the thing you feel surest of. The first answer may be the old definition repeating itself. You don't have to come up with a better one. Notice what may already be in the way.</p>
+          <h2 id="practice-title">The smallest change.</h2>
+          <p>What if the smallest change with the greatest consequence isn’t a change in what we do, but a change in how we see? Bring to mind the thing you feel surest of. The first answer may be the old definition repeating itself. You don't have to come up with a better one. Notice what may already be in the way.</p>
         </div>
       </section>
 
@@ -341,7 +345,6 @@ const description =
     .hero-actions .button { justify-content: center; }
     .practice, .ai { padding-block: var(--space-80); }
     .statement p { font-size: 18px; }
-    .practice h2 { font-size: 30px; line-height: 1.1; }
     .movement { flex-wrap: nowrap; gap: 8px; font-size: 12px; }
     .movement li { gap: 8px; }
     .flow { padding-block: var(--space-40); }
