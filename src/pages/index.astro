@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.4.0 (Hero figure; SEEING.md 1.0.0)
+ * Page version: 1.4.1 (Framed hero figure with caption; SEEING.md 1.0.0)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -90,6 +90,12 @@
  * image: a figure (60% white) standing inside an amber ring, the viewpoint
  * it occupies. Decorative only; hidden below 1000px.
  *
+ * FRAMED HERO FIGURE (18 October 2026)
+ * The figure sits on a barely lifted panel inside four 1px amber corner
+ * brackets offset 20px outside it, as on Suede's homepage. Its line is set
+ * beneath as a caption, with "dropping" as the one amber word. Strokes
+ * thinned to 3 to sit closer to the 1px frame.
+ *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
  * - Assets: Embedded open-frame SVG logo/favicon and public /SEEING.md
@@ -168,13 +174,20 @@ const description =
               <a class="button button-outline" href="#use">How to use it</a>
             </div>
           </div>
-          <div class="hero-space" aria-hidden="true">
-            <svg class="hero-figure" viewBox="0 0 320 360" fill="none">
-              <ellipse cx="160" cy="322" rx="148" ry="30" stroke="var(--amber)" stroke-width="4" />
-              <rect x="105" y="118" width="110" height="202" rx="55" fill="var(--ink)" stroke="var(--w60)" stroke-width="4" />
-              <circle cx="160" cy="60" r="40" stroke="var(--w60)" stroke-width="4" />
-            </svg>
-          </div>
+          <figure class="hero-space">
+            <div class="frame">
+              <span class="corner tl" aria-hidden="true"></span>
+              <span class="corner tr" aria-hidden="true"></span>
+              <span class="corner bl" aria-hidden="true"></span>
+              <span class="corner br" aria-hidden="true"></span>
+              <svg class="hero-figure" viewBox="0 0 320 360" fill="none" aria-hidden="true" focusable="false">
+                <ellipse cx="160" cy="322" rx="148" ry="30" stroke="var(--amber)" stroke-width="3" />
+                <rect x="105" y="118" width="110" height="202" rx="55" fill="var(--panel)" stroke="var(--w60)" stroke-width="3" />
+                <circle cx="160" cy="60" r="40" stroke="var(--w60)" stroke-width="3" />
+              </svg>
+              <figcaption>You see differently by <em>dropping</em> the viewpoint you’re standing in.</figcaption>
+            </div>
+          </figure>
         </div>
       </section>
 
@@ -248,6 +261,7 @@ const description =
 <style is:global>
   :root {
     --ink: #000; --paper: #fff; --amber: #aa6600;
+    --panel: #0d0d0d;
     --w80: rgba(255,255,255,.8); --w60: rgba(255,255,255,.6); --w15: rgba(255,255,255,.15);
     --b80: rgba(0,0,0,.8); --b60: rgba(0,0,0,.6); --b50: rgba(0,0,0,.5); --b15: rgba(0,0,0,.15);
     --expanded: "wdth" 110;
@@ -301,8 +315,25 @@ const description =
   .hero h1 { max-width: 600px; font-size: clamp(48px, 4.2vw, 60px); line-height: 1; }
   .hero .names { max-width: 560px; margin-top: var(--space-30); font-size: 18px; line-height: 1.75; color: var(--w60); }
   .hero-actions { display: flex; flex-wrap: wrap; gap: 20px; margin-top: var(--space-40); }
-  .hero-space { display: flex; justify-content: center; }
-  .hero-figure { display: block; width: min(100%, 280px); height: auto; }
+  /* Framed figure, after Suede's amber corner brackets */
+  .hero-space { margin: 0; display: flex; justify-content: flex-end; }
+  .frame {
+    position: relative; width: 100%; max-width: 440px;
+    padding: var(--space-60) var(--space-40) var(--space-40);
+    background: var(--panel);
+    display: flex; flex-direction: column; align-items: center;
+  }
+  .corner { position: absolute; width: 40px; height: 40px; border: 0 solid var(--amber); }
+  .corner.tl { top: -20px; left: -20px; border-top-width: 1px; border-left-width: 1px; }
+  .corner.tr { top: -20px; right: -20px; border-top-width: 1px; border-right-width: 1px; }
+  .corner.bl { bottom: -20px; left: -20px; border-bottom-width: 1px; border-left-width: 1px; }
+  .corner.br { bottom: -20px; right: -20px; border-bottom-width: 1px; border-right-width: 1px; }
+  .hero-figure { display: block; width: min(100%, 200px); height: auto; }
+  .frame figcaption {
+    max-width: 300px; margin-top: var(--space-40);
+    font-size: 16px; line-height: 1.5; text-align: center; color: var(--w80);
+  }
+  .frame figcaption em { font-style: normal; color: var(--amber); }
 
   /* White reading sections: heading, then body, one column */
   .practice, .ai { padding-block: var(--space-100); }
