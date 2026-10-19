@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.4.3 (Clearer guide navigation; SEEING.md 1.0.0)
+ * Page version: 1.4.4 (Single hero action; SEEING.md 1.0.0)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -160,7 +160,7 @@ const description =
           </svg>
           <span>SEEING.md</span>
         </a>
-        <a class="button header-use" href="#use">How to use it</a>
+        <a class="button header-guide" href="/before-you-ask/">How it works</a>
       </div>
     </header>
 
@@ -172,7 +172,6 @@ const description =
             <p class="names">The problem. The customer. The underperformer. The strategy.</p>
             <div class="hero-actions">
               <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md</a>
-              <a class="button button-outline" href="/before-you-ask/">How it works</a>
             </div>
           </div>
           <figure class="hero-space">
@@ -300,8 +299,6 @@ const description =
     transition: background 250ms ease-out, color 250ms ease-out, border-color 250ms ease-out;
   }
   .button:hover { background: transparent; color: var(--amber); }
-  .button-outline { background: transparent; color: var(--paper); border-color: var(--paper); }
-  .button-outline:hover { background: var(--paper); color: var(--ink); }
   :focus-visible { outline: 2px solid var(--amber); outline-offset: 4px; }
   .dark :focus-visible { outline-color: var(--paper); }
 
@@ -310,8 +307,8 @@ const description =
   .wordmark { display: inline-flex; align-items: center; gap: 12px; font-size: 16px; font-weight: 500; line-height: 1; letter-spacing: .01em; text-decoration: none; }
   .wordmark svg { width: 20px; height: 20px; }
   .wordmark svg { display: block; flex: 0 0 20px; }
-  .header-use { background: transparent; border-color: var(--amber); padding: 15px 20px; min-height: 44px; white-space: nowrap; }
-  .header-use:hover { background: transparent; color: var(--paper); border-color: var(--w60); }
+  .header-guide { background: transparent; border-color: var(--amber); padding: 15px 20px; min-height: 44px; white-space: nowrap; }
+  .header-guide:hover { background: transparent; color: var(--paper); border-color: var(--w60); }
 
   .hero { padding-block: calc(80px + var(--space-100)) var(--space-100); }
   .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: var(--space-80); align-items: center; }
@@ -386,7 +383,7 @@ const description =
     .site-header { padding-block: 20px; }
     .wordmark { font-size: 14px; }
     .header-inner { gap: 20px; }
-    .header-use { padding: 14px 16px; }
+    .header-guide { padding: 14px 16px; }
     .hero { min-height: auto; padding-block: 130px var(--space-80); }
     .hero h1 { font-size: clamp(36px, 10vw, 48px); }
     .hero .names { margin-top: 20px; }
