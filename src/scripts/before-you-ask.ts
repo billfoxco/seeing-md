@@ -1,3 +1,7 @@
+const imageDialog = document.querySelector<HTMLDialogElement>('#image-dialog')!;
+const expandedImage = document.querySelector<HTMLImageElement>('#expanded-image')!;
+let imageTrigger: HTMLAnchorElement | null = null;
+
 const chapters = Array.from(document.querySelectorAll<HTMLElement>('[data-chapter]'));
 const toggle = document.querySelector<HTMLButtonElement>('#presentation-toggle')!;
 const controls = document.querySelector<HTMLElement>('#presentation-controls')!;
@@ -44,6 +48,7 @@ previous.addEventListener('click', () => showChapter(current - 1));
 next.addEventListener('click', () => showChapter(current + 1));
 
 document.addEventListener('keydown', event => {
+  if (imageDialog.open) return;
   if (!presenting || event.altKey || event.ctrlKey || event.metaKey) return;
   if (event.key === 'Escape') {
     event.preventDefault();
@@ -91,3 +96,35 @@ document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach(button => {
 });
 
 if (new URLSearchParams(window.location.search).get('present') === '1') setPresentation(true, false);
+
+// Native modal dialogs contain focus and keep the underlying chapter inactive.
+// Without dialog support, the image links still open the original asset.
+document.querySelectorAll<HTMLAnchorElement>('[data-expand-image]').forEach(link => {
+  link.addEventListener('click', event => {
+    if (event.button > 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    if (typeof imageDialog.showModal !== 'function') return;
+    const image = link.querySelector<HTMLImageElement>('img');
+    if (!image) return;
+    event.preventDefault();
+    imageTrigger = link;
+    expandedImage.src = image.currentSrc || image.src;
+    expandedImage.alt = image.alt;
+    document.querySelector<HTMLElement>('#image-dialog-title')!.textContent =
+      link.closest('figure')?.querySelector('figcaption')?.textContent || 'Expanded image';
+    imageDialog.showModal();
+    document.body.classList.add('image-expanded');
+  });
+});
+
+document.querySelector<HTMLButtonElement>('#close-image')!.addEventListener('click', () => imageDialog.close());
+imageDialog.addEventListener('cancel', event => {
+  event.preventDefault();
+  imageDialog.close();
+});
+imageDialog.addEventListener('click', event => {
+  if (event.target === imageDialog) imageDialog.close();
+});
+imageDialog.addEventListener('close', () => {
+  document.body.classList.remove('image-expanded');
+  imageTrigger?.focus({ preventScroll: true });
+});

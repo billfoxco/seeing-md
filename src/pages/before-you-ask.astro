@@ -57,7 +57,10 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
             <a class="text-link" href="#amplification">Begin here <span aria-hidden="true">↓</span></a>
           </div>
           <figure>
-            <img src="/images/before-you-ask/decided-before-i-looked.webp" width="3840" height="2160" fetchpriority="high" alt="One viewpoint projects onto work, the past, and the news. The image asks whether the problem begins in what we see or how we see it." />
+            <a class="image-expand" href="/images/before-you-ask/decided-before-i-looked.webp" data-expand-image>
+              <img src="/images/before-you-ask/decided-before-i-looked.webp" width="3840" height="2160" fetchpriority="high" alt="One viewpoint projects onto work, the past, and the news. The image asks whether the problem begins in what we see or how we see it." />
+              <span class="expand-label">Expand image <span aria-hidden="true">↗</span></span>
+            </a>
             <figcaption>What have I already decided this is?</figcaption>
           </figure>
         </div>
@@ -72,7 +75,10 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
             <p>AI can help us act on that picture with greater speed and reach. A more rigorous answer can still begin with an unexamined question.</p>
           </div>
           <figure>
-            <img src="/images/before-you-ask/ai-begins-before-the-system.webp" width="3840" height="2160" loading="lazy" alt="AI begins before the system. What shaped the intent? Seeing leads to intent, system, and scale." />
+            <a class="image-expand" href="/images/before-you-ask/ai-begins-before-the-system.webp" data-expand-image>
+              <img src="/images/before-you-ask/ai-begins-before-the-system.webp" width="3840" height="2160" loading="lazy" alt="AI begins before the system. What shaped the intent? Seeing leads to intent, system, and scale." />
+              <span class="expand-label">Expand image <span aria-hidden="true">↗</span></span>
+            </a>
             <figcaption>What will this instruction amplify?</figcaption>
           </figure>
         </div>
@@ -88,7 +94,10 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
             <p class="muted">Leave room for the first answer to be incomplete. Question what this file asks you to see, too.</p>
           </div>
           <figure>
-            <img src="/images/before-you-ask/the-space-before-seeing-again.webp" width="3840" height="2160" loading="lazy" alt="Notice and question. A space marked not knowing. Then see again and act." />
+            <a class="image-expand" href="/images/before-you-ask/the-space-before-seeing-again.webp" data-expand-image>
+              <img src="/images/before-you-ask/the-space-before-seeing-again.webp" width="3840" height="2160" loading="lazy" alt="Notice and question. A space marked not knowing. Then see again and act." />
+              <span class="expand-label">Expand image <span aria-hidden="true">↗</span></span>
+            </a>
             <figcaption>Notice → Question → See again → Act. An orientation, not a formula.</figcaption>
           </figure>
         </div>
@@ -159,6 +168,16 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
       </section>
     </main>
 
+    <dialog id="image-dialog" class="image-dialog" aria-labelledby="image-dialog-title">
+      <div class="image-dialog-inner">
+        <div class="image-dialog-header">
+          <p id="image-dialog-title">Expanded image</p>
+          <button id="close-image" class="quiet-button" type="button" autofocus>Close <span aria-hidden="true">×</span></button>
+        </div>
+        <img id="expanded-image" alt="" />
+      </div>
+    </dialog>
+
     <nav id="presentation-controls" class="presentation-controls" aria-label="Presentation" hidden>
       <button id="previous-chapter" class="quiet-button" aria-label="Previous section">← Previous</button>
       <span id="chapter-counter" role="status" aria-live="polite" aria-atomic="true">1 / 6</span>
@@ -205,6 +224,17 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
   .muted { color:var(--w60) !important; }
   figure { min-width:0; }
   figure img { display:block; width:100%; height:auto; border:1px solid var(--w15); }
+  .image-expand { display:block; text-decoration:none; cursor:zoom-in; }
+  .expand-label { display:block; margin-top:10px; font-size:12px; line-height:1.5; color:var(--w60); text-align:right; }
+  .image-expand:hover .expand-label { color:var(--paper); }
+  .image-dialog { width:calc(100vw - 40px); max-width:1800px; max-height:calc(100dvh - 40px); margin:auto; padding:20px; border:1px solid var(--w15); background:var(--ink); color:var(--paper); overflow:auto; }
+  .image-dialog::backdrop { background:rgba(0,0,0,.92); }
+  .image-dialog-inner { display:flex; flex-direction:column; gap:20px; }
+  .image-dialog-header { display:flex; justify-content:space-between; align-items:center; gap:20px; }
+  #image-dialog-title { max-width:960px; font-size:14px; line-height:1.5; color:var(--w80); }
+  #close-image { flex:none; }
+  #expanded-image { display:block; width:100%; height:auto; max-height:calc(100dvh - 160px); object-fit:contain; }
+  .image-expanded { overflow:hidden; }
   figcaption { margin-top:20px; color:var(--w60); font-size:14px; line-height:1.5; }
   .text-link { display:inline-block; margin-top:var(--s40); font-size:16px; }
   .text-link span { margin-left:10px; }
@@ -251,6 +281,9 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
   @media (max-width:540px) {
     .header-inner { min-height:80px; gap:12px; }
     .wordmark { font-size:14px; gap:8px; }
+    .image-dialog { width:calc(100vw - 20px); max-height:calc(100dvh - 20px); padding:15px; }
+    .image-dialog-header { align-items:flex-start; gap:12px; }
+    #image-dialog-title { font-size:12px; }
     #presentation-toggle { font-size:10px; padding:12px; max-width:145px; }
     .destinations a { align-items:flex-start; flex-direction:column; gap:10px; }
     .presentation-controls { gap:16px; }
@@ -259,7 +292,7 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
   @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition-duration:.01ms !important; } }
   @media print {
     body { background:#fff; color:#000; }
-    .site-header,.presentation-controls,.copy-button,.button,.skip-link { display:none !important; }
+    .site-header,.presentation-controls,.copy-button,.button,.skip-link,.image-dialog,.expand-label { display:none !important; }
     .chapter,.presenting .chapter { display:block !important; min-height:0; padding:30px 0; break-after:page; }
     .chapter[hidden] { display:block !important; }
     .muted,.eyebrow,.small,.copy > p,.measure,figcaption,.steps span,.prompt-column blockquote { color:#333 !important; }

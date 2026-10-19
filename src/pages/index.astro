@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.4.2 (Before You Ask visual guide; SEEING.md 1.0.0)
+ * Page version: 1.4.3 (Clearer guide navigation; SEEING.md 1.0.0)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -160,6 +160,7 @@ const description =
           </svg>
           <span>SEEING.md</span>
         </a>
+        <a class="button header-use" href="#use">How to use it</a>
       </div>
     </header>
 
@@ -171,9 +172,8 @@ const description =
             <p class="names">The problem. The customer. The underperformer. The strategy.</p>
             <div class="hero-actions">
               <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md</a>
-              <a class="button button-outline" href="#use">How to use it</a>
+              <a class="button button-outline" href="/before-you-ask/">How it works</a>
             </div>
-            <a class="guide-link" href="/before-you-ask/">See how SEEING.md works <span aria-hidden="true">→</span></a>
           </div>
           <figure class="hero-space">
             <div class="frame">
@@ -310,15 +310,14 @@ const description =
   .wordmark { display: inline-flex; align-items: center; gap: 12px; font-size: 16px; font-weight: 500; line-height: 1; letter-spacing: .01em; text-decoration: none; }
   .wordmark svg { width: 20px; height: 20px; }
   .wordmark svg { display: block; flex: 0 0 20px; }
+  .header-use { background: transparent; border-color: var(--amber); padding: 15px 20px; min-height: 44px; white-space: nowrap; }
+  .header-use:hover { background: transparent; color: var(--paper); border-color: var(--w60); }
 
   .hero { padding-block: calc(80px + var(--space-100)) var(--space-100); }
   .hero-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: var(--space-80); align-items: center; }
   .hero h1 { max-width: 600px; font-size: clamp(48px, 4.2vw, 60px); line-height: 1; }
   .hero .names { max-width: 560px; margin-top: var(--space-30); font-size: 18px; line-height: 1.75; color: var(--w60); }
   .hero-actions { display: flex; flex-wrap: wrap; gap: 20px; margin-top: var(--space-40); }
-  .guide-link { display: inline-block; margin-top: 30px; font-size: 16px; color: var(--w80); }
-  .guide-link span { margin-left: 8px; }
-  .guide-link:hover { color: var(--paper); }
   /* Framed figure, after Suede's amber corner brackets */
   .hero-space { margin: 0; display: flex; justify-content: flex-end; }
   .frame {
@@ -386,6 +385,8 @@ const description =
   @media (max-width: 760px) {
     .site-header { padding-block: 20px; }
     .wordmark { font-size: 14px; }
+    .header-inner { gap: 20px; }
+    .header-use { padding: 14px 16px; }
     .hero { min-height: auto; padding-block: 130px var(--space-80); }
     .hero h1 { font-size: clamp(36px, 10vw, 48px); }
     .hero .names { margin-top: 20px; }
