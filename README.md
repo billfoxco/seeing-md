@@ -64,7 +64,7 @@ Version `1.0.0` (18 October 2026) is the current version. The project lives at [
 
 ## Visual introduction
 
-[Before You Ask](https://seeing.md/before-you-ask/) introduces the purpose and use of SEEING.md in six sections, with three images from *The Perception Miracle* and an illustrative leadership request. Read it as a scrolling page or use Presentation view (arrow keys, Home/End, Escape to return). The activation instructions and release details come from the canonical specification at build time.
+[Before You Ask](https://seeing.md/before-you-ask/) introduces the purpose and use of SEEING.md in six sections, with three images from *The Perception Miracle* and an illustrative leadership request. Click an image to expand it; close it with Escape, the close button, or the backdrop. Read it as a scrolling page or use Presentation view (arrow keys, Home/End, Escape to return). The activation instructions and release details come from the canonical specification at build time.
 
 ## Website maintenance
 
