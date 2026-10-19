@@ -62,6 +62,10 @@ Version `1.0.0` (18 October 2026) is the current version. The project lives at [
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 
+## Visual introduction
+
+[Before You Ask](https://seeing.md/before-you-ask/) introduces the purpose and use of SEEING.md in six sections, with three images from *The Perception Miracle* and an illustrative leadership request. Read it as a scrolling page or use Presentation view (arrow keys, Home/End, Escape to return). The activation instructions and release details come from the canonical specification at build time.
+
 ## Website maintenance
 
 The landing page is a static Astro site designed for Cloudflare Workers with Static Assets.
