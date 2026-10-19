@@ -1,1 +1,4 @@
 /github https://github.com/billfoxco/seeing-md 302
+/before-you-ask /how-it-works/ 301
+/before-you-ask/ /how-it-works/ 301
+/images/before-you-ask/* /images/how-it-works/:splat 301
