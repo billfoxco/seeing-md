@@ -5,10 +5,9 @@ import { readFileSync } from 'node:fs';
 const specification = readFileSync(new URL('../../SEEING.md', import.meta.url), 'utf8');
 const release = specification.match(/\*\*Version (.+?)\*\*/)?.[1];
 const conversationPrompt = specification.match(/Then tell the AI:\n\n> (.+)/)?.[1];
-const projectPrompt = specification.match(/If you use project-level instructions, add:\n\n> (.+)/)?.[1];
-if (!release || !conversationPrompt || !projectPrompt) throw new Error('Check SEEING.md activation language before publishing the guide.');
-const title = 'Before You Ask — SEEING.md';
-const description = 'A short visual introduction to SEEING.md: what shapes a request, what AI can amplify, and how to begin with a real question.';
+if (!release || !conversationPrompt) throw new Error('Check SEEING.md activation language before publishing the guide.');
+const title = 'How It Works — SEEING.md';
+const description = 'How SEEING.md works: AI scales what we see, so make the first interpretation visible before it becomes action.';
 ---
 <!doctype html>
 <html lang="en">
@@ -34,7 +33,7 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
     <script src="https://cdn.usefathom.com/script.js" data-site="MWASYWBA" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#narrative">Skip to the narrative</a>
+    <a class="skip-link" href="#narrative">Skip to content</a>
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="wordmark" href="/" aria-label="SEEING.md home">
@@ -46,40 +45,19 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
     </header>
 
     <main id="narrative" tabindex="-1">
-      <section class="chapter opening" id="before-you-ask" aria-labelledby="opening-title" data-chapter>
+      <section class="chapter opening" id="the-shift" aria-labelledby="opening-title" data-chapter>
         <div class="wrap chapter-grid">
           <div class="copy">
-            <p class="eyebrow">01 / Before you ask</p>
-            <h1 id="opening-title" tabindex="-1">Something has <br />already happened.</h1>
-            <p>Before we ask what to do, we’ve often already decided what we’re looking at.</p>
-            <p>The difficult person. The failing project. The change everyone needs to accept.</p>
-            <p class="muted">An interpretation can arrive so quickly that it feels like the situation itself.</p>
-            <a class="text-link" href="#amplification">Begin here <span aria-hidden="true">↓</span></a>
-          </div>
-          <figure>
-            <a class="image-expand" href="/images/before-you-ask/decided-before-i-looked.webp" data-expand-image>
-              <img src="/images/before-you-ask/decided-before-i-looked.webp" width="3840" height="2160" fetchpriority="high" alt="One viewpoint projects onto work, the past, and the news. The image asks whether the problem begins in what we see or how we see it." />
-              <span class="expand-label">Expand image <span aria-hidden="true">↗</span></span>
-            </a>
-            <figcaption>What have I already decided this is?</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="chapter" id="amplification" aria-labelledby="amplification-title" data-chapter>
-        <div class="wrap chapter-grid">
-          <div class="copy">
-            <p class="eyebrow">02 / What gets carried forward</p>
-            <h2 id="amplification-title" tabindex="-1">AI scales what we see. <br /><span class="muted">And what we don’t.</span></h2>
-            <p>Our instructions carry a picture of the situation: what matters, what the problem is, and what success should look like.</p>
-            <p>AI can help us act on that picture with greater speed and reach. A more rigorous answer can still begin with an unexamined question.</p>
+            <h1 id="opening-title" tabindex="-1">AI scales what we see. <br /><span class="muted">And what we don’t.</span></h1>
+            <p>Before we ask AI what to do, we’ve often already decided what we’re looking at. The difficult person. The failing project. The change everyone needs to accept.</p>
+            <p>AI carries that picture forward with greater speed and reach. For leaders and teams, a decision made on an unexamined picture now travels further than ever.</p>
+            <a class="text-link" href="#the-file">See how it works <span aria-hidden="true">↓</span></a>
           </div>
           <figure>
             <a class="image-expand" href="/images/before-you-ask/ai-begins-before-the-system.webp" data-expand-image>
-              <img src="/images/before-you-ask/ai-begins-before-the-system.webp" width="3840" height="2160" loading="lazy" alt="AI begins before the system. What shaped the intent? Seeing leads to intent, system, and scale." />
-              <span class="expand-label">Expand image <span aria-hidden="true">↗</span></span>
+              <img src="/images/before-you-ask/ai-begins-before-the-system.webp" width="3840" height="2160" fetchpriority="high" alt="AI begins before the system. What shaped the intent? Seeing leads to intent, system, and scale." />
+              <span class="visually-hidden">Expand image</span>
             </a>
-            <figcaption>What will this instruction amplify?</figcaption>
           </figure>
         </div>
       </section>
@@ -87,16 +65,15 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
       <section class="chapter" id="the-file" aria-labelledby="file-title" data-chapter>
         <div class="wrap chapter-grid">
           <div class="copy">
-            <p class="eyebrow">03 / A pause before action</p>
             <h2 id="file-title" tabindex="-1">Make the first <br />interpretation visible.</h2>
-            <p>SEEING.md is a portable perception specification for people and AI. It invites a closer look at what shaped the intent.</p>
-            <p>You can begin without AI. Bring to mind something you feel sure you understand. Ask what you’ve already decided it means.</p>
-            <p class="muted">Leave room for the first answer to be incomplete. Question what this file asks you to see, too.</p>
+            <p>An interpretation can arrive so quickly that it feels like the situation itself. SEEING.md is a portable file for people and AI that brings it into view before it becomes action.</p>
+            <p>Once it’s visible, you can keep it, refine it, or let it go, before AI makes it bigger.</p>
+            <p class="muted">You can begin without AI. Bring to mind something you feel sure you understand. Ask what you’ve already decided it means.</p>
           </div>
           <figure>
             <a class="image-expand" href="/images/before-you-ask/the-space-before-seeing-again.webp" data-expand-image>
               <img src="/images/before-you-ask/the-space-before-seeing-again.webp" width="3840" height="2160" loading="lazy" alt="Notice and question. A space marked not knowing. Then see again and act." />
-              <span class="expand-label">Expand image <span aria-hidden="true">↗</span></span>
+              <span class="visually-hidden">Expand image</span>
             </a>
             <figcaption>Notice → Question → See again → Act. An orientation, not a formula.</figcaption>
           </figure>
@@ -105,48 +82,43 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
 
       <section class="chapter example" id="an-example" aria-labelledby="example-title" data-chapter>
         <div class="wrap">
-          <p class="eyebrow">04 / An illustrative example</p>
-          <h2 id="example-title" tabindex="-1">Before making it <br />more persuasive.</h2>
+          <h2 id="example-title" tabindex="-1">Same request. <br />A different first step.</h2>
+          <blockquote class="request">Help me persuade my team to accept this change.</blockquote>
           <div class="example-grid">
             <div>
-              <h3>The request</h3>
-              <blockquote>Help me persuade my team to accept this change.</blockquote>
-              <p class="muted">The request sets acceptance as the outcome. It doesn’t yet tell us what the team has said.</p>
+              <h3>Without SEEING.md</h3>
+              <p class="response">Here’s a message built for buy-in: open with why the change is urgent, answer the objections people are likely to raise, and close with a clear ask for commitment.</p>
+              <p class="muted">Faster and more persuasive. The picture of the team was never examined.</p>
             </div>
             <div>
-              <h3>A question SEEING.md might raise</h3>
-              <blockquote>What concerns has the team actually expressed, and could any of them change the plan?</blockquote>
-              <p class="muted">The change may still be right. The next step might be a clearer explanation, a conversation, or a revision.</p>
+              <h3>With SEEING.md</h3>
+              <p class="response">Before drafting: what has the team actually said? The request sets acceptance as the outcome. If you share their concerns, I can help you explain the change, plan the conversation, or check whether any concern should change the plan.</p>
+              <p class="muted">The change may still be right. Now the next step is chosen, not assumed.</p>
             </div>
           </div>
+          <p class="small muted">Illustrative responses, condensed.</p>
           <p class="closing-question">Bring to mind a request of your own. What has it already decided?</p>
         </div>
       </section>
 
       <section class="chapter try" id="try-it" aria-labelledby="try-title" data-chapter>
         <div class="wrap">
-          <p class="eyebrow">05 / Begin with your own work</p>
           <h2 id="try-title" tabindex="-1">One file. <br />One real question.</h2>
           <div class="try-grid">
             <div>
               <ol class="steps">
-                <li><strong>Download SEEING.md.</strong><span>It’s a plain text file. No technical experience is needed.</span></li>
-                <li><strong>Attach it.</strong><span>Add it to an AI conversation or your project’s reference files.</span></li>
-                <li><strong>Ask the AI to read it.</strong><span>Copy the instruction here, then bring a real decision, brief, or question. Adding a file alone may not activate it.</span></li>
+                <li><strong>Download SEEING.md.</strong><span>A plain text file. No technical experience needed.</span></li>
+                <li><strong>Attach it.</strong><span>Add it to an AI conversation or your project’s files.</span></li>
+                <li><strong>Ask the AI to read it.</strong><span>Copy the instruction, then bring a real decision, brief, or question.</span></li>
               </ol>
               <a class="button" href="/SEEING.md" download>Download SEEING.md</a>
-              <p class="small muted">Version {release} · Free under CC BY 4.0</p>
+              <p class="small muted">Version {release} · Free under CC BY 4.0. A lens, not the lens: it can’t guarantee clear seeing or resolve every AI risk.</p>
             </div>
             <div class="prompt-column">
-              <h3>In a conversation</h3>
+              <h3>The instruction</h3>
               <blockquote id="conversation-prompt">{conversationPrompt}</blockquote>
               <button class="quiet-button copy-button" data-copy="conversation-prompt" hidden>Copy instruction</button>
-              <details>
-                <summary>For repeated project use</summary>
-                <blockquote id="project-prompt">{projectPrompt}</blockquote>
-                <button class="quiet-button copy-button" data-copy="project-prompt" hidden>Copy project instruction</button>
-              </details>
-              <p class="small muted">Look for a distinction between facts and interpretation, or one useful question when something consequential is missing. Examine what the AI suggests. You provide context and decide what to act on. Routine work should remain routine.</p>
+              <p class="small muted">Routine work stays routine. You decide what to act on.</p>
             </div>
           </div>
           <p id="copy-status" class="small" role="status" aria-live="polite"></p>
@@ -155,14 +127,13 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
 
       <section class="chapter continue" id="continue" aria-labelledby="continue-title" data-chapter>
         <div class="wrap">
-          <p class="eyebrow">06 / Keep looking</p>
           <h2 id="continue-title" tabindex="-1">The practice begins <br />before the file.</h2>
-          <p class="measure">SEEING.md grew from <em>The Perception Miracle</em> and more than 500 explorations. The book offers room to stay with the inquiry through images, ordinary situations, and questions.</p>
+          <p class="measure">SEEING.md grew from <em>The Perception Miracle</em> and more than 500 explorations.</p>
           <div class="destinations">
+            <a href="https://seedifferent.xyz/#seeing-first" rel="noopener"><span>Seeing First</span><span class="muted">A private 30 minutes for leaders and teams <span aria-hidden="true">↗</span></span></a>
             <a href="https://book.seedifferent.xyz/" rel="noopener"><span>The Perception Miracle</span><span class="muted">Explore the book <span aria-hidden="true">↗</span></span></a>
             <a href="https://seedifferent.xyz/" rel="noopener"><span>SEE DIFFERENT</span><span class="muted">Discover the wider work <span aria-hidden="true">↗</span></span></a>
           </div>
-          <p class="small muted measure">The file invites examination, including of its own assumptions. It cannot guarantee clear seeing, eliminate bias, or resolve every category of AI risk.</p>
           <a class="text-link" href="/">Return to SEEING.md <span aria-hidden="true">→</span></a>
         </div>
       </section>
@@ -180,7 +151,7 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
 
     <nav id="presentation-controls" class="presentation-controls" aria-label="Presentation" hidden>
       <button id="previous-chapter" class="quiet-button" aria-label="Previous section">← Previous</button>
-      <span id="chapter-counter" role="status" aria-live="polite" aria-atomic="true">1 / 6</span>
+      <span id="chapter-counter" role="status" aria-live="polite" aria-atomic="true">1 / 5</span>
       <button id="next-chapter" class="quiet-button" aria-label="Next section">Next →</button>
     </nav>
     <footer><div class="wrap footer-inner"><span>© 2026 <a href="https://billfox.co/" rel="author noopener">Bill Fox</a></span><span>Images from <em>The Perception Miracle</em></span><a href="mailto:hello@seeing.md">hello@seeing.md</a></div></footer>
@@ -219,14 +190,12 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
   .chapter { padding-block:var(--s100); border-bottom:1px solid var(--w15); scroll-margin-top:0; }
   .chapter-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:var(--s80); align-items:center; }
   .copy { max-width:580px; }
-  .eyebrow { font-size:12px; line-height:1.5; font-weight:500; letter-spacing:.05em; text-transform:uppercase; color:var(--w60); margin-bottom:var(--s30); }
-  .copy > p:not(.eyebrow),.measure { margin-top:var(--s30); color:var(--w80); }
+  .visually-hidden { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+  .copy > p,.measure { margin-top:var(--s30); color:var(--w80); }
   .muted { color:var(--w60) !important; }
   figure { min-width:0; }
   figure img { display:block; width:100%; height:auto; border:1px solid var(--w15); }
   .image-expand { display:block; text-decoration:none; cursor:zoom-in; }
-  .expand-label { display:block; margin-top:10px; font-size:12px; line-height:1.5; color:var(--w60); text-align:right; }
-  .image-expand:hover .expand-label { color:var(--paper); }
   .image-dialog { width:calc(100vw - 40px); max-width:1800px; max-height:calc(100dvh - 40px); margin:auto; padding:20px; border:1px solid var(--w15); background:var(--ink); color:var(--paper); overflow:auto; }
   .image-dialog::backdrop { background:rgba(0,0,0,.92); }
   .image-dialog-inner { display:flex; flex-direction:column; gap:20px; }
@@ -240,8 +209,11 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
   .text-link span { margin-left:10px; }
   .text-link:hover,footer a:hover { color:var(--w60); }
   .example-grid,.try-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:var(--s80); margin-top:var(--s60); }
-  .example blockquote { font-size:clamp(24px,2.4vw,30px); line-height:1.5; margin-top:20px; padding-left:20px; border-left:1px solid var(--amber); }
-  .example-grid p { margin-top:var(--s30); }
+  .example .request { max-width:740px; font-size:clamp(24px,2.4vw,30px); line-height:1.5; margin-top:var(--s60); padding-left:20px; border-left:1px solid var(--amber); }
+  .example-grid h3 { font-size:12px; letter-spacing:.05em; text-transform:uppercase; color:var(--w60); }
+  .example-grid > div:last-child h3 { color:var(--amber); }
+  .example .response { margin-top:20px; font-size:20px; line-height:1.6; color:var(--w80); }
+  .example-grid p.muted { margin-top:var(--s30); font-size:16px; }
   .closing-question { max-width:740px; margin-top:var(--s60); font-size:24px; line-height:1.5; }
   .steps { list-style:none; counter-reset:steps; margin:0; padding:0; }
   .steps li { counter-increment:steps; position:relative; padding-left:40px; margin-bottom:var(--s30); }
@@ -253,8 +225,6 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
   .small { font-size:14px; line-height:1.75; margin-top:20px; }
   .prompt-column blockquote { font-size:16px; color:var(--w80); border-left:1px solid var(--amber); padding-left:20px; margin-top:20px; }
   .copy-button { margin-top:20px; }
-  details { margin-top:var(--s30); padding-block:20px; border-top:1px solid var(--w15); border-bottom:1px solid var(--w15); }
-  summary { cursor:pointer; font-size:16px; }
   #copy-status:empty { margin:0; }
   .measure { max-width:640px; }
   .destinations { margin-top:var(--s60); max-width:880px; }
@@ -292,12 +262,11 @@ const description = 'A short visual introduction to SEEING.md: what shapes a req
   @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition-duration:.01ms !important; } }
   @media print {
     body { background:#fff; color:#000; }
-    .site-header,.presentation-controls,.copy-button,.button,.skip-link,.image-dialog,.expand-label { display:none !important; }
+    .site-header,.presentation-controls,.copy-button,.button,.skip-link,.image-dialog { display:none !important; }
     .chapter,.presenting .chapter { display:block !important; min-height:0; padding:30px 0; break-after:page; }
     .chapter[hidden] { display:block !important; }
-    .muted,.eyebrow,.small,.copy > p,.measure,figcaption,.steps span,.prompt-column blockquote { color:#333 !important; }
+    .muted,.small,.copy > p,.measure,figcaption,.steps span,.prompt-column blockquote { color:#333 !important; }
     .chapter-grid,.example-grid,.try-grid { gap:30px; }
-    details::details-content { display:block; content-visibility:visible; }
     figure { max-width:600px; margin-top:20px; }
     h1,h2 { font-size:36px; }
     footer { color:#333; }
