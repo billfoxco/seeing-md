@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 1.0.0 · 18 October 2026**
+**Version 1.1.0 · 21 October 2026**
 
 ## The perception behind intent
 
@@ -170,6 +170,12 @@ When listening or reading, distinguish the person's words from the meaning you a
 Ask, too, who will live with the effects of this seeing, and what it asks of them.
 
 Ask the same questions whether the difficulty is described as yours or someone else’s. The line between “my problem” and “theirs” can itself be an assumption. For AI, examine how a request describes the person making it as carefully as how it describes others.
+
+Notice when a decision is being shaped by a future no one can yet see. A forecast can arrive with the same certainty as a memory. Ask:
+
+> What would I have to know about what comes next for this to feel safe?
+
+If the answer is everything, the forecast may be doing the reasoning. Return to what is in front of you. This does not set aside planning or foresight. It asks whether the plan is responding to what is here or to what is feared. For AI, do not presume fear in a request; examine whether its premise treats a prediction as settled.
 
 ### 3. See again
 
