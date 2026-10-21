@@ -8,6 +8,19 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.1.0 — 2026-10-21
+
+### Added
+
+- Added to “Question” attention to decisions shaped by a future no one can yet see. A forecast can arrive with the same certainty as a memory. The new question, “What would I have to know about what comes next for this to feel safe?”, helps notice when the answer would have to be everything, and the forecast is doing the reasoning. Planning and foresight are not set aside; the question is whether a plan responds to what is here or to what is feared. For AI, the guidance does not presume fear in a request and examines only whether its premise treats a prediction as settled.
+
+### Changed
+
+- Carried the addition into the README's movement summary and expected behavior.
+- Aligned the homepage version and download note with 1.1.0. The homepage copy is otherwise unchanged.
+
+This minor release extends the specification's attention from the past entering the present to a feared future entering it. The prompt is ACIM Lesson 47 (“God is the strength in which I trust”), translated into a nonsectarian, evidence-sensitive inquiry: the anxious mind cannot gather enough about the future to feel at peace, and returns to steadiness by attending to what is in front of it. The purpose and operating principles are unchanged.
+
 ## 1.0.0 — 2026-10-18
 
 ### Added
