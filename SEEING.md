@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 1.1.0 · 21 October 2026**
+**Version 1.2.0 · 24 October 2026**
 
 ## The perception behind intent
 
@@ -147,7 +147,7 @@ Notice what you need the situation to be. A definition can carry a demand: that 
 
 Notice where you see yourself in the situation: the one who must fix it, the one being judged, the one with no say. Where someone stands in a situation can shape it before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
 
-Notice what feels at stake in your own reading: a position, a plan, a reputation, or an answer you have already given. Ask whether protecting it is shaping what you can see. When examining another person's work, do not presume fear or defensiveness without evidence.
+Notice what feels at stake in your own reading: a position, a plan, a reputation, or an answer you have already given. Ask whether protecting it is shaping what you can see. A decision can defend something you believe keeps you standing, such as a role, a number, or being liked, and answer that fear rather than the situation. Urgency is not evidence: the loudest framing is not necessarily the truest. When examining another person's work, do not presume fear or defensiveness without evidence.
 
 Look at the specific thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask:
 
@@ -177,6 +177,12 @@ Notice when a decision is being shaped by a future no one can yet see. A forecas
 
 If the answer is everything, the forecast may be doing the reasoning. Return to what is in front of you. This does not set aside planning or foresight. It asks whether the plan is responding to what is here or to what is feared. For AI, do not presume fear in a request; examine whether its premise treats a prediction as settled.
 
+When a decision feels urgent or unavoidable, ask:
+
+> If nothing we depend on were at risk, what would we decide?
+
+The distance between that answer and the actual decision shows how much the fear of losing something is deciding. Some risks are real and deserve their weight; the question makes them visible rather than dismissing them. For AI, when a request is framed by alarm, blame, or pressure to act now, surface that framing before answering inside it.
+
 ### 3. See again
 
 Not knowing may involve more than missing information: a definition may have been mistaken for the thing itself. Do not rush to replace the first interpretation with a better one. Remain open to what it may have obscured.
@@ -191,7 +197,7 @@ Notice whether the framing sets you apart from what you are looking at. A label 
 
 ### 4. Act
 
-Let the next action arise from what is now clearer. That may mean a new direction, a better question, or dropping the original action. Sometimes it means less explaining, publishing, correcting, or persuading. Sometimes no addition is needed.
+Let the next action arise from what is now clearer. Acting on an assumption strengthens it. Before acting, ask whether the action treats something as true that has not been looked at. That may mean a new direction, a better question, or dropping the original action. Sometimes it means less explaining, publishing, correcting, or persuading. Sometimes no addition is needed.
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
