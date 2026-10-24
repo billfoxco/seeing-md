@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 1.1.0 · 21 October 2026**
+**The perception behind intent · Version 1.2.0 · 24 October 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -32,7 +32,7 @@ For repeated project use, add this to the project's working instructions:
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
-Notice the meaning that was already there when you looked, including what you need the situation to be, where you see yourself in it, what you may be trying to protect, what has already been set aside as noise, and where an accurate label may still be serving as the lens. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's, and whether a forecast of what comes next is doing the reasoning. Remain open long enough to see again, noticing any urge to fill the gap quickly; what is needed may already be present and not yet accepted; seeing differently may need less in the way, not more effort; and a wider or higher view is still a view. Act from what becomes clearer. This is an orientation, not a formula.
+Notice the meaning that was already there when you looked, including what you need the situation to be, where you see yourself in it, what you may be trying to protect and whether a decision is answering a fear of loss rather than the situation, what has already been set aside as noise, and where an accurate label may still be serving as the lens. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's, whether a forecast of what comes next is doing the reasoning, and what you would decide if nothing you depend on were at risk. Remain open long enough to see again, noticing any urge to fill the gap quickly; what is needed may already be present and not yet accepted; seeing differently may need less in the way, not more effort; and a wider or higher view is still a view. Act from what becomes clearer, remembering that acting on an assumption strengthens it. This is an orientation, not a formula.
 
 ## What to expect
 
@@ -42,7 +42,7 @@ When a gap is minor, the AI should state its assumption briefly and continue. Ro
 
 In summaries and reviews, it should make the scope of the supplied material clear, distinguish recorded information from inference, and ground possible connections in that material. An empty field does not establish avoidance; a single snapshot does not establish progress or decline. When a result has gone wrong, it should trace the outcome to the framing and assumptions that shaped it before attributing it to a person: ask what we were all assuming before asking who got it wrong. The original understanding may remain appropriate after examination. Disagreement with the inquiry is not evidence that the inquiry is right.
 
-When a request asks AI to make a conclusion more persuasive, the file may help examine what the person feels a need to defend, if the words support that possibility. It should not infer fear or motive from disagreement, urgency, or confidence alone. When a request rests on a prediction, it may examine whether that prediction is being treated as settled.
+When a request asks AI to make a conclusion more persuasive, the file may help examine what the person feels a need to defend, if the words support that possibility. It should not infer fear or motive from disagreement, urgency, or confidence alone. When a request rests on a prediction, it may examine whether that prediction is being treated as settled. When a request is framed by alarm, blame, or pressure to act now, it should surface that framing before answering inside it; urgency is not evidence.
 
 Expertise, original evidence, rigorous methods, and independent verification can strengthen a result. They do not necessarily establish that the original question or criteria for success were well framed. `SEEING.md` makes those choices available for examination without replacing technical rigor. Likewise, offering several perspectives on a request is not the same as examining the one it already stands in.
 
@@ -58,7 +58,7 @@ The [before-going-deeper example](examples/before-going-deeper.md) shows how scr
 
 ## Current status
 
-Version `1.1.0` (21 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
+Version `1.2.0` (24 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 

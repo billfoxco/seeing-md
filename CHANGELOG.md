@@ -8,6 +8,21 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.2.0 — 2026-10-24
+
+### Added
+
+- Extended “Notice” to attention to what a decision may be defending: something believed to keep us standing, such as a role, a number, or being liked. Such a decision may be answering a fear rather than the situation. Added that urgency is not evidence: the loudest framing is not necessarily the truest. The existing caution against presuming fear or defensiveness in others is unchanged.
+- Added to “Question” the question “If nothing we depend on were at risk, what would we decide?” The distance between that answer and the actual decision shows how much the fear of loss is deciding. Real risks keep their weight. For AI, a request framed by alarm, blame, or pressure to act now should have that framing surfaced before it is answered inside it.
+- Added to “Act” that acting on an assumption strengthens it, with a check before acting: does the action treat something as true that has not been looked at?
+
+### Changed
+
+- Carried the additions into the README's movement summary and expected behavior.
+- Aligned the homepage version and download note with 1.2.0. The homepage copy is otherwise unchanged.
+
+This minor release adds guidance on what a decision may be protecting and on urgency as a framing rather than evidence. The prompts are ACIM Lesson 49 (“God's voice speaks to me all through the day”), on the difference between the louder, reacting voice and the one that sees, and ACIM Lesson 50 (“I am sustained by the love of God”), on what we believe keeps us safe. Both are translated into a nonsectarian, evidence-sensitive inquiry. The purpose and operating principles are unchanged.
+
 ## 1.1.0 — 2026-10-21
 
 ### Added
