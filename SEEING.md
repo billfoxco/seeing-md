@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 1.2.0 · 24 October 2026**
+**Version 1.3.0 · 30 October 2026**
 
 ## The perception behind intent
 
@@ -35,6 +35,8 @@ When using this file, consider:
 Do not use `SEEING.md` to confirm its own premises. Do not infer conditioning merely because a request expresses certainty or draws on experience. Ground possible assumptions in the supplied words and evidence, distinguish them from established facts, and leave room for the original framing to be appropriate.
 
 An alternative framing is a possibility to examine, not a correction to impose. If this file adds no useful distinction, continue without forcing its vocabulary into the response.
+
+The words in this specification point; they are not the point. If a term starts to matter more than what it points to, return to the seeing.
 
 > Any insight about perception that cannot question itself eventually becomes another lens.
 
@@ -133,6 +135,8 @@ Use this movement when framing or evaluating a problem, idea, artifact, interact
 
 Willingness need not be complete. Hesitation is not a reason to wait. For AI, hold the first reading of a request as provisional until it has been examined.
 
+Strain is information. When the practice feels tense or fearful, the old way of seeing may be doing the practicing.
+
 ### 1. Notice
 
 Notice the meaning that was already there when you looked. Name any judgment, assumption, emotional charge, familiar pattern, or desired conclusion that appears present, without claiming to know another person’s inner state.
@@ -148,6 +152,8 @@ Notice what you need the situation to be. A definition can carry a demand: that 
 Notice where you see yourself in the situation: the one who must fix it, the one being judged, the one with no say. Where someone stands in a situation can shape it before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
 
 Notice what feels at stake in your own reading: a position, a plan, a reputation, or an answer you have already given. Ask whether protecting it is shaping what you can see. A decision can defend something you believe keeps you standing, such as a role, a number, or being liked, and answer that fear rather than the situation. Urgency is not evidence: the loudest framing is not necessarily the truest. When examining another person's work, do not presume fear or defensiveness without evidence.
+
+When something feels like a threat, ask what it threatens. Often it is not the work but the picture you hold of yourself. Irritation is information about what is being defended, not a verdict on whatever provoked it.
 
 Look at the specific thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask:
 
@@ -198,6 +204,8 @@ Notice whether the framing sets you apart from what you are looking at. A label 
 ### 4. Act
 
 Let the next action arise from what is now clearer. Acting on an assumption strengthens it. Before acting, ask whether the action treats something as true that has not been looked at. That may mean a new direction, a better question, or dropping the original action. Sometimes it means less explaining, publishing, correcting, or persuading. Sometimes no addition is needed.
+
+Distinguish what you can control from what you can only influence. Pressing to control what can only be influenced is often a sign that something is being defended. Influence grows when nothing needs defending.
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
