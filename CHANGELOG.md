@@ -8,6 +8,23 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.3.0 — 2026-10-30
+
+### Added
+
+- Added to “Notice” that when something feels like a threat, it helps to ask what it threatens. Often it is not the work but the picture held of oneself. Irritation is information about what is being defended, not a verdict on whatever provoked it. This extends the existing attention to what a reading may be protecting; the caution against presuming fear or defensiveness in others is unchanged.
+- Added to “Act” the distinction between what can be controlled and what can only be influenced. Pressing to control what can only be influenced often signals that something is being defended; influence grows when nothing needs defending.
+- Added to “The movement” that strain is information: when the practice feels tense or fearful, the old way of seeing may be doing the practicing.
+- Added to “Question this file too” that the specification's words point rather than being the point. If a term starts to matter more than what it points to, return to the seeing.
+
+### Changed
+
+- Carried the additions into the README's movement summary and expected behavior.
+- Added a line to the How It Works page naming the stance the file asks for: relaxed diligence, high standards held without strain.
+- Aligned the homepage version and download note with 1.3.0. The homepage copy is otherwise unchanged.
+
+This minor release adds guidance on reading a felt threat, irritation, or strain as information, and on the difference between control and influence. It also guards the specification against its own vocabulary hardening into doctrine. The prompts are ACIM Lesson 55 (review of Lessons 21–25), on determination without strain and holding words as symbols rather than the thing itself, and ACIM Lesson 56 (review of Lessons 26–30), on how what upsets us shows the self-image we are defending. Both are translated into a nonsectarian, evidence-sensitive inquiry. The purpose and operating principles are unchanged.
+
 ## 1.2.0 — 2026-10-24
 
 ### Added
