@@ -56,6 +56,8 @@ This is an implementation example, not evidence of established effectiveness. Se
 
 The [before-going-deeper example](examples/before-going-deeper.md) shows how scrutiny of a problem's definition and success criteria can complement expertise, original data, and external checks.
 
+Short cases for leaders and teams show the same move in everyday requests: [resistance to change](examples/org-change.md), [the engagement score](examples/engagement.md), [the underperformer](examples/underperformer.md), [getting aligned](examples/alignment.md), and [the employment gap](examples/employment-gap.md).
+
 ## Current status
 
 Version `1.3.0` (30 October 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
