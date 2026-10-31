@@ -123,6 +123,11 @@
  * hiring. How It Works now carries the engagement example instead of the
  * near-duplicate "persuade my team to accept this change".
  *
+ * BUTCHER HERO (31 October 2026)
+ * After a Jack Butcher-style pass: the mechanism, drawn. One ring with a
+ * gap (the blind spot, in amber), an arrow, and the same ring repeated
+ * nine times. Caption: "AI doesn't add blind spots. It copies yours."
+ *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
  * - Assets: Embedded open-frame SVG logo/favicon and public /SEEING.md
@@ -214,12 +219,8 @@ const description =
           </div>
           <figure class="hero-space">
             <div class="frame">
-              <svg class="hero-figure" viewBox="0 0 320 360" fill="none" aria-hidden="true" focusable="false">
-                <ellipse cx="160" cy="322" rx="148" ry="30" stroke="var(--amber)" stroke-width="3" />
-                <rect x="105" y="118" width="110" height="202" rx="55" fill="var(--panel)" stroke="var(--w60)" stroke-width="3" />
-                <circle cx="160" cy="60" r="40" stroke="var(--w60)" stroke-width="3" />
-              </svg>
-              <figcaption>Your AI starts from where you’re standing.</figcaption>
+              <svg class="hero-figure butcher" viewBox="0 0 360 240" fill="none" aria-hidden="true" focusable="false"><path d="M102.1 107.1 A44 44 0 1 1 72.9 77.9" stroke="var(--w60)" stroke-width="3" /><path d="M72.9 77.9 A44 44 0 0 1 102.1 107.1" stroke="var(--amber)" stroke-width="3" /><path d="M130 120 H186 M174 108 L186 120 L174 132" stroke="var(--w60)" stroke-width="3" /><path d="M248.3 63.0 A17 17 0 1 1 237.0 51.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M237.0 51.7 A17 17 0 0 1 248.3 63.0" stroke="var(--amber)" stroke-width="2.5" /><path d="M300.3 63.0 A17 17 0 1 1 289.0 51.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M289.0 51.7 A17 17 0 0 1 300.3 63.0" stroke="var(--amber)" stroke-width="2.5" /><path d="M352.3 63.0 A17 17 0 1 1 341.0 51.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M341.0 51.7 A17 17 0 0 1 352.3 63.0" stroke="var(--amber)" stroke-width="2.5" /><path d="M248.3 115.0 A17 17 0 1 1 237.0 103.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M237.0 103.7 A17 17 0 0 1 248.3 115.0" stroke="var(--amber)" stroke-width="2.5" /><path d="M300.3 115.0 A17 17 0 1 1 289.0 103.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M289.0 103.7 A17 17 0 0 1 300.3 115.0" stroke="var(--amber)" stroke-width="2.5" /><path d="M352.3 115.0 A17 17 0 1 1 341.0 103.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M341.0 103.7 A17 17 0 0 1 352.3 115.0" stroke="var(--amber)" stroke-width="2.5" /><path d="M248.3 167.0 A17 17 0 1 1 237.0 155.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M237.0 155.7 A17 17 0 0 1 248.3 167.0" stroke="var(--amber)" stroke-width="2.5" /><path d="M300.3 167.0 A17 17 0 1 1 289.0 155.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M289.0 155.7 A17 17 0 0 1 300.3 167.0" stroke="var(--amber)" stroke-width="2.5" /><path d="M352.3 167.0 A17 17 0 1 1 341.0 155.7" stroke="var(--w60)" stroke-width="2.5" /><path d="M341.0 155.7 A17 17 0 0 1 352.3 167.0" stroke="var(--amber)" stroke-width="2.5" /></svg>
+              <figcaption>AI doesn’t add blind spots. It copies yours.</figcaption>
             </div>
           </figure>
         </div>
@@ -390,6 +391,7 @@ const description =
     display: flex; flex-direction: column; align-items: center;
   }
   .hero-figure { display: block; width: min(100%, 200px); height: auto; }
+  .hero-figure.butcher { width: 100%; max-width: 340px; }
   .frame figcaption { margin-top: var(--space-40); font-size: 18px; line-height: 1.5; text-align: center; text-wrap: balance; color: var(--w80); }
 
   /* White reading sections: heading, then body, one column */
