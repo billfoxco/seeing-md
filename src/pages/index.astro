@@ -144,6 +144,13 @@
  * from the spacing scale; compact gaps use 10 and 16px; line heights stay
  * on the 1 / 1.25 / 1.5 / 1.75 ladder.
  *
+ * HERO MOTION (31 October 2026)
+ * The drawing animates once on load: the source ring draws (500ms), its
+ * amber blind spot fades in, the arrow draws (250ms), then the nine copies
+ * arrive left to right, 70ms apart, travelling 30px (500ms each), all
+ * ease-out. About 1.9s in total. The resting state is the full drawing;
+ * reduced motion shows it without animation.
+ *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
  * - Assets: Embedded open-frame SVG logo/favicon and public /SEEING.md
@@ -235,7 +242,7 @@ const description =
             </div>
           </div>
           <figure class="hero-space">
-            <svg class="hero-figure" viewBox="14 48 342 144" fill="none" aria-hidden="true" focusable="false"><path d="M103.8 116.2 A44 44 0 1 1 63.8 76.2" stroke="var(--w60)" stroke-width="3" /><path d="M63.8 76.2 A44 44 0 0 1 103.8 116.2" stroke="var(--amber)" stroke-width="3" /><path d="M130 120 H184 M172 108 L184 120 L172 132" stroke="var(--w60)" stroke-width="3" /><path d="M247.9 66.4 A18 18 0 1 1 231.6 50.1" stroke="var(--w60)" stroke-width="3" /><path d="M231.6 50.1 A18 18 0 0 1 247.9 66.4" stroke="var(--amber)" stroke-width="3" /><path d="M299.9 66.4 A18 18 0 1 1 283.6 50.1" stroke="var(--w60)" stroke-width="3" /><path d="M283.6 50.1 A18 18 0 0 1 299.9 66.4" stroke="var(--amber)" stroke-width="3" /><path d="M351.9 66.4 A18 18 0 1 1 335.6 50.1" stroke="var(--w60)" stroke-width="3" /><path d="M335.6 50.1 A18 18 0 0 1 351.9 66.4" stroke="var(--amber)" stroke-width="3" /><path d="M247.9 118.4 A18 18 0 1 1 231.6 102.1" stroke="var(--w60)" stroke-width="3" /><path d="M231.6 102.1 A18 18 0 0 1 247.9 118.4" stroke="var(--amber)" stroke-width="3" /><path d="M299.9 118.4 A18 18 0 1 1 283.6 102.1" stroke="var(--w60)" stroke-width="3" /><path d="M283.6 102.1 A18 18 0 0 1 299.9 118.4" stroke="var(--amber)" stroke-width="3" /><path d="M351.9 118.4 A18 18 0 1 1 335.6 102.1" stroke="var(--w60)" stroke-width="3" /><path d="M335.6 102.1 A18 18 0 0 1 351.9 118.4" stroke="var(--amber)" stroke-width="3" /><path d="M247.9 170.4 A18 18 0 1 1 231.6 154.1" stroke="var(--w60)" stroke-width="3" /><path d="M231.6 154.1 A18 18 0 0 1 247.9 170.4" stroke="var(--amber)" stroke-width="3" /><path d="M299.9 170.4 A18 18 0 1 1 283.6 154.1" stroke="var(--w60)" stroke-width="3" /><path d="M283.6 154.1 A18 18 0 0 1 299.9 170.4" stroke="var(--amber)" stroke-width="3" /><path d="M351.9 170.4 A18 18 0 1 1 335.6 154.1" stroke="var(--w60)" stroke-width="3" /><path d="M335.6 154.1 A18 18 0 0 1 351.9 170.4" stroke="var(--amber)" stroke-width="3" /></svg>
+            <svg class="hero-figure" viewBox="14 48 342 144" fill="none" aria-hidden="true" focusable="false"><g class="source"><path class="arc" pathLength="1" d="M103.8 116.2 A44 44 0 1 1 63.8 76.2" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M63.8 76.2 A44 44 0 0 1 103.8 116.2" stroke="var(--amber)" stroke-width="3" /></g><path class="arrow" pathLength="1" d="M130 120 H184 M172 108 L184 120 L172 132" stroke="var(--w60)" stroke-width="3" /><g class="copy" style="--i:0"><path class="arc" pathLength="1" d="M247.9 66.4 A18 18 0 1 1 231.6 50.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M231.6 50.1 A18 18 0 0 1 247.9 66.4" stroke="var(--amber)" stroke-width="3" /></g><g class="copy" style="--i:1"><path class="arc" pathLength="1" d="M299.9 66.4 A18 18 0 1 1 283.6 50.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M283.6 50.1 A18 18 0 0 1 299.9 66.4" stroke="var(--amber)" stroke-width="3" /></g><g class="copy" style="--i:2"><path class="arc" pathLength="1" d="M351.9 66.4 A18 18 0 1 1 335.6 50.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M335.6 50.1 A18 18 0 0 1 351.9 66.4" stroke="var(--amber)" stroke-width="3" /></g><g class="copy" style="--i:3"><path class="arc" pathLength="1" d="M247.9 118.4 A18 18 0 1 1 231.6 102.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M231.6 102.1 A18 18 0 0 1 247.9 118.4" stroke="var(--amber)" stroke-width="3" /></g><g class="copy" style="--i:4"><path class="arc" pathLength="1" d="M299.9 118.4 A18 18 0 1 1 283.6 102.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M283.6 102.1 A18 18 0 0 1 299.9 118.4" stroke="var(--amber)" stroke-width="3" /></g><g class="copy" style="--i:5"><path class="arc" pathLength="1" d="M351.9 118.4 A18 18 0 1 1 335.6 102.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M335.6 102.1 A18 18 0 0 1 351.9 118.4" stroke="var(--amber)" stroke-width="3" /></g><g class="copy" style="--i:6"><path class="arc" pathLength="1" d="M247.9 170.4 A18 18 0 1 1 231.6 154.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M231.6 154.1 A18 18 0 0 1 247.9 170.4" stroke="var(--amber)" stroke-width="3" /></g><g class="copy" style="--i:7"><path class="arc" pathLength="1" d="M299.9 170.4 A18 18 0 1 1 283.6 154.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M283.6 154.1 A18 18 0 0 1 299.9 170.4" stroke="var(--amber)" stroke-width="3" /></g><g class="copy" style="--i:8"><path class="arc" pathLength="1" d="M351.9 170.4 A18 18 0 1 1 335.6 154.1" stroke="var(--w60)" stroke-width="3" /><path class="gap" d="M335.6 154.1 A18 18 0 0 1 351.9 170.4" stroke="var(--amber)" stroke-width="3" /></g></svg>
             <figcaption>AI doesn’t add blind spots. It copies yours.</figcaption>
           </figure>
         </div>
@@ -401,6 +408,15 @@ const description =
   /* The drawing sits directly on black: no panel, caption set like Suede's. */
   .hero-space { margin: 0 0 0 auto; width: 100%; max-width: 380px; }
   .hero-figure { display: block; width: 100%; height: auto; }
+  /* One moment of motion: the ring draws, its blind spot appears, the arrow
+     draws, and the same blind spot is copied nine times. About 1.9s, once. */
+  .hero-figure .source .arc { stroke-dasharray: 1; animation: sd-draw 500ms ease-out 150ms both; }
+  .hero-figure .source .gap { animation: sd-fade 500ms ease-out 650ms both; }
+  .hero-figure .arrow { stroke-dasharray: 1; animation: sd-draw 250ms ease-out 1000ms both; }
+  .hero-figure .copy { transform-box: fill-box; transform-origin: center; animation: sd-copy 500ms ease-out calc(1150ms + var(--i) * 70ms) both; }
+  @keyframes sd-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+  @keyframes sd-fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes sd-copy { from { opacity: 0; transform: translateX(-30px); } to { opacity: 1; transform: none; } }
   .hero-space figcaption { max-width: 360px; margin-top: var(--space-40); font-size: 16px; line-height: 1.5; color: var(--w60); text-wrap: balance; }
 
   /* White reading sections: heading, then body, one column */
@@ -498,6 +514,7 @@ const description =
   }
 
   @media (prefers-reduced-motion: reduce) {
+    .hero-figure .arc, .hero-figure .gap, .hero-figure .arrow, .hero-figure .copy { animation: none; }
     html { scroll-behavior: auto; }
     * { transition-duration: .01ms !important; }
   }
