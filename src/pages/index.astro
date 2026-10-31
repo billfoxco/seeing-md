@@ -4,7 +4,7 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.4.7 (Single hero action; SEEING.md 1.3.0)
+ * Page version: 1.5.0 (Show it working; SEEING.md version read from the file)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
@@ -20,8 +20,8 @@
  * EXPERIENCE / STRUCTURE
  * The black hero establishes the inherited definition; the white middle
  * offers two ways of looking again; the black close gives one clear action.
- * Hero (recognition) → The question → Flow band (black) → What AI
- * amplifies → Get the file → Seeing First → Footer.
+ * Hero (what it is) → AI scales what we see, with one exchange → Get the
+ * file and use it → Seeing First → Footer.
  * The composition shifts between broad and reading measures instead of
  * repeating the same narrow left-aligned column.
  *
@@ -96,6 +96,18 @@
  * beneath as a caption, with "dropping" as the one amber word. Strokes
  * thinned to 3 to sit closer to the 1px frame.
  *
+ * SHOW-IT-WORKING PASS (31 October 2026)
+ * The page described SEEING.md but never showed it working, and the AI
+ * connection waited until the third section. Now: the hero says what the
+ * file is and who it's for (caption removed from the figure); the second
+ * section carries "AI scales what we see", the smallest-change question,
+ * and one exchange from examples/employment-gap.md; using it is one step
+ * (copy button, where to put it in Claude, ChatGPT and coding tools); the
+ * close offers Seeing First plus two quiet doors (what did your AI ask
+ * you, new versions). Removed: the flow band and the separate smallest-
+ * change section, both now carried by the example. Added a sharing image
+ * (/og.png). Version and instruction are read from SEEING.md.
+ *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
  * - Assets: Embedded open-frame SVG logo/favicon and public /SEEING.md
@@ -119,9 +131,16 @@
  * -----------------------------------------------------------------------------
  */
 
+import { readFileSync } from 'node:fs';
+
+const specification = readFileSync(new URL('../../SEEING.md', import.meta.url), 'utf8');
+const release = specification.match(/\*\*Version (.+?)\*\*/)?.[1];
+const conversationPrompt = specification.match(/Then tell the AI:\n\n> (.+)/)?.[1]?.replaceAll('`', '');
+if (!release || !conversationPrompt) throw new Error('Check SEEING.md version and activation language before publishing the homepage.');
+
 const title = 'SEEING.md — The Perception Behind Intent';
 const description =
-  'A practice of noticing what we have already decided we are seeing. Begins before AI, with a portable file for examining what our instructions may amplify.';
+  'A free file you give your AI, so it questions the definition before it builds on it. For leaders and teams who do real work with AI.';
 ---
 
 <!doctype html>
@@ -135,7 +154,11 @@ const description =
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content="https://seeing.md/" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://seeing.md/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="We don't question what we've already defined. A figure standing inside an amber ring. SEEING.md." />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="https://seeing.md/" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cstyle%3Epath%7Bstroke%3A%2311110f%7D%40media%28prefers-color-scheme%3Adark%29%7Bpath%7Bstroke%3A%23fff%7D%7D%3C%2Fstyle%3E%3Cpath%20d%3D%22M20%204H4V28H28V10%22%20fill%3D%22none%22%20stroke-width%3D%223.2%22%2F%3E%3C%2Fsvg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -169,7 +192,7 @@ const description =
         <div class="wrap hero-grid">
           <div class="hero-copy">
             <h1 id="hero-title">We don’t question what we’ve already defined.</h1>
-            <p class="names">The problem. The customer. The underperformer. The strategy.</p>
+            <p class="names">SEEING.md is a free file you give your AI, so it questions the definition before it builds on it.</p>
             <div class="hero-actions">
               <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md</a>
             </div>
@@ -185,34 +208,29 @@ const description =
                 <rect x="105" y="118" width="110" height="202" rx="55" fill="var(--panel)" stroke="var(--w60)" stroke-width="3" />
                 <circle cx="160" cy="60" r="40" stroke="var(--w60)" stroke-width="3" />
               </svg>
-              <figcaption>You see differently by <em>dropping</em> the viewpoint you’re standing in.</figcaption>
             </div>
           </figure>
         </div>
       </section>
 
-      <section class="practice" id="pause" aria-labelledby="practice-title">
-        <div class="wrap statement">
-          <h2 id="practice-title">The smallest change.</h2>
-          <p>What if the smallest change with the greatest consequence isn’t a change in what we do, but a change in how we see? Bring to mind the thing you feel surest of. The first answer may be the old definition repeating itself. You don't have to come up with a better one. Notice what may already be in the way.</p>
-        </div>
-      </section>
-
-      <section class="flow dark" aria-label="The movement">
-        <div class="wrap">
-          <ol class="movement">
-            <li>Notice</li>
-            <li>Question</li>
-            <li>See again</li>
-            <li>Act</li>
-          </ol>
-        </div>
-      </section>
-
       <section class="ai" id="why" aria-labelledby="ai-title">
-        <div class="wrap statement">
-          <h2 id="ai-title">AI scales what we see.<span>And what we don’t.</span></h2>
-          <p>Before we hand a task to AI, we have already given it a way of seeing the situation. SEEING.md helps examine that seeing before it becomes action. A more rigorous answer can still begin with an unexamined question.</p>
+        <div class="wrap">
+          <div class="statement">
+            <h2 id="ai-title">AI scales what we see.<span>And what we don’t.</span></h2>
+            <p>What if the smallest change with the greatest consequence isn’t a change in what we do, but a change in how we see? Before we hand a task to AI, we have already given it a way of seeing the situation. A more rigorous answer can still begin with an unexamined question.</p>
+          </div>
+          <div class="exchange" aria-label="An example">
+            <div class="turn">
+              <p class="who">You ask</p>
+              <p class="said">Assess the risk presented by this candidate’s employment gap.</p>
+            </div>
+            <div class="turn with">
+              <p class="who">With SEEING.md, the AI asks first</p>
+              <p class="said">You’ve described the gap as a risk. Should I first examine whether it’s relevant to this role, or assess it using your existing criteria?</p>
+            </div>
+            <p class="shift">It didn’t refuse or correct you. It made the hidden decision visible, and left the choice with you.</p>
+            <p class="aside">Illustrative response, condensed. <a href="/how-it-works/#an-example">See another example</a></p>
+          </div>
         </div>
       </section>
 
@@ -223,13 +241,21 @@ const description =
               <h2 id="use-title">Get the file.</h2>
               <p class="intro">A portable file for examining what shapes intent before AI amplifies it.</p>
               <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md</a>
-              <p class="note">Version 1.3.0 · 30 October 2026 · Free under CC BY 4.0</p>
+              <p class="note">Version {release} · Free under CC BY 4.0</p>
               <p class="note">A lens, not the lens: question this file too. It addresses the human assumptions behind AI use; it does not prevent misuse, deception, or loss of control.</p>
             </div>
             <div class="use-guide">
               <h3>Use it in your work</h3>
               <p>Attach it to an AI conversation, a brief, or a project. Then ask the AI to read it first.</p>
-              <blockquote>Read SEEING.md before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision. Question what may be shaping the request, including the assumptions this file brings to the inquiry.</blockquote>
+              <blockquote id="conversation-prompt">{conversationPrompt}</blockquote>
+              <button class="copy-button" type="button" data-copy="conversation-prompt" hidden>Copy instruction</button>
+              <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+              <h4>Where to put it</h4>
+              <dl class="places">
+                <div><dt>Claude</dt><dd>Add the file to a Project, and the instruction to the project’s instructions.</dd></div>
+                <div><dt>ChatGPT</dt><dd>Attach it to the conversation, or add it to a Project’s files.</dd></div>
+                <div><dt>Coding tools</dt><dd>Keep it in the repository and point to it from CLAUDE.md or AGENTS.md.</dd></div>
+              </dl>
             </div>
           </div>
 
@@ -238,8 +264,11 @@ const description =
 
       <section class="seeing-first" id="seeing-first" aria-label="Seeing First">
         <div class="wrap seeing-first-inner">
-          <p>For leaders and teams: a private 30 minutes on what happens when decisions scale.</p>
+          <p>Your AI asked the question. Seeing First helps your team ask it.</p>
           <a class="button" href="https://seedifferent.xyz/#seeing-first" rel="noopener">Seeing First</a>
+        </div>
+        <div class="wrap doors">
+          <p>What did your AI ask you? <a href="mailto:hello@seeing.md?subject=What%20my%20AI%20asked">Tell us at hello@seeing.md</a>. To hear about new versions, <a href="mailto:hello@seeing.md?subject=New%20versions">write with “New versions”</a>.</p>
         </div>
       </section>
     </main>
@@ -255,6 +284,27 @@ const description =
         </div>
       </div>
     </footer>
+    <script is:inline>
+      (() => {
+        const status = document.getElementById('copy-status');
+        document.querySelectorAll('[data-copy]').forEach((button) => {
+          const source = document.getElementById(button.dataset.copy);
+          if (!source || !navigator.clipboard) return;
+          button.hidden = false;
+          button.addEventListener('click', async () => {
+            try {
+              await navigator.clipboard.writeText(source.textContent.trim());
+              status.textContent = 'Instruction copied.';
+              window.fathom?.trackEvent('SEEING.md instruction copied');
+            } catch {
+              const range = document.createRange(); range.selectNodeContents(source);
+              const selection = getSelection(); selection.removeAllRanges(); selection.addRange(range);
+              status.textContent = 'Selected. Press Ctrl+C or Cmd+C to copy.';
+            }
+          });
+        });
+      })();
+    </script>
   </body>
 </html>
 
@@ -319,7 +369,7 @@ const description =
   .hero-space { margin: 0; display: flex; justify-content: flex-end; }
   .frame {
     position: relative; width: 100%; max-width: 440px;
-    padding: var(--space-60) var(--space-40) var(--space-40);
+    padding: var(--space-60) var(--space-40);
     background: var(--panel);
     display: flex; flex-direction: column; align-items: center;
   }
@@ -329,27 +379,24 @@ const description =
   .corner.bl { bottom: -20px; left: -20px; border-bottom-width: 1px; border-left-width: 1px; }
   .corner.br { bottom: -20px; right: -20px; border-bottom-width: 1px; border-right-width: 1px; }
   .hero-figure { display: block; width: min(100%, 200px); height: auto; }
-  .frame figcaption {
-    max-width: 300px; margin-top: var(--space-40);
-    font-size: 16px; line-height: 1.5; text-align: center; color: var(--w80);
-  }
-  .frame figcaption em { font-style: normal; color: var(--amber); }
 
   /* White reading sections: heading, then body, one column */
-  .practice, .ai { padding-block: var(--space-100); }
+  .ai { padding-block: var(--space-100); }
   .statement h2 { max-width: 880px; font-size: var(--section-heading); line-height: 1; }
   .statement h2 span { display: block; }
   .statement p { max-width: var(--measure); margin-top: var(--space-30); font-size: 20px; line-height: 1.75; color: var(--b80); }
 
-  /* Flow band */
-  .flow { padding-block: var(--space-60); }
-  .movement {
-    display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px var(--space-30);
-    margin: 0; padding: 0; list-style: none;
-    font-size: 14px; font-weight: 500; line-height: 1.5; letter-spacing: .05em; text-transform: uppercase;
-  }
-  .movement li { display: inline-flex; align-items: center; gap: var(--space-30); white-space: nowrap; }
-  .movement li:not(:last-child)::after { content: "→"; color: var(--amber); }
+
+  /* One exchange: what the file does, shown once */
+  .exchange { display: grid; gap: var(--space-30); max-width: 880px; margin-top: var(--space-60); }
+  .turn { padding: var(--space-30) var(--space-40); border-left: 1px solid var(--b15); }
+  .turn.with { border-left-color: var(--amber); }
+  .who { font-size: 12px; font-weight: 500; line-height: 1.5; letter-spacing: .05em; text-transform: uppercase; color: var(--b60); }
+  .said { margin-top: 10px; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; color: var(--b80); }
+  .with .said { color: var(--ink); font-weight: 500; }
+  .shift { max-width: var(--measure); font-size: 20px; line-height: 1.75; color: var(--b80); }
+  .aside { font-size: 14px; color: var(--b60); }
+  .aside a:hover { color: var(--amber); }
 
   .use { padding-block: var(--space-100); }
   .use-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: var(--space-100); align-items: start; }
@@ -360,11 +407,30 @@ const description =
   .use .note + .note { margin-top: 10px; }
   .use-guide h3 { font-size: 24px; line-height: 1.25; }
   .use-guide > p { margin-top: 20px; font-size: 16px; color: var(--w80); }
+  .copy-button {
+    margin-top: 20px; padding: 14px 20px; min-height: 44px; font: inherit; font-size: 12px; font-weight: 500;
+    line-height: 1; letter-spacing: .05em; text-transform: uppercase; cursor: pointer;
+    background: transparent; color: var(--paper); border: 1px solid var(--amber);
+    transition: border-color 250ms ease-out;
+  }
+  .copy-button:hover { border-color: var(--w60); }
+  .copy-status { margin-top: 10px; font-size: 14px; color: var(--w60); }
+  .copy-status:empty { display: none; }
+  .use-guide h4 { margin: var(--space-40) 0 0; font-size: 14px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--w60); }
+  .places { display: grid; gap: 14px; margin: 16px 0 0; }
+  .places div { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 16px; font-size: 16px; line-height: 1.5; }
+  .places dt { font-weight: 500; }
+  .places dd { margin: 0; color: var(--w80); }
   .use blockquote { max-width: var(--measure); margin-top: var(--space-30); padding-left: 20px; border-left: 1px solid var(--amber); font-size: 16px; line-height: 1.75; color: var(--w80); }
 
   .seeing-first { padding-block: var(--space-100) var(--space-80); }
   .seeing-first-inner { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-40); }
   .seeing-first p { max-width: 620px; font-size: var(--support-heading); font-weight: 500; line-height: 1.25; color: var(--ink); }
+
+  .doors { margin-top: var(--space-40); }
+  .doors p { max-width: var(--measure); font-size: 16px; line-height: 1.75; color: var(--b60); }
+  .doors a { color: var(--ink); }
+  .doors a:hover { color: var(--amber); }
 
   footer { padding-block: 0 var(--space-60); font-size: 14px; color: var(--b60); }
   footer .wrap { padding-top: var(--space-40); border-top: 1px solid var(--b15); }
@@ -389,21 +455,19 @@ const description =
     .hero .names { margin-top: 20px; }
     .hero-actions { flex-direction: column; align-items: stretch; margin-top: var(--space-40); }
     .hero-actions .button { justify-content: center; }
-    .practice, .ai { padding-block: var(--space-80); }
+    .ai { padding-block: var(--space-80); }
     .statement p { font-size: 18px; }
-    .movement { flex-wrap: nowrap; gap: 8px; font-size: 12px; }
-    .movement li { gap: 8px; }
-    .flow { padding-block: var(--space-40); }
     .seeing-first { padding-block: var(--space-80) var(--space-60); }
     .use { padding-block: var(--space-80) var(--space-60); }
     .use-grid { gap: var(--space-60); }
+    .turn { padding: 20px 0 20px 20px; }
+    .shift { font-size: 18px; }
+    .places div { grid-template-columns: 1fr; gap: 2px; }
     footer { padding-block: var(--space-60) var(--space-40); }
   }
 
   @media (max-width: 380px) {
     .button { padding: 20px; }
-    .movement { gap: 6px; letter-spacing: .03em; }
-    .movement li { gap: 6px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
