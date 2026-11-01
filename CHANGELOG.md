@@ -8,6 +8,20 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.4.0 — 2026-11-01
+
+### Added
+
+- Added to “Notice” that an assumption is often easiest to hear when a routine is interrupted. Beliefs that are followed tend to stay invisible; changing one habitual step, such as the usual template, order, or first question, lets the objection be heard. The objection may be the assumption speaking, or it may be a good reason. Either way, it becomes available to examine.
+- Added to “Question” attention to familiar formats, frameworks, and sequences: ask what the default assumes. For AI, notice when a response follows a habitual structure because it is habitual, and consider whether the request is better served by examining that structure first.
+
+### Changed
+
+- Carried the additions into the README's movement summary and expected behavior.
+- The homepage reads its version from the specification, so it shows 1.4.0 without further changes. The homepage copy is unchanged.
+
+This minor release adds a method for surfacing assumptions: interrupt a routine and listen for what objects. The prompt is ACIM Lesson 58 (review of Lessons 36–40) and its accompanying reflection on routines, in which beliefs stay invisible while we conform to them and become audible when a habit is changed. It is translated into a nonsectarian, evidence-sensitive inquiry that leaves room for the objection to be sound. The purpose and operating principles are unchanged.
+
 ## 1.3.0 — 2026-10-30
 
 ### Added
