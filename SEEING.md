@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 1.3.0 · 30 October 2026**
+**Version 1.4.0 · 1 November 2026**
 
 ## The perception behind intent
 
@@ -163,6 +163,8 @@ Look at the specific thing everyone is sure they already know. Shared certainty 
 
 Notice whether the answer repeats the definition. A new answer can become another fixed definition too.
 
+An assumption is often easiest to hear when a routine is interrupted. Beliefs that are followed tend to stay invisible. Change one habitual step, such as the usual template, the usual order, or the usual first question, and listen for the objection. The objection may be the assumption speaking. It may also be a good reason. Either way, it is now available to examine.
+
 Notice what has already been set aside as noise: the result that did not fit, the remark that seemed beside the point. What was explained away may be the only new thing in front of you.
 
 Notice, too, any pull to defend the first reading, including the AI's prior answer. Disagreement with an inquiry is not evidence that it has uncovered a hidden assumption. It may reflect relevant experience, fatigue, a reasonable boundary, or an inaccurate question. Examine the quality of the invitation before interpreting the response.
@@ -174,6 +176,8 @@ Question what may be shaping that meaning. Do not immediately replace it with a 
 When listening or reading, distinguish the person's words from the meaning you assign to them. Check an interpretation when it could materially change your response, including when agreement comes quickly. Careful attention alone does not establish understanding.
 
 Ask, too, who will live with the effects of this seeing, and what it asks of them.
+
+When work falls into a familiar format, framework, or sequence, ask what that default assumes. For AI, notice when a response follows a habitual structure because it is habitual, and consider whether the request is better served by examining that structure first.
 
 Ask the same questions whether the difficulty is described as yours or someone else’s. The line between “my problem” and “theirs” can itself be an assumption. For AI, examine how a request describes the person making it as carefully as how it describes others.
 
