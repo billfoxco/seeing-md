@@ -8,6 +8,21 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.5.0 — 2026-11-06
+
+### Added
+
+- Added to “Act” that naming an assumption is not the end of it: ask what we do, say, or repeat that keeps it in place. An assumption fades when we stop reinforcing it, not when we argue with it. For AI, when an assumption appears in an answer, check whether it was built into how the question was asked.
+- Added to “Act” what to do when seeing differently creates discomfort. That may be two pictures competing rather than a sign to go back. The familiar will offer quick relief; neither return to it nor overturn everything. Make the smallest change that matches what you now see, and hold it. For AI, when a surfaced assumption conflicts with an established plan, propose the smallest consequential adjustment rather than a full rewrite or a silent reversion.
+
+### Changed
+
+- Made a subtractive pass over “Notice,” which had grown to twelve paragraphs. The two paragraphs on labels are now one, and the two on what a reading may be defending are now one, with a single list of what can feel at stake in place of two overlapping lists. No guidance was removed; the caution against presuming fear or defensiveness in others is unchanged.
+- Carried the additions into the README's movement summary and expected behavior.
+- The homepage reads its version from the specification, so it shows 1.5.0 without further changes. The homepage copy is unchanged.
+
+This minor release addresses what happens after an assumption has been surfaced: where it is kept alive, and what to do with the discomfort that follows a genuine shift in seeing. The prompts are ACIM Lesson 60 (review of Lessons 46–50), on weakening a belief by finding where it is strengthened daily rather than by arguing with it, and ACIM Lesson 59 (review of Lessons 41–45) and its accompanying reflection, in which what was once tolerable becomes intolerable and the answer is one small change held, not a retreat or a dramatic escape. Both are translated into a nonsectarian, evidence-sensitive inquiry. The purpose and operating principles are unchanged.
+
 ## 1.4.0 — 2026-11-01
 
 ### Added
