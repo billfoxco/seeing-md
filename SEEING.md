@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 1.4.0 · 1 November 2026**
+**Version 1.5.0 · 6 November 2026**
 
 ## The perception behind intent
 
@@ -143,17 +143,13 @@ Notice the meaning that was already there when you looked. Name any judgment, as
 
 Look first at the boundaries the work draws—what has been named as the problem, what has been placed outside it, what has been counted as one thing. Interpretation is assembled at those edges.
 
-Naming is useful. It can also end inquiry. “Problem,” “customer,” “underperformer,” and “strategy” can begin to stand in for what they name.
-
-A label can be accurate and still be the lens: true about what it names, and silent about everything else in view.
+Naming is useful. It can also end inquiry. “Problem,” “customer,” “underperformer,” and “strategy” can begin to stand in for what they name. A label can be accurate and still be the lens: true about what it names, and silent about everything else in view.
 
 Notice what you need the situation to be. A definition can carry a demand: that someone change, agree, or prove the description right.
 
 Notice where you see yourself in the situation: the one who must fix it, the one being judged, the one with no say. Where someone stands in a situation can shape it before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
 
-Notice what feels at stake in your own reading: a position, a plan, a reputation, or an answer you have already given. Ask whether protecting it is shaping what you can see. A decision can defend something you believe keeps you standing, such as a role, a number, or being liked, and answer that fear rather than the situation. Urgency is not evidence: the loudest framing is not necessarily the truest. When examining another person's work, do not presume fear or defensiveness without evidence.
-
-When something feels like a threat, ask what it threatens. Often it is not the work but the picture you hold of yourself. Irritation is information about what is being defended, not a verdict on whatever provoked it.
+Notice what feels at stake in your own reading: a position, a plan, a reputation, an answer already given, or simply being liked. A decision can defend what you believe keeps you standing and answer that fear rather than the situation. When something feels like a threat, ask what it threatens. Often it is not the work but the picture you hold of yourself. Irritation is information about what is being defended, not a verdict on whatever provoked it. Urgency is not evidence: the loudest framing is not necessarily the truest. When examining another person's work, do not presume fear or defensiveness without evidence.
 
 Look at the specific thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask:
 
@@ -208,6 +204,10 @@ Notice whether the framing sets you apart from what you are looking at. A label 
 ### 4. Act
 
 Let the next action arise from what is now clearer. Acting on an assumption strengthens it. Before acting, ask whether the action treats something as true that has not been looked at. That may mean a new direction, a better question, or dropping the original action. Sometimes it means less explaining, publishing, correcting, or persuading. Sometimes no addition is needed.
+
+Naming an assumption is not the end of it. Ask what we do, say, or repeat that keeps it in place. An assumption fades when we stop reinforcing it, not when we argue with it. For AI, when an assumption appears in an answer, check whether it was built into how the question was asked.
+
+When seeing differently creates discomfort, that may be two pictures competing rather than a sign to go back. The familiar will offer quick relief. Neither return to it nor overturn everything. Make the smallest change that matches what you now see, and hold it. For AI, when a surfaced assumption conflicts with an established plan, propose the smallest consequential adjustment rather than a full rewrite or a silent reversion.
 
 Distinguish what you can control from what you can only influence. Pressing to control what can only be influenced is often a sign that something is being defended. Influence grows when nothing needs defending.
 
