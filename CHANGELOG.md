@@ -8,6 +8,23 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.6.0 — 2026-11-16
+
+### Added
+
+- **Notice.** Separate what someone did from the judgment that carries forward into later encounters. Reconsider the judgment while taking the conduct and its consequences seriously.
+- **Question.** Ask what would have to be true for an interpretation to hold, what evidence could change it, and whose change the plan depends on.
+- **See again.** Give the person time to answer when their meaning could change the response. For AI, ask one consequential question and wait for the human’s answer.
+- **Act.** When a stated purpose and a proposed action pull apart, decide which purpose the next action should serve.
+- A worked reorganization example follows the team’s questions about urgent cases through to a clearer handoff plan.
+
+### Changed
+
+- Updated the README’s movement summary and expected AI behavior.
+- Revised the homepage’s reorganization exchange to show the question the AI asks and the gap the team identifies.
+
+This release draws on *A Course in Miracles* Lessons 66–72, with Lesson 109 informing the pause before answering.
+
 ## 1.5.0 — 2026-11-06
 
 ### Added
