@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 1.5.0 · 6 November 2026**
+**The perception behind intent · Version 1.6.0 · 16 November 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -32,11 +32,17 @@ For repeated project use, add this to the project's working instructions:
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
-Notice the meaning that was already there when you looked, including what you need the situation to be, where you see yourself in it, what you may be trying to protect and whether a decision is answering a fear of loss rather than the situation, what a felt threat actually threatens, what has already been set aside as noise, where an accurate label may still be serving as the lens, and what objection is heard when a routine is interrupted. Question what may be shaping it, and what it asks of the people who will live with its effects, whether the difficulty is described as yours or someone else's, whether a forecast of what comes next is doing the reasoning, what you would decide if nothing you depend on were at risk, and what a familiar format or sequence assumes. Remain open long enough to see again, noticing any urge to fill the gap quickly; what is needed may already be present and not yet accepted; seeing differently may need less in the way, not more effort; and a wider or higher view is still a view. Act from what becomes clearer, remembering that acting on an assumption strengthens it, that naming one is not the end of it and the question is what keeps it in place, that discomfort after a shift may be two pictures competing rather than a sign to go back, and distinguishing what you can control from what you can only influence. Strain in the practice is information too. This is an orientation, not a formula, and its words point rather than being the point.
+**Notice** the meaning that was already there when you looked. What have you decided about the people involved, including yourself? Pay attention to what feels at stake, what you’ve set aside, and what you hear when a routine is interrupted.
+
+**Question** what the interpretation depends on. What would have to be true for it to hold? What evidence could change your reading? Notice whom the plan asks to change and what you can reconsider or do from where you stand.
+
+**See again.** If someone’s meaning could change your response, ask them and give them time to finish. Leave room for their answer to change what you see.
+
+**Act** from what becomes clearer. When the stated purpose and the proposed action pull apart, decide what the next action should serve. Notice what keeps the old assumption in place, and make the smallest change that matches what you now see.
 
 ## What to expect
 
-The file will not improve every output, and it does not make AI perceptive or self-aware. When the framing matters, it should help the system distinguish facts from interpretations, surface consequential assumptions, and ask one clear question when missing information or meaning could materially change the result, rather than silently filling the gap. The urge to close a gap is strongest when not knowing feels uncomfortable; speed of completion is not evidence of understanding.
+The file will not improve every output, and it does not make AI perceptive or self-aware. When the framing matters, it should help the system distinguish facts from interpretations, test consequential premises against the evidence, and make visible whose change a plan depends on. When missing information or meaning could materially change the result, the AI should ask one clear question and wait for the answer.
 
 When a gap is minor, the AI should state its assumption briefly and continue. Routine work should remain routine.
 
@@ -60,7 +66,7 @@ Short cases for leaders and teams show the same move in everyday requests: [resi
 
 ## Current status
 
-Version `1.5.0` (6 November 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
+Version `1.6.0` (16 November 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 

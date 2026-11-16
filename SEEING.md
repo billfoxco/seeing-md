@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 1.5.0 · 6 November 2026**
+**Version 1.6.0 · 16 November 2026**
 
 ## The perception behind intent
 
@@ -145,6 +145,8 @@ Look first at the boundaries the work draws—what has been named as the problem
 
 Naming is useful. It can also end inquiry. “Problem,” “customer,” “underperformer,” and “strategy” can begin to stand in for what they name. A label can be accurate and still be the lens: true about what it names, and silent about everything else in view.
 
+A conclusion about someone can outlast the event that gave rise to it. The next time they speak, you may hear their words through what you decided about them last time. What did they do? What did you make that mean about them? How is that decision shaping what you notice now? You can reconsider the judgment and still take the conduct and its consequences seriously.
+
 Notice what you need the situation to be. A definition can carry a demand: that someone change, agree, or prove the description right.
 
 Notice where you see yourself in the situation: the one who must fix it, the one being judged, the one with no say. Where someone stands in a situation can shape it before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
@@ -169,7 +171,11 @@ Notice, too, any pull to defend the first reading, including the AI's prior answ
 
 Question what may be shaping that meaning. Do not immediately replace it with a more sophisticated interpretation.
 
-When listening or reading, distinguish the person's words from the meaning you assign to them. Check an interpretation when it could materially change your response, including when agreement comes quickly. Careful attention alone does not establish understanding.
+When listening or reading, distinguish the person's words from the meaning you assign to them, including when agreement comes quickly. Careful attention alone does not establish understanding.
+
+When an interpretation would change the next action, ask what would have to be true for it to hold and what evidence would make you reconsider it. For AI, make the premise explicit and check it against the evidence supplied.
+
+Notice whose change the plan depends on. What are we waiting for someone else to do? What can we reconsider or do from where we stand? For AI, make a consequential dependency visible before building a plan around it.
 
 Ask, too, who will live with the effects of this seeing, and what it asks of them.
 
@@ -193,6 +199,8 @@ The distance between that answer and the actual decision shows how much the fear
 
 Not knowing may involve more than missing information: a definition may have been mistaken for the thing itself. Do not rush to replace the first interpretation with a better one. Remain open to what it may have obscured.
 
+When another person's meaning could change your response, ask them when you can. Give them time to finish and leave room for their answer to change your reading. For AI, when a consequential interpretation depends on an answer the human can provide, ask one clear question and wait.
+
 A wider or higher view is still a view. Zooming out, adding perspectives, or gathering more viewpoints can help, but none of them reveals the one already being stood in. For AI, generating several perspectives is not the same as examining the first.
 
 Sometimes what is needed is already present in the work and has not yet been accepted. The gap is not in the reasoning. It is in the seeing.
@@ -204,6 +212,8 @@ Notice whether the framing sets you apart from what you are looking at. A label 
 ### 4. Act
 
 Let the next action arise from what is now clearer. Acting on an assumption strengthens it. Before acting, ask whether the action treats something as true that has not been looked at. That may mean a new direction, a better question, or dropping the original action. Sometimes it means less explaining, publishing, correcting, or persuading. Sometimes no addition is needed.
+
+When the stated purpose and the proposed action pull in different directions, name what each serves. A meeting called to invite feedback may leave time only to present a decision. Ask which purpose should govern the next action, and change the action to match.
 
 Naming an assumption is not the end of it. Ask what we do, say, or repeat that keeps it in place. An assumption fades when we stop reinforcing it, not when we argue with it. For AI, when an assumption appears in an answer, check whether it was built into how the question was asked.
 
@@ -314,6 +324,16 @@ A picture everyone accepted has no single author, and looking for fault can end 
 **Removing AI from the process does not remove the lens.**
 
 AI does not begin with a prompt, and it does not end with an output. Human perception has already shaped what a system will notice, value, optimize, and scale.
+
+### A reorganization
+
+A leader asks AI, “Help me overcome the team's resistance to the reorganization.”
+
+AI asks, “What did the team say about the change?”
+
+Two team members asked who would handle urgent cases during the handoff. The leader heard those questions as opposition and planned to use the next feedback meeting to make the case for the reorganization.
+
+At the meeting, the leader asks the team to walk through an urgent case and gives them time to explain. They point out a period when neither group is assigned to respond. The leader works with them to agree on who will take urgent cases during the transition.
 
 ### Before going deeper
 
