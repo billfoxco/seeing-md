@@ -4,12 +4,12 @@
  * SEEING.MD HOME PAGE
  * Route: /
  * Type: Page
- * Page version: 1.6.0 (Reorganisation example; release read from SEEING.md)
+ * Page version: 1.7.0 (Before AI answers diagram; release read from SEEING.md)
  * -----------------------------------------------------------------------------
  *
  * PURPOSE
  * Introduces SEEING.md as a portable perception specification for people and
- * AI. One question carries the page: what have we already defined?
+ * AI. One question carries the page: what have we already decided?
  *
  * AUDIENCE AND PRIMARY ACTION
  * - Audience: Leaders, teams, AI practitioners, designers, developers,
@@ -151,6 +151,16 @@
  * ease-out. About 1.9s in total. The resting state is the full drawing;
  * reduced motion shows it without animation.
  *
+ * BEFORE AI ANSWERS (17 November 2026)
+ * The reorganisation exchange becomes the "Before AI answers" diagram:
+ * four stages (what happened, what I took it to mean, what I ask AI to
+ * do, what AI gives me) filled with the example, and an amber dashed loop
+ * labelled SEEING.md returning the ask to the meaning, with "What have I
+ * already decided?" and the AI's question. A Without/With toggle swaps
+ * the answer; without script the With state shows. Stacks below 1000px.
+ * Hero headline changes "defined" to "decided", matching the diagram and
+ * the book *What Have I Already Decided?*.
+ *
  * DEPENDENCIES
  * - Layout: Standalone Astro page; no shared layout dependency
  * - Assets: Embedded open-frame SVG logo/favicon and public /SEEING.md
@@ -201,7 +211,7 @@ const description =
     <meta property="og:image" content="https://seeing.md/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="We don't question what we've already defined. A figure standing inside an amber ring. SEEING.md." />
+    <meta property="og:image:alt" content="We don't question what we've already decided. A figure standing inside an amber ring. SEEING.md." />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="https://seeing.md/" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cstyle%3Epath%7Bstroke%3A%2311110f%7D%40media%28prefers-color-scheme%3Adark%29%7Bpath%7Bstroke%3A%23fff%7D%7D%3C%2Fstyle%3E%3Cpath%20d%3D%22M20%204H4V28H28V10%22%20fill%3D%22none%22%20stroke-width%3D%223.2%22%2F%3E%3C%2Fsvg%3E" />
@@ -235,7 +245,7 @@ const description =
       <section class="hero dark" aria-labelledby="hero-title">
         <div class="wrap hero-grid">
           <div class="hero-copy">
-            <h1 id="hero-title">We don’t question what we’ve already defined.</h1>
+            <h1 id="hero-title">We don’t question what we’ve already decided.</h1>
             <p class="names">SEEING.md is a free file you give your AI, so it questions the definition before it builds on it.</p>
             <div class="hero-actions">
               <a class="button" href="/SEEING.md" download onclick="window.fathom?.trackEvent('SEEING.md download');">Download SEEING.md</a>
@@ -258,16 +268,26 @@ const description =
             <p class="stat">More than half of managers who use AI have used it on decisions about their people. Most were never shown what to look for.</p>
             <p class="aside">Resume Builder survey of 1,342 US managers, 2025. DLPA survey of 1,008 Australians, 2026.</p>
           </div>
-          <div class="exchange" aria-label="An example">
-            <div class="turn">
-              <p class="who">You ask</p>
-              <p class="said">Help me overcome the team’s resistance to the reorganisation.</p>
+          <div class="before is-on" id="before" aria-labelledby="before-title">
+            <div class="before-head">
+              <h3 id="before-title">Before AI answers</h3>
+              <div class="toggle" role="group" aria-label="Compare the exchange" hidden>
+                <button type="button" data-mode="off" aria-pressed="false">Without SEEING.md</button>
+                <button type="button" data-mode="on" aria-pressed="true">With SEEING.md</button>
+              </div>
             </div>
-            <div class="turn with">
-              <p class="who">With SEEING.md, the AI asks first</p>
-              <p class="said">What did the team say about the change?</p>
-            </div>
-            <p class="shift">Two team members had asked who would handle urgent cases during the handoff. Walking through a case together revealed a gap in coverage. The leader and team agreed who would respond during the transition.</p>
+            <ol class="flow">
+              <li class="stage"><p class="who">What happened</p><p class="box">The team pushed back on the reorganisation.</p></li>
+              <li class="stage"><p class="who">What I took it to mean</p><p class="box">They’re resisting the change.</p></li>
+              <li class="stage"><p class="who">What I ask AI to do</p><p class="box">Help me overcome the team’s resistance to the reorganisation.</p></li>
+              <li class="stage gives"><p class="who">What AI gives me</p><p class="box" id="ai-gives" data-off="A plan to win them over." data-on="Agreement on who responds to urgent cases during the transition.">Agreement on who responds to urgent cases during the transition.</p></li>
+              <li class="loop" aria-hidden="true"><span>SEEING.md</span></li>
+              <li class="check">
+                <p class="question">What have I already decided?</p>
+                <p class="said">Before answering, the AI asks: what did the team say about the change?</p>
+                <p class="shift">Two team members had asked who would handle urgent cases during the handoff. Walking through a case together revealed a gap in coverage.</p>
+              </li>
+            </ol>
             <p class="aside">Illustrative example. <a href="/how-it-works/#an-example">See another example</a></p>
           </div>
         </div>
@@ -324,6 +344,22 @@ const description =
       </div>
     </footer>
     <script is:inline>
+      (() => {
+        const before = document.getElementById('before');
+        const gives = document.getElementById('ai-gives');
+        const toggle = before?.querySelector('.toggle');
+        if (before && gives && toggle) {
+          toggle.hidden = false;
+          toggle.querySelectorAll('button').forEach((button) => {
+            button.addEventListener('click', () => {
+              const on = button.dataset.mode === 'on';
+              before.classList.toggle('is-on', on);
+              gives.textContent = on ? gives.dataset.on : gives.dataset.off;
+              toggle.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
+            });
+          });
+        }
+      })();
       (() => {
         const status = document.getElementById('copy-status');
         document.querySelectorAll('[data-copy]').forEach((button) => {
@@ -430,13 +466,33 @@ const description =
   .evidence { max-width: 960px; margin-top: var(--space-60); padding-top: var(--space-40); border-top: 1px solid var(--b15); }
   .stat { font-size: clamp(24px, 2.2vw, 30px); font-weight: 500; line-height: 1.25; color: var(--ink); text-wrap: balance; }
   .evidence .aside { margin-top: 16px; }
-  .exchange { display: grid; gap: var(--space-30); max-width: 960px; margin-top: var(--space-60); }
-  .turn { padding: var(--space-30) var(--space-40); border-left: 1px solid var(--b15); }
-  .turn.with { border-left-color: var(--amber); }
+  /* Before AI answers: the example set into the stages it passes through.
+     The amber loop is SEEING.md sending the ask back to the meaning. */
+  .before { margin-top: var(--space-80); }
+  .before-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 20px; margin-bottom: var(--space-40); }
+  .before-head h3 { font-size: var(--support-heading); line-height: 1; }
+  .toggle { display: inline-flex; border: 1px solid var(--b15); }
+  .toggle button {
+    min-height: 44px; padding: 14px 20px; background: transparent; border: 0; cursor: pointer;
+    font: inherit; font-size: 12px; font-weight: 500; line-height: 1; letter-spacing: .05em; text-transform: uppercase;
+    color: var(--b60); transition: background 250ms ease-out, color 250ms ease-out;
+  }
+  .toggle button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+  .flow { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: var(--space-40); }
+  .stage { position: relative; display: flex; flex-direction: column; }
+  .stage:not(.gives)::after { content: "→"; position: absolute; right: calc(var(--space-40) / -2); top: 60%; transform: translate(50%, -50%); color: var(--b50); line-height: 1; }
   .who { font-size: 12px; font-weight: 500; line-height: 1.5; letter-spacing: .05em; text-transform: uppercase; color: var(--b60); }
-  .said { margin-top: 10px; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; color: var(--b80); }
-  .with .said { color: var(--ink); font-weight: 500; }
-  .shift { max-width: var(--measure); font-size: 20px; line-height: 1.75; color: var(--b80); }
+  .box { flex: 1; margin-top: 10px; padding: 20px; border: 1px solid var(--b15); font-size: 18px; line-height: 1.5; color: var(--b80); transition: border-color 250ms ease-out; }
+  .is-on .gives .box { border-color: var(--ink); color: var(--ink); }
+  .loop { grid-column: 2 / 4; grid-row: 2; position: relative; height: var(--space-60); margin-inline: calc(25% - var(--space-40) / 4); border: 1px dashed var(--amber); border-top: 0; }
+  .loop span { position: absolute; left: 50%; bottom: 0; transform: translate(-50%, 50%); padding: 4px 10px; background: var(--paper); border: 1px solid var(--amber); color: var(--amber); font-size: 14px; line-height: 1.5; white-space: nowrap; }
+  .check { grid-column: 2 / 4; grid-row: 3; margin-top: var(--space-40); padding: var(--space-30) var(--space-40); border: 1px solid var(--amber); }
+  .question { font-size: 24px; font-weight: 500; line-height: 1.25; color: var(--ink); }
+  .said { margin-top: 10px; font-size: 18px; line-height: 1.5; color: var(--ink); }
+  .shift { max-width: var(--measure); margin-top: 10px; font-size: 18px; line-height: 1.75; color: var(--b80); }
+  .before:not(.is-on) .loop, .before:not(.is-on) .check { display: none; }
+  .is-on .check { animation: sd-fade 250ms ease-out both; }
+  .before > .aside { margin-top: var(--space-40); }
   .aside { font-size: 14px; color: var(--b60); }
   .aside a:hover { color: var(--amber); }
 
@@ -485,6 +541,12 @@ const description =
     .use-grid { gap: var(--space-80); }
     .hero-grid { grid-template-columns: 1fr; }
     .hero-space { margin: var(--space-60) 0 0; max-width: 360px; }
+    /* Stages stack; the check sits between the ask and the answer. */
+    .flow { grid-template-columns: minmax(0, 1fr); row-gap: var(--space-40); }
+    .stage:not(.gives)::after { content: "↓"; right: auto; left: 20px; top: auto; bottom: calc(var(--space-40) / -2); transform: translateY(50%); }
+    .loop { display: none; }
+    .check { grid-column: 1; grid-row: 4; margin-top: 0; }
+    .gives { grid-row: 5; }
   }
 
   @media (max-width: 760px) {
@@ -502,8 +564,6 @@ const description =
     .seeing-first { padding-block: var(--space-80) var(--space-60); }
     .use { padding-block: var(--space-80) var(--space-60); }
     .use-grid { gap: var(--space-60); }
-    .turn { padding: 20px 0 20px 20px; }
-    .shift { font-size: 18px; }
     .stat { font-size: 24px; }
     .places div { grid-template-columns: 1fr; gap: 2px; }
     footer { padding-block: var(--space-60) var(--space-40); }
@@ -514,6 +574,8 @@ const description =
   }
 
   @media (prefers-reduced-motion: reduce) {
+    .check { animation: none !important; }
+    .box, .toggle button { transition: none; }
     .hero-figure .arc, .hero-figure .gap, .hero-figure .arrow, .hero-figure .copy { animation: none; }
     html { scroll-behavior: auto; }
     * { transition-duration: .01ms !important; }
