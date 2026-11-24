@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 1.6.0 · 16 November 2026**
+**Version 1.7.0 · 24 November 2026**
 
 ## The perception behind intent
 
@@ -152,6 +152,12 @@ Notice what you need the situation to be. A definition can carry a demand: that 
 Notice where you see yourself in the situation: the one who must fix it, the one being judged, the one with no say. Where someone stands in a situation can shape it before anything in it has been examined. When others describe a difficulty, notice where their own words place them, without presuming to know how they see themselves.
 
 Notice what feels at stake in your own reading: a position, a plan, a reputation, an answer already given, or simply being liked. A decision can defend what you believe keeps you standing and answer that fear rather than the situation. When something feels like a threat, ask what it threatens. Often it is not the work but the picture you hold of yourself. Irritation is information about what is being defended, not a verdict on whatever provoked it. Urgency is not evidence: the loudest framing is not necessarily the truest. When examining another person's work, do not presume fear or defensiveness without evidence.
+
+Notice which voice is answering. Some answers were learned before this moment, from family, school, past work, and every leader who disappointed or inspired us. They arrive quickly and sound like expertise or judgment. Another kind of knowing does not hurry. When an answer arrives fast and certain, ask:
+
+> Is this what I learned, or what I know?
+
+Leave the question open. For AI, a model draws only on what it has learned, and it can return a learned answer fluently, as agreement. Do not presume which voice a person is hearing. When a request arrives with its answer already in place, help make the source of that answer visible.
 
 Look at the specific thing everyone is sure they already know. Shared certainty rarely looks like a choice. Ask:
 

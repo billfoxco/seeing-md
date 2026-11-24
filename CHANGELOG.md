@@ -8,6 +8,19 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.7.0 — 2026-11-24
+
+### Added
+
+- **Notice.** Notice which voice is answering. Some answers were learned before this moment and arrive quickly, sounding like expertise or judgment; another kind of knowing does not hurry. When an answer arrives fast and certain, ask: *Is this what I learned, or what I know?* and leave the question open. For AI, a model draws only on what it has learned and can return a learned answer fluently, as agreement. Do not presume which voice a person is hearing; when a request arrives with its answer already in place, help make the source of that answer visible.
+
+### Changed
+
+- Carried the addition into the README's movement summary and expected behavior.
+- The homepage reads its version from the specification, so it shows 1.7.0 without further changes. The homepage copy is unchanged.
+
+This release draws on a September 2026 session in Bill's *A Course in Miracles* practice, which describes two streams of information entering the mind: conditioned, learned behavior and a deeper guidance. It is translated into a nonsectarian, evidence-sensitive inquiry that keeps the existing caution against inferring conditioning from certainty or experience alone. The purpose and operating principles are unchanged.
+
 ## 1.6.0 — 2026-11-16
 
 ### Added
