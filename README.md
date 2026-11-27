@@ -1,6 +1,6 @@
 # SEEING.md
 
-**The perception behind intent · Version 1.7.0 · 24 November 2026**
+**The perception behind intent · Version 1.8.0 · 27 November 2026**
 
 `SEEING.md` is a portable perception specification for people and AI. The practice begins in everyday life, before it becomes an instruction to a system. It helps make visible the human assumptions, interpretations, and inherited meanings that can shape a request before they are amplified through an answer, decision, design, or system.
 
@@ -24,6 +24,8 @@ No technical experience is needed. You can begin without AI: bring to mind somet
 
 The file will not necessarily be read automatically. Name it explicitly when beginning important work.
 
+For your own work, write your first take before you open AI, in your own words. Then ask the AI what you have already decided in it. The AI has something of yours to examine, and you keep sight of which thinking was yours.
+
 For repeated project use, add this to the project's working instructions:
 
 > Before work involving judgment, people, strategy, interpretation, or consequential decisions, read `SEEING.md`. Use it to examine what may be shaping the request, including the assumptions in SEEING.md, before acting. Apply it proportionally; do not slow straightforward technical work unnecessarily.
@@ -32,7 +34,7 @@ For repeated project use, add this to the project's working instructions:
 
 **NOTICE → QUESTION → SEE AGAIN → ACT**
 
-**Notice** the meaning that was already there when you looked. What have you decided about the people involved, including yourself? Pay attention to what feels at stake, what you’ve set aside, what you hear when a routine is interrupted, and which voice is answering: what you learned, or what you know.
+**Notice** the meaning that was already there when you looked. What have you decided about the people involved, including yourself, and what is holding that judgment doing to you? Pay attention to what feels at stake, what you’ve set aside, what you hear when a routine is interrupted, and which voice is answering: what you learned, or what you know.
 
 **Question** what the interpretation depends on. What would have to be true for it to hold? What evidence could change your reading? Notice whom the plan asks to change and what you can reconsider or do from where you stand.
 
@@ -44,7 +46,7 @@ For repeated project use, add this to the project's working instructions:
 
 The file will not improve every output, and it does not make AI perceptive or self-aware. When the framing matters, it should help the system distinguish facts from interpretations, test consequential premises against the evidence, and make visible whose change a plan depends on. When missing information or meaning could materially change the result, the AI should ask one clear question and wait for the answer.
 
-When a gap is minor, the AI should state its assumption briefly and continue. Routine work should remain routine.
+When a gap is minor, the AI should state its assumption briefly and continue. Routine work should remain routine. The pause is not a brake: an assumption caught while it is still one decision costs less than one corrected after it has been repeated many times.
 
 In summaries and reviews, it should make the scope of the supplied material clear, distinguish recorded information from inference, and ground possible connections in that material. An empty field does not establish avoidance; a single snapshot does not establish progress or decline. When a result has gone wrong, it should trace the outcome to the framing and assumptions that shaped it before attributing it to a person: ask what we were all assuming before asking who got it wrong. The original understanding may remain appropriate after examination. Disagreement with the inquiry is not evidence that the inquiry is right.
 
@@ -66,7 +68,7 @@ Short cases for leaders and teams show the same move in everyday requests: [resi
 
 ## Current status
 
-Version `1.7.0` (24 November 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
+Version `1.8.0` (27 November 2026) is the current version. The project lives at [seeing.md](https://seeing.md), and its public source and history live in this repository. See the [changelog](CHANGELOG.md) for what changed.
 
 [`SEEING.md`](SEEING.md) at the repository root is the canonical specification. The site build copies it to `public/SEEING.md`, served at [https://seeing.md/SEEING.md](https://seeing.md/SEEING.md), so the specification is maintained in only one place.
 

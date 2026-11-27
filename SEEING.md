@@ -1,6 +1,6 @@
 # SEEING.md
 
-**Version 1.7.0 · 24 November 2026**
+**Version 1.8.0 · 27 November 2026**
 
 ## The perception behind intent
 
@@ -53,6 +53,8 @@ Download `SEEING.md` and attach it to an AI conversation, include it with a work
 > Read `SEEING.md` before responding. Apply it when the work involves people, judgment, strategy, interpretation, or a consequential decision. Question what may be shaping the request, including the assumptions this file brings to the inquiry.
 
 The file will not necessarily be read automatically. Name it explicitly when beginning important work.
+
+For your own work, write your first take before you open AI, in your own words. Then ask the AI what you have already decided in it. The AI has something of yours to examine, and you keep sight of which thinking was yours.
 
 If you use project-level instructions, add:
 
@@ -145,7 +147,7 @@ Look first at the boundaries the work draws—what has been named as the problem
 
 Naming is useful. It can also end inquiry. “Problem,” “customer,” “underperformer,” and “strategy” can begin to stand in for what they name. A label can be accurate and still be the lens: true about what it names, and silent about everything else in view.
 
-A conclusion about someone can outlast the event that gave rise to it. The next time they speak, you may hear their words through what you decided about them last time. What did they do? What did you make that mean about them? How is that decision shaping what you notice now? You can reconsider the judgment and still take the conduct and its consequences seriously.
+A conclusion about someone can outlast the event that gave rise to it. The next time they speak, you may hear their words through what you decided about them last time. What did they do? What did you make that mean about them? How is that decision shaping what you notice now? You can reconsider the judgment and still take the conduct and its consequences seriously. Notice, too, what holding the judgment does to you: how you listen, what you offer, who you become when they walk in. The one who carries a conclusion about someone is shaped by it first.
 
 Notice what you need the situation to be. A definition can carry a demand: that someone change, agree, or prove the description right.
 
@@ -278,6 +280,8 @@ Apply it with particular care when the work carries strong certainty, urgency, f
 It does not replace evidence, expertise, accessibility requirements, a design system, domain knowledge, or sound judgment.
 
 Routine execution should remain routine. Do not create friction where the missing detail cannot materially change the result.
+
+The pause is not a brake. An assumption caught while it is still one decision costs less than one corrected after it has been repeated many times.
 
 ---
 
