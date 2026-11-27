@@ -8,6 +8,21 @@ The project uses a light form of semantic versioning:
 - Minor versions add or materially change guidance or behavior.
 - Major versions change the purpose or operating principles of the specification.
 
+## 1.8.0 — 2026-11-27
+
+### Added
+
+- **Start here.** A habit for your own work: write your first take before you open AI, in your own words, then ask the AI what you have already decided in it. The AI has something of yours to examine, and you keep sight of which thinking was yours.
+- **Notice.** Notice what holding a judgment about someone does to you: how you listen, what you offer, who you become when they walk in. The one who carries a conclusion about someone is shaped by it first.
+- **Apply it proportionally.** The pause is not a brake. An assumption caught while it is still one decision costs less than one corrected after it has been repeated many times.
+
+### Changed
+
+- Carried the additions into the README's use instructions, movement summary and expected behavior.
+- The homepage reads its version from the specification, so it shows 1.8.0 without further changes. The homepage copy is unchanged.
+
+This release draws on *A Course in Miracles* Lesson 84 (review of 67 and 68, "Love holds no grievances": holding a grievance hides who you are from yourself), on Bill's own practice of writing his thinking before opening AI, and on a builder's likely objection that seeing first slows work down. The purpose and operating principles are unchanged.
+
 ## 1.7.0 — 2026-11-24
 
 ### Added
